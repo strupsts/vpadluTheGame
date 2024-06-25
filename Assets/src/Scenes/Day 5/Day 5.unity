@@ -2447,6 +2447,7 @@ Transform:
   - {fileID: 1953445856}
   - {fileID: 1288575593}
   - {fileID: 1198630429}
+  - {fileID: 1296173031}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1119968465
@@ -2806,7 +2807,7 @@ MonoBehaviour:
       sound:
         clip: {fileID: 8300000, guid: c0fb0a5b4a1ac0e459bc948f787cd146, type: 3}
         AudioSource: {fileID: 0}
-  nextTrigger: {fileID: 352547918}
+  nextTrigger: {fileID: 1296173030}
   dialogueIsEnded: 0
 --- !u!1 &1216614302
 GameObject:
@@ -3249,7 +3250,7 @@ MonoBehaviour:
       sound:
         clip: {fileID: 8300000, guid: c0fb0a5b4a1ac0e459bc948f787cd146, type: 3}
         AudioSource: {fileID: 0}
-  nextTrigger: {fileID: 352547918}
+  nextTrigger: {fileID: 1198630428}
   dialogueIsEnded: 0
 --- !u!1 &1293480075
 GameObject:
@@ -3287,6 +3288,68 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: -20, y: -20}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &1296173030
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1296173031}
+  - component: {fileID: 1296173032}
+  m_Layer: 0
+  m_Name: "[\u0414\u0438\u0430\u043B\u043E\u0433] \u0418\u0437\u043C\u0435\u043D\u0435\u043D\u0438\u044F
+    2"
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1296173031
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1296173030}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 1.047982, y: -0.6697569, z: -80.79999}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1116069344}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1296173032
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1296173030}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76259cfea18da354cbf679b0e33341ad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogues:
+  - speakerName: 
+    heroID: 5
+    sentencesAndSounds:
+    - sentence: "\u042F \u0438\u0437\u043C\u0435\u043D\u0438\u043B\u0441\u044F :-0"
+      sound:
+        clip: {fileID: 8300000, guid: bdf3d71576e7c104f9c7cc207c765f50, type: 3}
+        AudioSource: {fileID: 0}
+  - speakerName: 
+    heroID: 4
+    sentencesAndSounds:
+    - sentence: "\u0420\u0435\u0441\u043F\u0435\u043A\u0442 \u043C\u043E\u043C\u0435\u043D\u0442\u0430\u043B\u044C\u043D\u044B\u0439!"
+      sound:
+        clip: {fileID: 8300000, guid: c0fb0a5b4a1ac0e459bc948f787cd146, type: 3}
+        AudioSource: {fileID: 0}
+  nextTrigger: {fileID: 352547918}
+  dialogueIsEnded: 0
 --- !u!1 &1335655193
 GameObject:
   m_ObjectHideFlags: 0
