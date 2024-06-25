@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="33c7207c-eba3-4188-8fbc-643204c7e0a2" name="Changes" comment="" />
+    <list default="true" id="33c7207c-eba3-4188-8fbc-643204c7e0a2" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2022.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2022.dwlt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -38,7 +41,7 @@
       <option name="presentableId" value="Default" />
       <updated>1719319522032</updated>
       <workItem from="1719319523199" duration="442000" />
-      <workItem from="1719319975869" duration="325000" />
+      <workItem from="1719319975869" duration="572000" />
     </task>
     <servers />
   </component>
