@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 989
   m_ShowMode: 4
-  m_Title: Project
+  m_Title: Inspector
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -324,7 +324,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/src/Scenes/Day 5
+    - Assets/src/Scenes/Day 6
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
@@ -332,16 +332,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 63
   m_LastFolders:
-  - Assets/src/Scenes/Day 5
+  - Assets/src/Scenes/Day 6
   m_LastFoldersGridSize: 63
   m_LastProjectPath: C:\Users\User\vpadluTheGame
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 280}
-    m_SelectedIDs: e8680000
-    m_LastClickedID: 26856
-    m_ExpandedIDs: 00000000e2670000a8680000ea68000000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 207}
+    m_SelectedIDs: 8c680000
+    m_LastClickedID: 26764
+    m_ExpandedIDs: 00000000866700004c6800008e68000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -369,7 +369,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000e2670000
+    m_ExpandedIDs: 0000000086670000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -462,9 +462,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
-      m_LastClickedID: 0
-      m_ExpandedIDs: b8f9ffff16fbffffcc690000
+      m_SelectedIDs: 60ebffff
+      m_LastClickedID: -5280
+      m_ExpandedIDs: def8ffff16fbffff6e69000080690000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
