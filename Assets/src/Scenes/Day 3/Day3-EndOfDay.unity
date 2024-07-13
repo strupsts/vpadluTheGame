@@ -2874,7 +2874,7 @@ MonoBehaviour:
   - speakerName: 
     heroID: 1
     sentencesAndSounds:
-    - sentence: "\u0421\u043C\u043E\u0442\u0440\u0438 \u0443 \u043C\u0435\u043D\u044F\u2026"
+    - sentence: "\u0421\u043C\u043E\u0442\u0440\u0438 \u043C\u043D\u0435\u2026"
       sound:
         clip: {fileID: 8300000, guid: 994b147985b0bcd4c816b5584b88311c, type: 3}
         AudioSource: {fileID: 0}
