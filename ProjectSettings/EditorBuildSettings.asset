@@ -47,6 +47,15 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/src/Scenes/Day 5/Day 5.unity
     guid: b941dc6a907cf3d498491d99da3df832
+  - enabled: 1
+    path: Assets/src/Scenes/Day 5/Day 5 (Volodymir).unity
+    guid: f2b7f325f5c2b2c4aa3a55e2cfcad618
+  - enabled: 1
+    path: Assets/src/Scenes/Day 5/Day 5 (Nefori).unity
+    guid: 5e1de81eda0d92947b1a64a6de35fea8
+  - enabled: 1
+    path: Assets/src/Scenes/Day 5/Day 5 End.unity
+    guid: 7ba3cd0fe721e374991d20a5f8fdce68
   m_configObjects:
     com.unity.adaptiveperformance.google.android.provider_settings: {fileID: 11400000, guid: 3fc81371c149a5b4786a20a2af506bbd, type: 2}
     com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: 60af0dfb25d26654f8fab2c8bdee1dea, type: 2}

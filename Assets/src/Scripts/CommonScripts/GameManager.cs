@@ -28,7 +28,9 @@ public class GameManager : MonoBehaviour
         { "MedalLGBT", false },
         { "Chocolate", false },
         { "DeclineNeforsOne", false },
-        { "DeclineNeforsTwo", false }
+        { "DeclineNeforsTwo", false },
+        { "DeclineNeforsThree", false },
+  
     };
 
     public bool GetSomeThingsListValue(string key)   // Геттер для шняг
