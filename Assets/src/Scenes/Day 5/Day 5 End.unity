@@ -3436,8 +3436,8 @@ MonoBehaviour:
     Name: "*\u0427\u0435\u0440\u0435\u0437 \u0434\u0432\u0435\u0440\u044C*"
     Avatar: {fileID: 21300000, guid: e5211b3e89cdcc948b2801e2951cde25, type: 3}
   - Id: 2
-    Name: "\u041C\u0430\u043C\u0430"
-    Avatar: {fileID: 21300000, guid: 95315fbee62999b42988c2695852d431, type: 3}
+    Name: "\u0420\u0443\u0441\u043B\u0430\u043D"
+    Avatar: {fileID: 21300000, guid: 3e3f9b1e4836a4b4981a384fe842dc1b, type: 3}
   - Id: 3
     Name: "\u0421\u0430\u043D\u044F"
     Avatar: {fileID: 21300000, guid: af7e4d3f266658f4d929f4adda23ab61, type: 3}
