@@ -123,6 +123,50 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &10657640
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 10657641}
+  - component: {fileID: 10657642}
+  m_Layer: 0
+  m_Name: NunchakiScript
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &10657641
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 10657640}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.90672004, y: 0.18125324, z: -297.19647}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1116069344}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &10657642
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 10657640}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 673fccf4aa560504ebc4581fca9c56da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &114417729
 GameObject:
   m_ObjectHideFlags: 0
@@ -337,7 +381,7 @@ MonoBehaviour:
   - speakerName: 
     heroID: 3
     sentencesAndSounds:
-    - sentence: "\u0414\u0430\u043D\u0447\u0438\u043A, \u0442\u044B \u0441\u0435\u0433\u043E\u0434\u043D\u044F 
+    - sentence: "\u0414\u0430\u043D\u0447\u0438\u043A, \u0442\u044B \u0441\u0435\u0433\u043E\u0434\u043D\u044F
         \u0434\u043D\u0435\u043C \u0434\u043E\u043C\u043E\u0439 \u0437\u0430\u0445\u043E\u0434\u0438\u043B?"
       sound:
         clip: {fileID: 0}
@@ -845,7 +889,7 @@ MonoBehaviour:
       sound:
         clip: {fileID: 0}
         AudioSource: {fileID: 0}
-  nextTrigger: {fileID: 1948978938}
+  nextTrigger: {fileID: 1612732402}
   dialogueIsEnded: 0
 --- !u!1 &438676629
 GameObject:
@@ -1451,7 +1495,7 @@ GameObject:
   - component: {fileID: 680875295}
   m_Layer: 0
   m_Name: "[\u0414\u0438\u0430\u043B\u043E\u0433] \u041C\u044B\u0441\u043B\u0438
-    3/4"
+    (\u0412\u043E\u0432\u0430)"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2322,6 +2366,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 182781848}
+  - {fileID: 10657641}
   - {fileID: 398752099}
   - {fileID: 1612732403}
   - {fileID: 680875294}
@@ -3192,7 +3237,7 @@ GameObject:
   - component: {fileID: 1612732404}
   m_Layer: 0
   m_Name: "[\u0414\u0438\u0430\u043B\u043E\u0433] \u041C\u044B\u0441\u043B\u0438
-    2/4"
+    (\u041D\u0435\u0444\u043E\u0440\u044B)"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3242,7 +3287,7 @@ MonoBehaviour:
       sound:
         clip: {fileID: 0}
         AudioSource: {fileID: 0}
-  nextTrigger: {fileID: 1948978938}
+  nextTrigger: {fileID: 712048340}
   dialogueIsEnded: 0
 --- !u!1 &1624852038
 GameObject:

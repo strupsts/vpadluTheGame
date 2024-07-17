@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\User\\vpadluTheGame\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{EC5D261D-67E1-86DF-3472-9811628B5930}|Assembly-CSharp.csproj|c:\\users\\user\\vpadluthegame\\assets\\src\\scripts\\day1-scripts\\tobaccoconditionscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC5D261D-67E1-86DF-3472-9811628B5930}|Assembly-CSharp.csproj|solutionrelative:assets\\src\\scripts\\day1-scripts\\tobaccoconditionscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|c:\\users\\user\\vpadluthegame\\assets\\src\\scripts\\day3-scripts\\changesceneday5handler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:assets\\src\\scripts\\day3-scripts\\changesceneday5handler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -19,6 +23,23 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "TobaccoConditionScript.cs",
+              "DocumentMoniker": "C:\\Users\\User\\vpadluTheGame\\Assets\\src\\Scripts\\Day1-Scripts\\TobaccoConditionScript.cs",
+              "RelativeDocumentMoniker": "Assets\\src\\Scripts\\Day1-Scripts\\TobaccoConditionScript.cs",
+              "ToolTip": "C:\\Users\\User\\vpadluTheGame\\Assets\\src\\Scripts\\Day1-Scripts\\TobaccoConditionScript.cs",
+              "RelativeToolTip": "Assets\\src\\Scripts\\Day1-Scripts\\TobaccoConditionScript.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-17T08:45:36.309Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "ChangeSceneDay5Handler.cs",
               "DocumentMoniker": "C:\\Users\\User\\vpadluTheGame\\Assets\\src\\Scripts\\Day3-Scripts\\ChangeSceneDay5Handler.cs",
               "RelativeDocumentMoniker": "Assets\\src\\Scripts\\Day3-Scripts\\ChangeSceneDay5Handler.cs",
@@ -26,12 +47,7 @@
               "RelativeToolTip": "Assets\\src\\Scripts\\Day3-Scripts\\ChangeSceneDay5Handler.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAABMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-15T07:32:02.203Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+              "WhenOpened": "2024-07-15T07:32:02.203Z"
             }
           ]
         }

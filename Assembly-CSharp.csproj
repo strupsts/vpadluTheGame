@@ -102,6 +102,7 @@
     <Compile Include="Assets\src\Scripts\PrologueScripts\FirstCondition.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_DigitValidator.cs" />
     <Compile Include="Assets\src\Scripts\Day2-Scripts\PrigozhinCondtionTrigger.cs" />
+    <Compile Include="Assets\src\Scripts\Day5-Scripts\NunchakiConditionScript.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_FrameRateCounter.cs" />
     <Compile Include="Assets\src\Scripts\CommonScripts\ConditionCheckSystem\ConditionHandlerWrapper.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextConsoleSimulator.cs" />
