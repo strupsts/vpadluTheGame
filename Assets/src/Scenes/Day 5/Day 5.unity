@@ -1184,7 +1184,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nameText: {fileID: 211457225}
   dialogueText: {fileID: 645555840}
-  StartDialogueTrigger: {fileID: 182469409}
+  StartDialogueTrigger: {fileID: 880102683}
   animator: {fileID: 1252078565}
   musicSource: {fileID: 0}
   backgroundMusic: {fileID: 0}
@@ -2426,7 +2426,7 @@ MonoBehaviour:
   endMusicOnEnd: 0
   timerBeforeNextSlide: 1
   DialogueBox: {fileID: 1252078564}
-  newBackgroundSound: {fileID: 0}
+  newBackgroundSound: {fileID: 8300000, guid: 3fe6e9f783b9b36428da6e35223da1d0, type: 3}
 --- !u!114 &836751693
 MonoBehaviour:
   m_ObjectHideFlags: 0
