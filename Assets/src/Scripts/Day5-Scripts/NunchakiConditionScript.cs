@@ -10,7 +10,7 @@ public class NunchakiConditionScript : MonoBehaviour, ICustomTrigger
     }
     public void Trigger()
     {
-        Debug.Log("Получен новый предмет: Нунчаки");
+        Debug.Log("Получен новый предмет Нунчаки");
         GameManager.Instance.SetSomeThingsListValue("Nunchaki", true);
         GameManager.Instance.notifyItemHandler(true,"Нунчаки");
         Debug.Log(GameManager.Instance.GetSomeThingsListValue("Nunchaki"));
