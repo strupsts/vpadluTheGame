@@ -123,201 +123,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &21920218
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 21920221}
-  - component: {fileID: 21920220}
-  - component: {fileID: 21920219}
-  m_Layer: 0
-  m_Name: "[\u0421\u043C\u0435\u043D\u0430 \u0444\u043E\u043D\u0430] \u0412\u043D\u0443\u0442\u0440\u0438
-    \u0434\u043E\u043C\u0430"
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &21920219
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 21920218}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8827578cfd5c82d49b1ee5048d48837c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  backgroundImage: {fileID: 1244400855}
-  newBackgroundImage: {fileID: 21300000, guid: 299bf6620a658b0488247c95c434c5f3, type: 3}
-  willCloseDialogue: 1
-  timerOnDialogueClose: 3
-  DialogueBox: {fileID: 1252078564}
-  newBackgroundSound: {fileID: 0}
---- !u!114 &21920220
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 21920218}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 29fa3837d130a5545aa8c50c39a2f629, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  resultOfCondition:
-  - {fileID: 1720910558}
---- !u!4 &21920221
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 21920218}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.90672004, y: 0.18125324, z: -297.19647}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1116069344}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &32107008
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 32107010}
-  - component: {fileID: 32107009}
-  m_Layer: 0
-  m_Name: "[\u0414\u0438\u0430\u043B\u043E\u0433] \u041D\u0435\u0444\u043E\u0440\u044B
-    11/"
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &32107009
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 32107008}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 76259cfea18da354cbf679b0e33341ad, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  dialogues:
-  - speakerName: 
-    heroID: 0
-    sentencesAndSounds:
-    - sentence: "*\u0431\u043B\u0438\u043D, \u043E\u043D\u0430 \u043F\u0440\u0438\u043A\u043E\u043B\u044C\u043D\u0430\u044F
-        \u0442\u0430\u043A-\u0442\u043E)*"
-      sound:
-        clip: {fileID: 0}
-        AudioSource: {fileID: 0}
-  - speakerName: 
-    heroID: 10
-    sentencesAndSounds:
-    - sentence: "\u041C\u043E\u0436\u0435\u0442\u2026"
-      sound:
-        clip: {fileID: 0}
-        AudioSource: {fileID: 0}
-  nextTrigger: {fileID: 1457860550}
-  dialogueIsEnded: 0
---- !u!4 &32107010
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 32107008}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.047982, y: -0.6697569, z: -80.79999}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1116069344}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &82903403
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 82903406}
-  - component: {fileID: 82903405}
-  - component: {fileID: 82903404}
-  m_Layer: 0
-  m_Name: "[\u0421\u043C\u0435\u043D\u0430 \u0444\u043E\u043D\u0430] \u041E\u043B\u0435\u0433
-    \u043F\u0440\u043E\u043F\u0430\u043B"
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &82903404
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 82903403}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8827578cfd5c82d49b1ee5048d48837c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  backgroundImage: {fileID: 1244400855}
-  newBackgroundImage: {fileID: 21300000, guid: d03aaccca1f33724d86748212afdb0f7, type: 3}
-  willCloseDialogue: 1
-  timerOnDialogueClose: 3
-  DialogueBox: {fileID: 1252078564}
-  newBackgroundSound: {fileID: 0}
---- !u!114 &82903405
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 82903403}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 29fa3837d130a5545aa8c50c39a2f629, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  resultOfCondition:
-  - {fileID: 919556920}
---- !u!4 &82903406
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 82903403}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.90672004, y: 0.18125324, z: -297.19647}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1116069344}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &114417729
 GameObject:
   m_ObjectHideFlags: 0
@@ -476,101 +281,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   resultOfCondition:
   - {fileID: 912649529}
---- !u!1 &165265082
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 165265084}
-  - component: {fileID: 165265083}
-  m_Layer: 0
-  m_Name: "[\u0414\u0438\u0430\u043B\u043E\u0433] \u041D\u0435\u0444\u043E\u0440\u044B
-    9/"
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &165265083
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 165265082}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 76259cfea18da354cbf679b0e33341ad, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  dialogues:
-  - speakerName: 
-    heroID: 1
-    sentencesAndSounds:
-    - sentence: "*\u041A\u0443\u0434\u0430 \u0436\u0435 \u0432\u044B? \u041F\u043E\u0434\u043E\u0436\u0434\u0438\u0442\u0435
-        \u043C\u0435\u043D\u044F\u044F\u044F\u044F\u044F. \u0412\u043E\u0442 \u0432\u0430\u043C
-        \u043A\u0438\u043D\u0434\u0435\u0440\u044B\u044B\u044B. \u0425\u0445\u0430\u0445\u0430\u0445\u0430\u0445\u0430.*"
-      sound:
-        clip: {fileID: 0}
-        AudioSource: {fileID: 0}
-  - speakerName: 
-    heroID: 1
-    sentencesAndSounds:
-    - sentence: "*\u0437\u0432\u0443\u043A\u0438 \u043F\u0440\u0438\u0431\u043B\u0438\u0436\u0430\u044E\u0449\u0435\u0433\u043E\u0441\u044F
-        \u0431\u0435\u0433\u0430*\r"
-      sound:
-        clip: {fileID: 0}
-        AudioSource: {fileID: 0}
-    - sentence: "*\u0437\u0432\u0443\u043A \u0434\u044B\u0445\u0430\u043D\u0438\u044F*\r"
-      sound:
-        clip: {fileID: 0}
-        AudioSource: {fileID: 0}
-  - speakerName: 
-    heroID: 9
-    sentencesAndSounds:
-    - sentence: "\u0410\u0410\u0410\u0410\u0410\u0410\u0410\u0410. \u041E\u043D \u0440\u044F\u0434\u043E\u043C
-        \u0414\u0430\u043D\u044F\u044F\u044F!"
-      sound:
-        clip: {fileID: 0}
-        AudioSource: {fileID: 0}
-  - speakerName: 
-    heroID: 0
-    sentencesAndSounds:
-    - sentence: "\u0414\u0430\u0432\u0430\u0439-\u0434\u0430\u0432\u0430\u0439, \u043F\u043E\u0447\u0442\u0438
-        \u0432\u044B\u0431\u0435\u0436\u0430\u043B\u0438. \u0412\u043E\u043D \u0442\u0430\u043C
-        \u0434\u043E\u0440\u043E\u0433\u0430!"
-      sound:
-        clip: {fileID: 0}
-        AudioSource: {fileID: 0}
-  - speakerName: 
-    heroID: 1
-    sentencesAndSounds:
-    - sentence: "*\u0410 \u044F \u0432\u0430\u0441 \u0432\u0438\u0438\u0438\u0438\u0436\u0443!
-        \u0412\u044B \u0436\u0435 \u0445\u043E\u0442\u0435\u043B\u0438 \u0432 \u043B\u0435\u0441!
-        \u0425\u0430\u0445\u0430\u0445\u0430\u0430\u0445\u0430*"
-      sound:
-        clip: {fileID: 0}
-        AudioSource: {fileID: 0}
-  nextTrigger: {fileID: 2098469231}
-  dialogueIsEnded: 0
---- !u!4 &165265084
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 165265082}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.047982, y: -0.6697569, z: -80.79999}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1116069344}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &182781847
 GameObject:
   m_ObjectHideFlags: 0
@@ -582,8 +292,7 @@ GameObject:
   - component: {fileID: 182781848}
   - component: {fileID: 182781849}
   m_Layer: 0
-  m_Name: "[\u0414\u0438\u0430\u043B\u043E\u0433] \u041D\u0430\u0447\u0430\u043B\u043E
-    \u043D\u0435\u0444\u043E\u0440\u043E\u0432"
+  m_Name: "[\u0414\u0438\u0430\u043B\u043E\u0433] \u0411\u043E\u043B\u044C\u043D\u0438\u0446\u0430"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -620,8 +329,41 @@ MonoBehaviour:
   - speakerName: 
     heroID: 0
     sentencesAndSounds:
-    - sentence: "\u0422\u0430\u043A, \u043D\u0430 \u041A\u0440\u044B\u043B\u043E\u0432\u0430
-        \u043D\u0443\u0436\u043D\u043E."
+    - sentence: "\u0411\u043B\u0438\u043D, \u0442\u0430\u043A\u043E\u0439 \u043A\u0440\u0443\u0442\u043E\u0439
+        \u0441\u043E\u043D \u043F\u0440\u0438\u0441\u043D\u0438\u043B\u0441\u044F!"
+      sound:
+        clip: {fileID: 0}
+        AudioSource: {fileID: 0}
+    - sentence: "\u042F \u0438\u0433\u0440\u0430\u043B \u043D\u0430 \u0448\u0442\u043E\u0440\u043C
+        \u0441\u043F\u0438\u0440\u0438\u0442\u0435 \u0438 \u043B\u0435\u0442\u0430\u043B
+        \u0442\u0430\u043A \u0432\u0436\u0443\u0445-\u0432\u0436\u0443\u0445."
+      sound:
+        clip: {fileID: 0}
+        AudioSource: {fileID: 0}
+    - sentence: "\u041F\u043E\u0442\u043E\u043C \u044D\u043C\u0431\u0435\u0440 \u0438\u0437
+        \u043C\u043E\u0435\u0439 \u043A\u043E\u043C\u0430\u043D\u0434\u044B \u043B\u0438\u0432\u043D\u0443\u043B\u2026 "
+      sound:
+        clip: {fileID: 0}
+        AudioSource: {fileID: 0}
+    - sentence: "\u041D\u0430\u0434\u043E \u0437\u0430\u0440\u0435\u043F\u043E\u0440\u0442\u0438\u0442\u044C!"
+      sound:
+        clip: {fileID: 0}
+        AudioSource: {fileID: 0}
+    - sentence: "\u041F\u0430\u043C-\u043F\u0430\u0440\u0430\u043C-\u043F\u0430\u043C-\u043F\u0430\u043C,
+        \u0441\u0435\u0433\u043E\u0434\u043D\u044F \u043F\u0435\u0440\u0432\u044B\u0439
+        \u0434\u0435\u043D\u044C..."
+      sound:
+        clip: {fileID: 0}
+        AudioSource: {fileID: 0}
+    - sentence: "\u041E\u0439 \u0431\u043B\u044F\u044F\u044F\u044F, \u043C\u043D\u0435
+        \u0436\u0435 \u043F\u0438\u0437\u0434\u0430\u2026."
+      sound:
+        clip: {fileID: 0}
+        AudioSource: {fileID: 0}
+    - sentence: "\u0411\u043B\u0438\u043D, \u0436\u0438\u0432\u043E\u0442 \u043A\u0440\u0443\u0442\u0438\u0442,
+        \u043D\u043E\u0433\u0438 \u0431\u043E\u043B\u044F\u0442. \u041C\u043E\u0436\u0435\u0442
+        \u043D\u0435 \u043F\u043E\u0439\u0434\u0443 \u0441\u0435\u0433\u043E\u0434\u043D\u044F
+        \u043D\u0438\u043A\u0443\u0434\u0430\u2026"
       sound:
         clip: {fileID: 0}
         AudioSource: {fileID: 0}
@@ -846,72 +588,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 249943263}
   m_CullTransparentMesh: 1
---- !u!1 &308775105
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 308775108}
-  - component: {fileID: 308775107}
-  - component: {fileID: 308775106}
-  m_Layer: 0
-  m_Name: "[\u0421\u043C\u0435\u043D\u0430 \u0444\u043E\u043D\u0430] \u0412\u0445\u043E\u0434
-    \u0432 \u043B\u0435\u0441"
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &308775106
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 308775105}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8827578cfd5c82d49b1ee5048d48837c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  backgroundImage: {fileID: 1244400855}
-  newBackgroundImage: {fileID: 21300000, guid: 8ce46b11eaeaa7741aa3ba08283289ca, type: 3}
-  willCloseDialogue: 1
-  timerOnDialogueClose: 3
-  DialogueBox: {fileID: 1252078564}
-  newBackgroundSound: {fileID: 0}
---- !u!114 &308775107
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 308775105}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 29fa3837d130a5545aa8c50c39a2f629, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  resultOfCondition:
-  - {fileID: 765173062}
---- !u!4 &308775108
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 308775105}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.90672004, y: 0.18125324, z: -297.19647}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1116069344}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &384434683
 GameObject:
   m_ObjectHideFlags: 0
@@ -972,96 +648,6 @@ MonoBehaviour:
   m_Spacing: {x: 0, y: 91.8}
   m_Constraint: 0
   m_ConstraintCount: 2
---- !u!1 &406051327
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 406051329}
-  - component: {fileID: 406051328}
-  m_Layer: 0
-  m_Name: "[\u0414\u0438\u0430\u043B\u043E\u0433] \u041D\u0435\u0444\u043E\u0440\u044B
-    10/"
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &406051328
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 406051327}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 76259cfea18da354cbf679b0e33341ad, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  dialogues:
-  - speakerName: 
-    heroID: 0
-    sentencesAndSounds:
-    - sentence: "\u0420\u0435\u0437\u043A\u043E \u0434\u044B\u0448\u0430\u0442"
-      sound:
-        clip: {fileID: 0}
-        AudioSource: {fileID: 0}
-  - speakerName: 
-    heroID: 0
-    sentencesAndSounds:
-    - sentence: "\u0412 \u043F\u0438\u0437\u0434\u0443 \u044D\u0442\u043E\u0442 \u043B\u0435\u0441!"
-      sound:
-        clip: {fileID: 0}
-        AudioSource: {fileID: 0}
-  - speakerName: 
-    heroID: 9
-    sentencesAndSounds:
-    - sentence: "\u041F\u043E\u0434\u0434\u0435\u0440\u0436\u0438\u0432\u0430\u044E.
-        \u042F \u0442\u0430\u043A \u0432 \u0436\u0438\u0437\u043D\u0438 \u043D\u0435
-        \u0431\u0435\u0433\u0430\u043B\u0430, \u0441\u0435\u0439\u0447\u0430\u0441
-        \u0441\u0435\u0440\u0434\u0446\u0435 \u0438\u0437 \u0433\u0440\u0443\u0434\u0438
-        \u0432\u044B\u0441\u043A\u043E\u0447\u0435\u0442."
-      sound:
-        clip: {fileID: 0}
-        AudioSource: {fileID: 0}
-  - speakerName: 
-    heroID: 0
-    sentencesAndSounds:
-    - sentence: "\u0423\u0443\u0443-\u0445 \u0443-\u0443\u043C\u0435\u043D\u044F
-        \u0442\u043E\u0436\u0435"
-      sound:
-        clip: {fileID: 0}
-        AudioSource: {fileID: 0}
-  - speakerName: 
-    heroID: 7
-    sentencesAndSounds:
-    - sentence: "\u0410 \u0442\u044B \u0437\u043D\u0430\u043B, \u0447\u0442\u043E
-        \u043F\u0440\u0438 \u0441\u0438\u043B\u044C\u043D\u043E\u043C \u0441\u0435\u0440\u0434\u0446\u0435\u0431\u0438\u0435\u043D\u0438\u0438
-        \u0443\u0441\u0438\u043B\u0438\u0432\u0430\u044E\u0442\u0441\u044F \u0447\u0443\u0432\u0441\u0442\u0432\u0430?"
-      sound:
-        clip: {fileID: 0}
-        AudioSource: {fileID: 0}
-  nextTrigger: {fileID: 1669600714}
-  dialogueIsEnded: 0
---- !u!4 &406051329
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 406051327}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.047982, y: -0.6697569, z: -80.79999}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1116069344}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &438676629
 GameObject:
   m_ObjectHideFlags: 0
@@ -1143,7 +729,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nameText: {fileID: 211457225}
   dialogueText: {fileID: 645555840}
-  StartDialogueTrigger: {fileID: 2055848184}
+  StartDialogueTrigger: {fileID: 0}
   animator: {fileID: 1252078565}
   musicSource: {fileID: 0}
   backgroundMusic: {fileID: 0}
@@ -1344,130 +930,6 @@ MonoBehaviour:
         AudioSource: {fileID: 0}
   nextTrigger: {fileID: 125542735}
   dialogueIsEnded: 0
---- !u!1 &526630237
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 526630239}
-  - component: {fileID: 526630238}
-  m_Layer: 0
-  m_Name: "[\u0414\u0438\u0430\u043B\u043E\u0433] \u041D\u0435\u0444\u043E\u0440\u044B
-    7/"
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &526630238
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 526630237}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 76259cfea18da354cbf679b0e33341ad, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  dialogues:
-  - speakerName: 
-    heroID: 0
-    sentencesAndSounds:
-    - sentence: "*\u043D\u0430\u0436\u0438\u043C\u0430\u0435\u0442 \u043D\u0430 \u0438\u0433\u0440\u0443\u0448\u043A\u0443*"
-      sound:
-        clip: {fileID: 8300000, guid: 77f11f323b1d9404c92ffb8e8c2e36d3, type: 3}
-        AudioSource: {fileID: 0}
-  - speakerName: 
-    heroID: 1
-    sentencesAndSounds:
-    - sentence: "*\u0425\u0430\u0433\u0438-\u0432\u0430\u0433\u0438* *\u0425\u0430\u0433\u0438-\u0432\u0430\u0433\u0438*"
-      sound:
-        clip: {fileID: 8300000, guid: 65007d263f4f3f8489ac1859ec768400, type: 3}
-        AudioSource: {fileID: 0}
-  - speakerName: 
-    heroID: 10
-    sentencesAndSounds:
-    - sentence: "\u0414\u0434-\u0434-\u0434\u0430\u043D\u044F, \u043F\u0440\u0435\u043A\u0440\u0430\u0442\u0438...
-        \u042D\u0442\u043E \u043D\u0435 \u0441\u043C\u0435\u0448\u043D\u043E."
-      sound:
-        clip: {fileID: 0}
-        AudioSource: {fileID: 0}
-  - speakerName: 
-    heroID: 0
-    sentencesAndSounds:
-    - sentence: "\u041B\u0430\u0434\u043D\u043E-\u043B\u0430\u0434\u043D\u043E, \u043D\u0435
-        \u0431\u043E\u0439\u0441\u044F. \u042F \u043F\u043E\u0442\u043E\u043C \u0442\u0435\u0431\u0435
-        \u043F\u043E\u043A\u0430\u0436\u0443 \u044D\u0442\u043E\u0442 \u043F\u0440\u0438\u043A\u043E\u043B.
-        \u041F\u0440\u0438\u043A\u043E\u043B\u044C\u043D\u0430\u044F, \u0441\u0435\u0431\u0435
-        \u043E\u0441\u0442\u0430\u0432\u043B\u044E."
-      sound:
-        clip: {fileID: 0}
-        AudioSource: {fileID: 0}
-  - speakerName: 
-    heroID: 10
-    sentencesAndSounds:
-    - sentence: "\u041D\u0435\u0442, \u0414\u0430\u043D\u044F! \u041D\u0415 \u041D\u0410\u0414\u041E!
-        \u0422\u042B \u0427\u0422\u041E, \u041D\u0415 \u0421\u041C\u041E\u0422\u0420\u0415\u041B
-        \u0423\u0416\u0410\u0421\u0422\u0418\u041A\u041E\u0412! \u041E\u041D\u0410
-        \u041F\u0420\u041E\u041A\u041B\u042F\u0422\u0410!"
-      sound:
-        clip: {fileID: 0}
-        AudioSource: {fileID: 0}
-  - speakerName: 
-    heroID: 0
-    sentencesAndSounds:
-    - sentence: "\u0422\u0430 \u043F\u0440\u043E\u043A\u043B\u044F\u0442\u0438\u044F
-        \u044D\u0442\u043E \u0436\u0435 \u044F\u0437\u044B\u0447\u0435\u0441\u043A\u0430\u044F
-        \u0442\u0435\u043C\u0430. \u0425\u043E\u0447\u0435\u0448\u044C, \u043F\u0435\u0440\u0435\u043A\u0440\u0435\u0449\u0443\u0441\u044C
-        \u0435\u0449\u0435)"
-      sound:
-        clip: {fileID: 0}
-        AudioSource: {fileID: 0}
-  - speakerName: 
-    heroID: 10
-    sentencesAndSounds:
-    - sentence: "\u041D\u0415\u0422. \u0415\u0421\u041B\u0418 \u0422\u042B \u0415\u0401
-        \u0412\u041E\u0417\u042C\u041C\u0415\u0428\u042C, \u0422\u041E \u042F \u041D\u0410
-        \u0422\u0415\u0411\u042F \u041E\u0411\u0418\u0416\u0423\u0421\u042C."
-      sound:
-        clip: {fileID: 0}
-        AudioSource: {fileID: 0}
-  - speakerName: 
-    heroID: 0
-    sentencesAndSounds:
-    - sentence: "\u0411\u043B\u0438\u043D, \u043B\u0430\u0434\u043D\u043E."
-      sound:
-        clip: {fileID: 0}
-        AudioSource: {fileID: 0}
-  - speakerName: 
-    heroID: 10
-    sentencesAndSounds:
-    - sentence: "\u0410\u0445\u0445\u0445, \u0430 \u0433\u0434\u0435 \u041E\u043B\u0435\u0433?"
-      sound:
-        clip: {fileID: 0}
-        AudioSource: {fileID: 0}
-  nextTrigger: {fileID: 82903403}
-  dialogueIsEnded: 0
---- !u!4 &526630239
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 526630237}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.047982, y: -0.6697569, z: -80.79999}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1116069344}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &530667533
 GameObject:
   m_ObjectHideFlags: 0
@@ -1570,71 +1032,6 @@ MonoBehaviour:
         AudioSource: {fileID: 0}
   nextTrigger: {fileID: 0}
   dialogueIsEnded: 0
---- !u!1 &620308519
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 620308520}
-  - component: {fileID: 620308522}
-  - component: {fileID: 620308521}
-  m_Layer: 0
-  m_Name: "[\u0421\u043C\u0435\u043D\u0430 \u0444\u043E\u043D\u0430] \u041B\u0435\u0441"
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &620308520
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 620308519}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.90672004, y: 0.18125324, z: -297.19647}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1116069344}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &620308521
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 620308519}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8827578cfd5c82d49b1ee5048d48837c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  backgroundImage: {fileID: 1244400855}
-  newBackgroundImage: {fileID: 21300000, guid: 8ce46b11eaeaa7741aa3ba08283289ca, type: 3}
-  willCloseDialogue: 1
-  timerOnDialogueClose: 3
-  DialogueBox: {fileID: 1252078564}
-  newBackgroundSound: {fileID: 0}
---- !u!114 &620308522
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 620308519}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 29fa3837d130a5545aa8c50c39a2f629, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  resultOfCondition:
-  - {fileID: 1184669796}
 --- !u!1 &645555839
 GameObject:
   m_ObjectHideFlags: 0
@@ -1843,72 +1240,6 @@ MonoBehaviour:
         AudioSource: {fileID: 0}
   nextTrigger: {fileID: 0}
   dialogueIsEnded: 0
---- !u!1 &688586821
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 688586822}
-  - component: {fileID: 688586824}
-  - component: {fileID: 688586823}
-  m_Layer: 0
-  m_Name: "[\u0421\u043C\u0435\u043D\u0430 \u0444\u043E\u043D\u0430] \u0428\u043D\u0443\u0440\u043E\u043A
-    \u0437\u0430\u0432\u044F\u0437\u0430\u043D"
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &688586822
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 688586821}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.90672004, y: 0.18125324, z: -297.19647}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1116069344}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &688586823
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 688586821}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8827578cfd5c82d49b1ee5048d48837c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  backgroundImage: {fileID: 1244400855}
-  newBackgroundImage: {fileID: 21300000, guid: 8cfd950e625d79d4e9a5f9faf5d0ccc4, type: 3}
-  willCloseDialogue: 1
-  timerOnDialogueClose: 3
-  DialogueBox: {fileID: 1252078564}
-  newBackgroundSound: {fileID: 8300000, guid: b04f67f909dc7bf46a3a9c0a1583681b, type: 3}
---- !u!114 &688586824
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 688586821}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 29fa3837d130a5545aa8c50c39a2f629, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  resultOfCondition:
-  - {fileID: 1531693491}
 --- !u!1 &708260264
 GameObject:
   m_ObjectHideFlags: 0
@@ -1956,8 +1287,8 @@ GameObject:
   - component: {fileID: 720626840}
   - component: {fileID: 720626839}
   m_Layer: 0
-  m_Name: "[\u0414\u0438\u0430\u043B\u043E\u0433] \u041D\u0435\u0444\u043E\u0440\u044B
-    1/"
+  m_Name: "[\u0414\u0438\u0430\u043B\u043E\u0433] \u0417\u0432\u043E\u043D\u043E\u043A
+    \u043E\u0442 \u042E\u0440\u044B"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1979,106 +1310,102 @@ MonoBehaviour:
   - speakerName: 
     heroID: 2
     sentencesAndSounds:
-    - sentence: "\u0423\u0423\u0443\u0443\u0443. \u0412\u0436\u0436\u0436\u0436\u0443\u0443\u0443\u0443\u0443\u0443\u0443."
+    - sentence: "*\u0422\u0438\u043B\u0438-\u0442\u0438\u043B\u0438\u043D\u044C*"
       sound:
-        clip: {fileID: 0}
+        clip: {fileID: 8300000, guid: 13a116e8f4f915746ab405ed3d41488f, type: 3}
         AudioSource: {fileID: 0}
-    - sentence: "\u0417\u0434\u043E\u0440\u043E\u0432\u0430, \u0414\u0430\u0432\u0438\u043B\u0430!
-        \u0420\u0443\u043A\u0443 \u0436\u0430\u0442\u044C \u043D\u0435 \u0431\u0443\u0434\u0443."
+  - speakerName: 
+    heroID: 1
+    sentencesAndSounds:
+    - sentence: "\u042D\u044D\u044D\u044D \u0431\u0438\u043B\u043B\u044F, \u0442\u0438
+        \u0433\u0434\u044D? \u041C\u0438 \u0443\u0436\u0435 \u0432\u0441\u044D\u043C
+        \u041A\u0430\u0440\u0431\u0430\u0445\u043E\u043C \u0436\u0434\u043E\u043C!"
       sound:
         clip: {fileID: 0}
         AudioSource: {fileID: 0}
   - speakerName: 
     heroID: 0
     sentencesAndSounds:
-    - sentence: "\u042D\u044D\u044D\u044D... \u044F \u0442\u0435\u0431\u0435 \u0442\u043E\u0436\u0435."
+    - sentence: "\u0422\u0430 \u0436\u0438\u0432\u043E\u0442 \u0447\u0435-\u0442\u043E
+        \u0431\u043E\u043B\u0438\u0442, \u0434\u0430\u0432\u0430\u0439 \u043D\u0435
+        \u0431\u0443\u0434\u0435\u043C)"
       sound:
         clip: {fileID: 0}
         AudioSource: {fileID: 0}
   - speakerName: 
-    heroID: 2
+    heroID: 1
     sentencesAndSounds:
-    - sentence: "\u0423\u0445, \u043A\u0430\u043A\u043E\u0439 \u0432\u0430\u0436\u043D\u044B\u0439
-        \u043A\u0443\u0440\u0438\u0446\u0430! \u0426\u0430\u0440\u044C \u0432\u043E
-        \u0434\u0432\u043E\u0440\u0446\u0430 - \u0446\u0430\u0440\u044C \u0432\u043E
-        \u0434\u0432\u043E\u0440\u0446\u0430!"
-      sound:
-        clip: {fileID: 0}
-        AudioSource: {fileID: 0}
-  - speakerName: 
-    heroID: 0
-    sentencesAndSounds:
-    - sentence: "\u0414\u0430 \u043E\u0442\u0432\u0430\u043B\u0438 \u0442\u044B \u0443\u0436\u0435,
-        \u043F..\u043F.. \u043F\u043B\u043E\u0432\u043E\u0443\u043C\u043D\u044B\u0439."
-      sound:
-        clip: {fileID: 0}
-        AudioSource: {fileID: 0}
-  - speakerName: 
-    heroID: 5
-    sentencesAndSounds:
-    - sentence: "\u041A\u0442\u043E \u0441\u043A\u0430\u0437\u0430\u043B \"\u043F\u043B\u043E\u0432\"?
-        \u0423\u043C\u0435\u0435\u0448\u044C \u0433\u043E\u0442\u043E\u0432\u0438\u0442\u044C,
-        \u043A\u0430\u043A \u0432 \u0441\u0442\u0430\u0440\u044B\u0435 \u0434\u043E\u0431\u0440\u044B\u0435,
-        \u0432 \u043A\u043E\u0442\u0435\u043B\u043A\u0435? \u0418\u043B\u0438 \u0435\u0449\u0435
-        \u043C\u043E\u043B\u043E\u043A\u043E \u043D\u0430 \u0433\u0443\u0431\u0430\u0445
-        \u043D\u0435 \u043E\u0431\u0441\u043E\u0445\u043B\u043E?"
+    - sentence: "\u042D\u044D\u044D \u0448\u0430\u0439\u0442\u0430\u043D-\u043C\u0430\u0439\u0434\u0430\u043D,
+        \u0434\u0430\u044E \u0442\u044D\u0431\u044D 2, 3, \u043D\u044D\u043C\u043D\u043E\u0433\u0430
+        \u043C\u0438\u043D\u0443\u0442 \u0447\u0442\u043E\u0431\u044B \u043F\u0440\u044B\u0439\u0442\u0438
+        \u0438 \u0441\u0440\u0430\u0436\u0430\u0442\u044C\u0441\u044F \u043A\u0430\u043A
+        \u043C\u0443\u0436\u0447\u0438\u043D\u0430."
       sound:
         clip: {fileID: 0}
         AudioSource: {fileID: 0}
   - speakerName: 
     heroID: 0
     sentencesAndSounds:
-    - sentence: "\u042D\u044D\u044D\u044D\u044D\u043C\u043C\u043C... \u041D\u0435,
-        \u044F \u0438\u043C\u0435\u043B \u0432\u0432\u0438\u0434\u0443, \u043D\u0443
-        \u043A\u0430\u043A \u044D\u0442\u043E... \u042D\u043C\u043C\u043C\u043C\u043C..."
-      sound:
-        clip: {fileID: 0}
-        AudioSource: {fileID: 0}
-  - speakerName: 
-    heroID: 5
-    sentencesAndSounds:
-    - sentence: "\u0421\u0430\u043B\u0430\u0433\u0430..."
+    - sentence: "\u0410 \u0442\u044B \u043C\u0435\u043D\u044F \u0432\u0441\u0435
+        \u0440\u0430\u0432\u043D\u043E \u043D\u0435 \u043D\u0430\u0439\u0434\u0435\u0448\u044C
+        \u043C\u0435\u043D\u044F\u2026 \u0445\u0435\u0445\u0435\u0445\u0435!"
       sound:
         clip: {fileID: 0}
         AudioSource: {fileID: 0}
   - speakerName: 
     heroID: 3
     sentencesAndSounds:
-    - sentence: "\u0420\u0435\u0431\u044F\u0442\u0430, \u0437\u0430\u0445\u043E\u0434\u0438\u0442\u0435.
-        \u041C\u044B \u0432 \u043F\u043E\u0445\u043E\u0434 \u0441\u0435\u0433\u043E\u0434\u043D\u044F
-        \u043D\u043E\u0447\u044C\u044E \u0438\u0434\u0435\u043C."
+    - sentence: "\u0414\u0430\u043D\u0438\u043A, \u0441\u0445\u043E\u0434\u0438\u0448\u044C
+        \u0441\u0435\u0433\u043E\u0434\u043D\u044F \u0432 \u043C\u0435\u0447\u0442\u0443
+        \u0437\u0430 \u0445\u043B\u0435\u0431\u043E\u043C?"
       sound:
         clip: {fileID: 0}
         AudioSource: {fileID: 0}
   - speakerName: 
     heroID: 0
     sentencesAndSounds:
-    - sentence: "\u041A\u0430\u043A\u043E\u0439 \u043F\u043E\u0445\u043E\u0434? \u0412
-        \u0433\u043E\u0440\u044B \u0442\u0438\u043F\u0430?"
+    - sentence: "\u041C\u043E\u0436\u0435\u0442 \u0421\u0430\u043D\u044F \u0441\u0445\u043E\u0434\u0438\u0442?"
       sound:
         clip: {fileID: 0}
         AudioSource: {fileID: 0}
   - speakerName: 
-    heroID: 4
+    heroID: 1
     sentencesAndSounds:
-    - sentence: "\u041D\u0435-\u043D\u0435-\u043D\u0435, \u0443 \u043D\u0430\u0441
-        \u0432 \u0433\u043E\u0440\u043E\u0434\u0435 \u043C\u0430\u043D\u044C\u044F\u043A
-        \u043E\u0431\u044A\u044F\u0432\u0438\u043B\u0441\u044F. \u041C\u044B \u0440\u0435\u0448\u0438\u043B\u0438
-        \u043F\u043E\u0439\u043C\u0430\u0442\u044C \u0435\u0433\u043E \u0438 \u0434\u0435\u043D\u0435\u0433
-        \u043D\u0430 \u043C\u0435\u0444 \u043F\u043E\u043B\u0443\u0447\u0438\u0442\u044C."
+    - sentence: "\u0410\u0433\u0430! \u0428\u0430\u0439\u0442\u0430\u043D, \u0432\u043E\u0442
+        \u0442\u0438 \u0438 \u043F\u043E\u043F\u0430\u043B\u0441\u044F!"
       sound:
         clip: {fileID: 0}
         AudioSource: {fileID: 0}
   - speakerName: 
-    heroID: 2
+    heroID: 0
     sentencesAndSounds:
-    - sentence: "\u041D\u043E \u0435\u0441\u043B\u0438 \u043E\u043D \u0431\u0435\u0441\u043F\u043B\u0430\u0442\u043D\u044B\u0439,
-        \u0442\u043E \u0432 \u0442\u0443\u0441\u043E\u0432\u043A\u0443 \u0432\u043E\u0437\u044C\u043C\u0435\u043C.
-        \u0411\u0443\u0434\u0435\u0442 \u043E\u0442\u0440\u0430\u0431\u0430\u0442\u044B\u0432\u0430\u0442\u044C."
+    - sentence: "\u0411\u043B\u0438\u0438\u0438\u0438\u043D, \u043D\u0443 \u043B\u0430\u0434\u043D\u043E
+        \u0438\u0434\u0443\u2026"
       sound:
         clip: {fileID: 0}
         AudioSource: {fileID: 0}
-  nextTrigger: {fileID: 21920218}
+    - sentence: "*\u0441\u0431\u0440\u043E\u0441 \u0442\u0440\u0443\u0431\u043A\u0438*"
+      sound:
+        clip: {fileID: 8300000, guid: bedd9769637415948a82366e5998e094, type: 3}
+        AudioSource: {fileID: 0}
+  - speakerName: 
+    heroID: 3
+    sentencesAndSounds:
+    - sentence: "\u0421\u0430\u0448\u0430 \u0441\u0435\u0433\u043E\u0434\u043D\u044F
+        \u0437\u0430\u043D\u044F\u0442, \u0443 \u043D\u0435\u0433\u043E \u043A\u0430\u043A\u043E\u0435-\u0442\u043E
+        \u0432\u0430\u0436\u043D\u043E\u0435 \u0434\u0435\u043B\u043E."
+      sound:
+        clip: {fileID: 0}
+        AudioSource: {fileID: 0}
+  - speakerName: 
+    heroID: 0
+    sentencesAndSounds:
+    - sentence: "\u0411\u043B\u0438\u0438\u0438\u0438\u0438\u043D\u2026 \u041B\u0430\u0434\u043D\u043E,
+        \u043F\u043E\u0448\u0435\u043B \u044F\u2026"
+      sound:
+        clip: {fileID: 0}
+        AudioSource: {fileID: 0}
+  nextTrigger: {fileID: 0}
   dialogueIsEnded: 0
 --- !u!4 &720626840
 Transform:
@@ -2090,220 +1417,6 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 1.047982, y: -0.6697569, z: -80.79999}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1116069344}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &765173062
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 765173064}
-  - component: {fileID: 765173063}
-  m_Layer: 0
-  m_Name: "[\u0414\u0438\u0430\u043B\u043E\u0433] \u041D\u0435\u0444\u043E\u0440\u044B
-    3/"
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &765173063
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 765173062}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 76259cfea18da354cbf679b0e33341ad, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  dialogues:
-  - speakerName: 
-    heroID: 3
-    sentencesAndSounds:
-    - sentence: "\u0422\u0430\u043A, \u0432\u0441\u0435 \u043D\u0430 \u043C\u0435\u0441\u0442\u0435?
-        \u0420\u0430\u0437, \u0434\u0432\u0430, \u0430 \u0433\u0434\u0435 \u041E\u043B\u0435\u0433?"
-      sound:
-        clip: {fileID: 0}
-        AudioSource: {fileID: 0}
-  - speakerName: 
-    heroID: 8
-    sentencesAndSounds:
-    - sentence: "*\u0412\u044B\u043B\u0435\u0437\u0430\u0435\u0442 \u0438\u0437-\u0437\u0430
-        \u0434\u0435\u0440\u0435\u0432\u0430*"
-      sound:
-        clip: {fileID: 8300000, guid: ef8255fc31604b943be1b40caf5eca41, type: 3}
-        AudioSource: {fileID: 0}
-    - sentence: "\u042F \u0442\u0443\u0442, \u0434\u0440\u0443\u0437\u044C\u044F
-        \u043C\u043E\u0438!"
-      sound:
-        clip: {fileID: 0}
-        AudioSource: {fileID: 0}
-  - speakerName: 
-    heroID: 6
-    sentencesAndSounds:
-    - sentence: "\u0415\u0435\u0435\u0435\u0435, \u043F\u043E\u0433\u043D\u0430\u043B\u0438!!!"
-      sound:
-        clip: {fileID: 0}
-        AudioSource: {fileID: 0}
-  - speakerName: 
-    heroID: 7
-    sentencesAndSounds:
-    - sentence: "\u0414\u0430\u043D\u044F, \u043C\u043D\u0435 \u0441\u0442\u0440\u0430\u0448\u043D\u043E\u0432\u0430\u0442\u043E.
-        \u0414\u0430\u0432\u0430\u0439 \u0432\u043C\u0435\u0441\u0442\u0435 \u043F\u043E\u0439\u0434\u0435\u043C?"
-      sound:
-        clip: {fileID: 0}
-        AudioSource: {fileID: 0}
-  - speakerName: 
-    heroID: 0
-    sentencesAndSounds:
-    - sentence: "\u042D\u043C\u043C\u043C, \u0434\u0430\u0432\u0430\u0439, \u0430
-        \u043A\u0443\u0434\u0430?"
-      sound:
-        clip: {fileID: 0}
-        AudioSource: {fileID: 0}
-  - speakerName: 
-    heroID: 5
-    sentencesAndSounds:
-    - sentence: "\u0422\u044B \u0447\u0435, \u0438\u0434\u0438\u043E\u0442?"
-      sound:
-        clip: {fileID: 0}
-        AudioSource: {fileID: 0}
-  - speakerName: 
-    heroID: 7
-    sentencesAndSounds:
-    - sentence: "\u042F \u0432 \u0441\u043C\u044B\u0441\u043B\u0435 \u0437\u0430
-        \u0440\u0435\u0431\u044F\u0442\u0430\u043C\u0438)"
-      sound:
-        clip: {fileID: 0}
-        AudioSource: {fileID: 0}
-  - speakerName: 
-    heroID: 0
-    sentencesAndSounds:
-    - sentence: "\u0410))"
-      sound:
-        clip: {fileID: 0}
-        AudioSource: {fileID: 0}
-  - speakerName: 
-    heroID: 2
-    sentencesAndSounds:
-    - sentence: "\u0410 \u0434\u0430\u0432\u0430\u0439\u0442\u0435 \u043C\u0430\u0440\u043A\u0430\u043C\u0438
-        \u0437\u0430\u043A\u0438\u043D\u0435\u043C\u0441\u044F!!!"
-      sound:
-        clip: {fileID: 0}
-        AudioSource: {fileID: 0}
-  - speakerName: 
-    heroID: 6
-    sentencesAndSounds:
-    - sentence: "\u0415\u0435\u0435\u0435\u0435!!!"
-      sound:
-        clip: {fileID: 0}
-        AudioSource: {fileID: 0}
-  - speakerName: 
-    heroID: 0
-    sentencesAndSounds:
-    - sentence: "\u041E\u043E\u043E\u043E, \u0438 \u043C\u043D\u0435!!! \u042D\u0442\u043E
-        \u0442\u0435, \u043A\u043E\u0442\u043E\u0440\u044B\u0435 \u044F \u043F\u0435\u0447\u0430\u0442\u0430\u043B?"
-      sound:
-        clip: {fileID: 0}
-        AudioSource: {fileID: 0}
-  - speakerName: 
-    heroID: 4
-    sentencesAndSounds:
-    - sentence: "\u0422\u0430\u043A, \u0440\u0435\u0431\u044F\u0442\u0430. \u0412\u043E\u0442
-        \u0442\u0430\u043A \u0432\u044B\u0433\u043B\u044F\u0434\u0438\u0442 \u044D\u0442\u043E\u0442
-        \u0447\u0435\u0440\u0442. \u041F\u043E \u043A\u0440\u0430\u0439\u043D\u0435\u0439
-        \u043C\u0435\u0440\u0435 \u0442\u0430\u043A \u0432 \u0442\u0438\u043A-\u0442\u043E\u043A\u0435
-        \u0431\u044B\u043B\u043E."
-      sound:
-        clip: {fileID: 0}
-        AudioSource: {fileID: 0}
-  nextTrigger: {fileID: 1433699474}
-  dialogueIsEnded: 0
---- !u!4 &765173064
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 765173062}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.047982, y: -0.6697569, z: -80.79999}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1116069344}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &816471124
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 816471127}
-  - component: {fileID: 816471126}
-  - component: {fileID: 816471125}
-  m_Layer: 0
-  m_Name: "[\u0421\u043C\u0435\u043D\u0430 \u0444\u043E\u043D\u0430] \u0418\u0434\u0443\u0442
-    \u043F\u043E \u043B\u0435\u0441\u0443"
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &816471125
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 816471124}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8827578cfd5c82d49b1ee5048d48837c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  backgroundImage: {fileID: 1244400855}
-  newBackgroundImage: {fileID: 21300000, guid: 78447c7407673734fa43a4f145a41e6e, type: 3}
-  willCloseDialogue: 1
-  timerOnDialogueClose: 3
-  DialogueBox: {fileID: 1252078564}
-  newBackgroundSound: {fileID: 8300000, guid: b04f67f909dc7bf46a3a9c0a1583681b, type: 3}
---- !u!114 &816471126
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 816471124}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 29fa3837d130a5545aa8c50c39a2f629, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  resultOfCondition:
-  - {fileID: 2055848183}
---- !u!4 &816471127
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 816471124}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.90672004, y: 0.18125324, z: -297.19647}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2374,60 +1487,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   resultOfCondition:
   - {fileID: 0}
---- !u!1 &825832547
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 825832548}
-  - component: {fileID: 825832549}
-  m_Layer: 0
-  m_Name: "[\u0414\u0438\u0430\u043B\u043E\u0433] \u041F\u043E\u0441\u043C\u043E\u0442\u0440\u0435\u0442\u044C"
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &825832548
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 825832547}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.047982, y: -0.6697569, z: -80.79999}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1116069344}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &825832549
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 825832547}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 76259cfea18da354cbf679b0e33341ad, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  dialogues:
-  - speakerName: 
-    heroID: 0
-    sentencesAndSounds:
-    - sentence: ...
-      sound:
-        clip: {fileID: 0}
-        AudioSource: {fileID: 0}
-  nextTrigger: {fileID: 620308519}
-  dialogueIsEnded: 0
 --- !u!1 &861002819
 GameObject:
   m_ObjectHideFlags: 0
@@ -2646,230 +1705,6 @@ MonoBehaviour:
         AudioSource: {fileID: 0}
   nextTrigger: {fileID: 1495669499}
   dialogueIsEnded: 0
---- !u!1 &919556920
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 919556921}
-  - component: {fileID: 919556922}
-  m_Layer: 0
-  m_Name: "[\u0414\u0438\u0430\u043B\u043E\u0433] \u041D\u0435\u0444\u043E\u0440\u044B
-    8/"
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &919556921
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 919556920}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.047982, y: -0.6697569, z: -80.79999}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1116069344}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &919556922
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 919556920}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 76259cfea18da354cbf679b0e33341ad, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  dialogues:
-  - speakerName: 
-    heroID: 0
-    sentencesAndSounds:
-    - sentence: "\u042D\u044D\u044D\u044D\u044D... \u043F\u0440\u043E\u043F\u0430\u043B
-        \u043A\u0443\u0434\u0430-\u0442\u043E. \u041E\u041B\u0415\u0415\u0415\u0415\u0415\u0415\u0415\u0415\u0413!!!!"
-      sound:
-        clip: {fileID: 0}
-        AudioSource: {fileID: 0}
-  - speakerName: 
-    heroID: 9
-    sentencesAndSounds:
-    - sentence: "\u0414...\u0434\u0430\u0432\u0430\u0439 \u0443\u0439\u0434\u0435\u043C
-        \u043E\u0442\u0441\u044E\u0434\u0430. \u041F\u043E\u0439\u0434\u0435\u043C
-        \u043E\u0431\u0440\u0430\u0442\u043D\u043E! \u041C\u043D\u0435 \u043F\u0440\u0430\u0432\u0434\u0430
-        \u043E\u0447\u0435\u043D\u044C \u0441\u0442\u0440\u0430\u0448\u043D\u043E("
-      sound:
-        clip: {fileID: 0}
-        AudioSource: {fileID: 0}
-  - speakerName: 
-    heroID: 0
-    sentencesAndSounds:
-    - sentence: "\u041F-\u043F-\u043F\u043E\u0439\u0434\u0435\u043C. \u0410 \u0447\u0435
-        \u0432\u0430\u0449\u0435 \u044D\u0442\u043E \u0437\u0430 \u043C\u0430\u043D\u044C\u044F\u043A?"
-      sound:
-        clip: {fileID: 0}
-        AudioSource: {fileID: 0}
-  - speakerName: 
-    heroID: 9
-    sentencesAndSounds:
-    - sentence: "\u0414\u0435\u0442\u0438 \u0432 \u043F\u043E\u0441\u043B\u0435\u0434\u043D\u0435\u0435
-        \u0432\u0440\u0435\u043C\u044F \u043F\u0440\u043E\u043F\u0430\u0434\u0430\u0442\u044C
-        \u043D\u0430\u0447\u0430\u043B\u0438. \u0410 \u043F\u0435\u0440\u0435\u0434
-        \u044D\u0442\u0438\u043C, \u0433\u043E\u0432\u043E\u0440\u044F\u0442, \u0432
-        \u043C\u0430\u0433\u0430\u0437\u0438\u043D\u0430\u0445 \u043A\u0438\u043D\u0434\u0435\u0440\u044B
-        \u043F\u0440\u043E\u043F\u0430\u0434\u0430\u044E\u0442."
-      sound:
-        clip: {fileID: 0}
-        AudioSource: {fileID: 0}
-  - speakerName: 
-    heroID: 0
-    sentencesAndSounds:
-    - sentence: "\u0416\u0435\u0435\u0435\u0435\u0435\u0435\u0441\u0442\u044C..."
-      sound:
-        clip: {fileID: 0}
-        AudioSource: {fileID: 0}
-  - speakerName: 
-    heroID: 9
-    sentencesAndSounds:
-    - sentence: "\u0414\u0430\u0432\u0430\u0439 \u043D\u0435 \u0431\u0443\u0434\u0435\u043C
-        \u043D\u0430 \u044D\u0442\u0443 \u0442\u0435\u043C\u0443 \u0433\u043E\u0432\u043E\u0440\u0438\u0442\u044C,
-        \u0430 \u0442\u043E \u0441\u0442\u0440\u0430\u0448\u043D\u043E."
-      sound:
-        clip: {fileID: 0}
-        AudioSource: {fileID: 0}
-  - speakerName: 
-    heroID: 0
-    sentencesAndSounds:
-    - sentence: "\u042D\u043C\u043C\u043C\u043C... \u041D\u0443 \u043B\u0430\u0434\u043D\u043E.
-        \u041E \u0447\u0435\u043C \u0442\u043E\u0433\u0434\u0430 \u043F\u043E\u0433\u043E\u0432\u043E\u0440\u0438\u043C?"
-      sound:
-        clip: {fileID: 0}
-        AudioSource: {fileID: 0}
-  - speakerName: 
-    heroID: 7
-    sentencesAndSounds:
-    - sentence: "\u0427\u0435\u043C \u0442\u044B \u0437\u0430\u043D\u0438\u043C\u0430\u0435\u0448\u044C\u0441\u044F
-        \u0432 \u0441\u0432\u043E\u0431\u043E\u0434\u043D\u043E\u0435 \u0432\u0440\u0435\u043C\u044F?"
-      sound:
-        clip: {fileID: 0}
-        AudioSource: {fileID: 0}
-  - speakerName: 
-    heroID: 0
-    sentencesAndSounds:
-    - sentence: "\u042D\u044D\u044D\u044D\u044D... \u041D\u0443 \u044F \u0444\u0438\u043B\u043E\u0441\u043E\u0444\u0438\u044E
-        \u0432\u043E\u043E\u0431\u0449\u0435 \u043B\u044E\u0431\u043B\u044E."
-      sound:
-        clip: {fileID: 0}
-        AudioSource: {fileID: 0}
-  - speakerName: 
-    heroID: 7
-    sentencesAndSounds:
-    - sentence: "\u041F\u0440\u0438\u043A\u043E\u043B\u044C\u043D\u043E. \u0410 \u043A\u0430\u043A\u0438\u0435
-        \u0444\u0438\u043B\u043E\u0441\u043E\u0444\u044B \u0442\u0435\u0431\u0435
-        \u043D\u0440\u0430\u0432\u044F\u0442\u0441\u044F?"
-      sound:
-        clip: {fileID: 0}
-        AudioSource: {fileID: 0}
-  - speakerName: 
-    heroID: 0
-    sentencesAndSounds:
-    - sentence: "\u041D\u0443 \u0442\u0430\u043C, \u043C\u043C\u043C\u043C... \u041D\u0443
-        \u0442\u0430\u043A, \u0447\u0442\u043E\u0431\u044B \u043D\u0440\u0430\u0432\u044F\u0442\u0441\u044F,
-        \u043D\u0443 \u0432 \u043F\u043B\u0430\u043D\u0435.... \u042D\u043C\u043C\u043C\u043C\u043C....
-        \u0425... \u0445\u0430\u0439\u0434\u0435..."
-      sound:
-        clip: {fileID: 0}
-        AudioSource: {fileID: 0}
-  - speakerName: 
-    heroID: 1
-    sentencesAndSounds:
-    - sentence: "*\u041A\u0440\u0438\u043A \u0438\u0437 \u043A\u0443\u0441\u0442\u043E\u0432*"
-      sound:
-        clip: {fileID: 0}
-        AudioSource: {fileID: 0}
-  - speakerName: 
-    heroID: 9
-    sentencesAndSounds:
-    - sentence: "\u0427\u0442\u043E \u044D\u0442\u043E \u0431\u044B\u043B\u043E?
-        \u0423 \u043C\u0435\u043D\u044F \u0441\u0435\u0439\u0447\u0430\u0441 \u043F\u0430\u043D\u0438\u0447\u0435\u0441\u043A\u0430\u044F
-        \u0430\u0442\u0430\u043A\u0430 \u043D\u0430\u0447\u043D\u0435\u0442\u0441\u044F."
-      sound:
-        clip: {fileID: 0}
-        AudioSource: {fileID: 0}
-  - speakerName: 
-    heroID: 0
-    sentencesAndSounds:
-    - sentence: "\u0414\u0430 \u044D\u0442\u043E \u044D\u0442\u0438 \u043D\u0430\u0432\u0435\u0440\u043D\u043E\u0435
-        \u043F\u0440\u0438\u043A\u0430\u043B\u044B\u0432\u0430\u044E\u0442\u0441\u044F,
-        \u043D\u0435 \u0431\u043E\u0438\u0441\u044C, \u043C\u0430\u043B\u0430\u044F)"
-      sound:
-        clip: {fileID: 0}
-        AudioSource: {fileID: 0}
-  - speakerName: 
-    heroID: 7
-    sentencesAndSounds:
-    - sentence: "\u042D\u044D\u044D\u044D\u043C\u043C\u043C\u043C\u2026 \u043D\u0435
-        \u043D\u0430\u0437\u044B\u0432\u0430\u0439 \u043C\u0435\u043D\u044F \u0442\u0430\u043A
-        \u043F\u043E\u0436\u0430\u043B\u0443\u0439\u0441\u0442\u0430)"
-      sound:
-        clip: {fileID: 0}
-        AudioSource: {fileID: 0}
-  - speakerName: 
-    heroID: 0
-    sentencesAndSounds:
-    - sentence: "\u041E\u043A("
-      sound:
-        clip: {fileID: 0}
-        AudioSource: {fileID: 0}
-  - speakerName: 
-    heroID: 1
-    sentencesAndSounds:
-    - sentence: "*\u0425\u0430\u0445\u0430\u0445\u0430\u0445\u0430\u0445\u0430\u0445\u0445*"
-      sound:
-        clip: {fileID: 8300000, guid: 5a821d9a90644c0428eb6845b955b02a, type: 3}
-        AudioSource: {fileID: 0}
-    - sentence: "*\u041A\u0430\u043A\u0438\u0435 \u0432\u043A\u0443\u0443\u0443\u0441\u043D\u044B\u0435
-        \u043C\u043C\u043C\u043C\u043C*"
-      sound:
-        clip: {fileID: 0}
-        AudioSource: {fileID: 0}
-  - speakerName: 
-    heroID: 9
-    sentencesAndSounds:
-    - sentence: "\u041D\u0443 \u0432\u0441\u0451, \u0445\u0432\u0430\u0442\u0438\u0442,
-        \u044F \u0431\u043E\u043B\u044C\u0448\u0435 \u043D\u0435 \u043C\u043E\u0433\u0443,
-        \u0431\u0435\u0436\u0438\u043C \u043E\u0442\u0441\u044E\u0434\u0430"
-      sound:
-        clip: {fileID: 0}
-        AudioSource: {fileID: 0}
-  - speakerName: 
-    heroID: 1
-    sentencesAndSounds:
-    - sentence: "\u041F\u0430\u0430\u0430\u0430\u043B\u044C\u0447\u0438\u043A\u0438
-        \u043E\u0431\u043B\u0438\u0436\u0435\u0448\u044C"
-      sound:
-        clip: {fileID: 0}
-        AudioSource: {fileID: 0}
-  - speakerName: 
-    heroID: 0
-    sentencesAndSounds:
-    - sentence: "\u042D\u044D\u044D\u043C\u043C\u043C\u043C\u2026 \u043D\u0443 \u0432\u0441\u0435,
-        \u0440\u0435\u0430\u043B\u044C\u043D\u043E, \u043F\u043E\u0433\u043D\u0430\u043B\u0438
-        \u043E\u0442\u0441\u044E\u0434\u0430"
-      sound:
-        clip: {fileID: 0}
-        AudioSource: {fileID: 0}
-  nextTrigger: {fileID: 1014292794}
-  dialogueIsEnded: 0
 --- !u!1 &932551746
 GameObject:
   m_ObjectHideFlags: 0
@@ -2979,72 +1814,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d96a9bf2fa0aca04cb1c6f310cdccea2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!1 &962797264
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 962797267}
-  - component: {fileID: 962797266}
-  - component: {fileID: 962797265}
-  m_Layer: 0
-  m_Name: "[\u0421\u043C\u0435\u043D\u0430 \u0444\u043E\u043D\u0430] \u041A\u0440\u0430\u0441\u0438\u0432\u0430\u044F
-    \u0412\u0435\u043D\u0435\u0440\u0430"
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &962797265
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 962797264}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8827578cfd5c82d49b1ee5048d48837c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  backgroundImage: {fileID: 1244400855}
-  newBackgroundImage: {fileID: 21300000, guid: dcf8c9e926d2a8546854071a1bbb88a3, type: 3}
-  willCloseDialogue: 1
-  timerOnDialogueClose: 3
-  DialogueBox: {fileID: 1252078564}
-  newBackgroundSound: {fileID: 8300000, guid: 65154be425ac8244a95ac08e2a4d0b83, type: 3}
---- !u!114 &962797266
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 962797264}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 29fa3837d130a5545aa8c50c39a2f629, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  resultOfCondition:
-  - {fileID: 32107008}
---- !u!4 &962797267
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 962797264}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.90672004, y: 0.18125324, z: -297.19647}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1116069344}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &981205216
 GameObject:
   m_ObjectHideFlags: 0
@@ -3113,77 +1882,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   resultOfCondition:
   - {fileID: 864467178}
---- !u!1 &1014292794
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1014292795}
-  - component: {fileID: 1014292797}
-  - component: {fileID: 1014292796}
-  m_Layer: 0
-  m_Name: "[\u0421\u043B\u0430\u0439\u0434\u0435\u0440] \u0414\u0430\u043D\u044F
-    \u0438 \u0412\u0435\u043D\u0435\u0440\u0430 \u0431\u0435\u0433\u0443\u0442"
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1014292795
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1014292794}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.90672004, y: 0.18125324, z: -297.19647}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1116069344}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1014292796
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1014292794}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e02b9d470a0ccad439a25adb351fbc4c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  willShadowWithChange: 1
-  backgroundImage: {fileID: 1244400855}
-  arrayNewBGImages:
-  - {fileID: 21300000, guid: 7f2df5ae6171d5841b3b6f3dc553b215, type: 3}
-  - {fileID: 21300000, guid: ca20317718010804ba99cd30a6efb94e, type: 3}
-  - {fileID: 21300000, guid: ade5c78c92fdeeb4c825f230eb6f29fb, type: 3}
-  newImage: {fileID: 21300000, guid: a813b9e8773b26e4a9439075db24aac6, type: 3}
-  endMusicOnEnd: 1
-  timerBeforeNextSlide: 3
-  DialogueBox: {fileID: 1252078564}
-  newBackgroundSound: {fileID: 8300000, guid: e1c9976fbeba08649b31d67474b10e7b, type: 3}
---- !u!114 &1014292797
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1014292794}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 29fa3837d130a5545aa8c50c39a2f629, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  resultOfCondition:
-  - {fileID: 165265082}
 --- !u!1 &1018568847
 GameObject:
   m_ObjectHideFlags: 0
@@ -3426,37 +2124,7 @@ Transform:
   - {fileID: 182781848}
   - {fileID: 1565459343}
   - {fileID: 720626840}
-  - {fileID: 21920221}
-  - {fileID: 1720910560}
-  - {fileID: 308775108}
-  - {fileID: 765173064}
-  - {fileID: 1433699477}
-  - {fileID: 825832548}
-  - {fileID: 620308520}
-  - {fileID: 1184669798}
-  - {fileID: 1947544195}
-  - {fileID: 1658413874}
-  - {fileID: 688586822}
-  - {fileID: 1531693492}
-  - {fileID: 816471127}
-  - {fileID: 2055848185}
-  - {fileID: 1756695225}
-  - {fileID: 1698775905}
-  - {fileID: 1728676579}
-  - {fileID: 526630239}
-  - {fileID: 82903406}
-  - {fileID: 919556921}
-  - {fileID: 1014292795}
-  - {fileID: 165265084}
-  - {fileID: 2098469234}
-  - {fileID: 406051329}
-  - {fileID: 1669600715}
-  - {fileID: 1599557073}
-  - {fileID: 962797267}
-  - {fileID: 32107010}
-  - {fileID: 1457860553}
-  - {fileID: 1407360023}
-  - {fileID: 1871266888}
+  - {fileID: 1634790920}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1119968465
@@ -3617,88 +2285,6 @@ Transform:
   - {fileID: 1216614303}
   - {fileID: 530667534}
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1184669796
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1184669798}
-  - component: {fileID: 1184669797}
-  m_Layer: 0
-  m_Name: "[\u0414\u0438\u0430\u043B\u043E\u0433] \u041D\u0435\u0444\u043E\u0440\u044B
-    4/"
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1184669797
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1184669796}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 76259cfea18da354cbf679b0e33341ad, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  dialogues:
-  - speakerName: 
-    heroID: 5
-    sentencesAndSounds:
-    - sentence: "\u041D\u043E\u0440\u043C\u0430\u043B\u044C\u043D\u044B\u0439 \u0442\u0430\u043A\u043E\u0439
-        \u043C\u0443\u0436\u0438\u043A. \u0427\u0435\u0433\u043E \u0434\u0443\u0440\u044C\u044E
-        \u043C\u0430\u0435\u0442\u0441\u044F."
-      sound:
-        clip: {fileID: 0}
-        AudioSource: {fileID: 0}
-  - speakerName: 
-    heroID: 2
-    sentencesAndSounds:
-    - sentence: "\u042F \u0442\u043E\u0436\u0435 \u0441\u0432\u043E\u0435\u0433\u043E
-        \u0440\u043E\u0434\u0430 \u043D\u043E\u0440\u043C\u0430\u043B\u044C\u043D\u044B\u0439
-        \u0442\u0430\u043A\u043E\u0439 \u043C\u0443\u0436\u0438\u043A)"
-      sound:
-        clip: {fileID: 0}
-        AudioSource: {fileID: 0}
-  - speakerName: 
-    heroID: 4
-    sentencesAndSounds:
-    - sentence: "\u0418\u0434\u0435\u043C \u0432\u0441\u0435 \u0432\u043C\u0435\u0441\u0442\u0435,
-        \u043D\u0435 \u043E\u0442\u0441\u0442\u0430\u0432\u0430\u0439\u0442\u0435!"
-      sound:
-        clip: {fileID: 0}
-        AudioSource: {fileID: 0}
-  - speakerName: 
-    heroID: 0
-    sentencesAndSounds:
-    - sentence: "\u041E\u043A. \u0411\u043B\u0438\u043D, \u0448\u043D\u0443\u0440\u043E\u043A,
-        \u043F\u043E\u0434\u043E\u0436\u0434\u0438\u0442\u0435..."
-      sound:
-        clip: {fileID: 0}
-        AudioSource: {fileID: 0}
-  nextTrigger: {fileID: 1947544194}
-  dialogueIsEnded: 0
---- !u!4 &1184669798
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1184669796}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.047982, y: -0.6697569, z: -80.79999}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1116069344}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1216614302
 GameObject:
@@ -4249,247 +2835,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   resultOfCondition:
   - {fileID: 0}
---- !u!1 &1407360022
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1407360023}
-  - component: {fileID: 1407360024}
-  m_Layer: 0
-  m_Name: "[\u0414\u0438\u0430\u043B\u043E\u0433] \u041D\u0435\u0444\u043E\u0440\u044B
-    12/"
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1407360023
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1407360022}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.047982, y: -0.6697569, z: -80.79999}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1116069344}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1407360024
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1407360022}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 76259cfea18da354cbf679b0e33341ad, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  dialogues:
-  - speakerName: 
-    heroID: 8
-    sentencesAndSounds:
-    - sentence: "\u041E, \u0440\u0435\u0431\u044F\u0442\u0430! \u0410 \u044F \u043A\u0438\u043D\u0434\u0435\u0440
-        \u0432 \u043B\u0435\u0441\u0443 \u043D\u0430\u0448\u0435\u043B) \u041D\u0430\u0434\u043A\u0443\u0441\u0430\u043D\u044B\u0439,
-        \u043F\u0440\u0430\u0432\u0434\u0430, \u043D\u043E \u0432\u0440\u043E\u0434\u0435
-        \u0435\u0441\u0442\u044C \u043C\u043E\u0436\u043D\u043E."
-      sound:
-        clip: {fileID: 0}
-        AudioSource: {fileID: 0}
-  - speakerName: 
-    heroID: 2
-    sentencesAndSounds:
-    - sentence: "\u0414\u0430\u2026 \u043A\u0442\u043E-\u0442\u043E \u043D\u0435\u043F\u0440\u0430\u0432\u0438\u043B\u044C\u043D\u043E
-        \u0435\u0433\u043E \u043D\u0430\u0434\u043A\u0443\u0441\u0438\u043B, \u0432\u0441\u0435
-        \u0437\u043D\u0430\u044E\u0442, \u0447\u0442\u043E \u0443 \u043A\u0438\u043D\u0434\u0435\u0440\u0432\u043E\u0432
-        \u043E\u0431\u043E\u043B\u043E\u0447\u043A\u0430 \u0433\u043E\u0440\u044C\u043A\u0430\u044F\u2026"
-      sound:
-        clip: {fileID: 0}
-        AudioSource: {fileID: 0}
-  - speakerName: 
-    heroID: 5
-    sentencesAndSounds:
-    - sentence: "\u0410\u0440\u0441\u0435\u043D, \u0442\u044B \u0441\u0430\u043C\u044B\u0439
-        \u0435\u0431\u0443\u0447\u0438\u0439 \u0434\u043E\u043B\u0431\u043E\u0435\u0431,
-        \u043A\u043E\u0442\u043E\u0440\u043E\u0433\u043E \u044F \u0432\u0441\u0442\u0440\u0435\u0447\u0430\u043B\u0430\u2026"
-      sound:
-        clip: {fileID: 0}
-        AudioSource: {fileID: 0}
-  - speakerName: 
-    heroID: 2
-    sentencesAndSounds:
-    - sentence: "\u0410 \u0432\u043E\u0442 \u044D\u0442\u043E \u044F\u0432\u043D\u043E
-        \u043D\u0435 \u043C\u043E\u044F \u043F\u0440\u043E\u0431\u043B\u0435\u043C\u0430!\r\n"
-      sound:
-        clip: {fileID: 0}
-        AudioSource: {fileID: 0}
-  - speakerName: 
-    heroID: 4
-    sentencesAndSounds:
-    - sentence: "\u0412\u0435\u043D\u0435\u0440\u0430, \u041E\u043B\u0435\u0433,
-        \u0438 \u0442\u044B\u2026 \u043A\u0430\u043A \u0442\u0430\u043C \u0442\u0435\u0431\u044F\u2026
-        \u042F \u0436\u0435 \u0441\u043A\u0430\u0437\u0430\u043B\u0430, \u043D\u0435
-        \u0440\u0430\u0437\u0434\u0435\u043B\u044F\u0435\u043C\u0441\u044F!"
-      sound:
-        clip: {fileID: 0}
-        AudioSource: {fileID: 0}
-  - speakerName: 
-    heroID: 3
-    sentencesAndSounds:
-    - sentence: "\u041C\u044B \u0432\u043C\u0435\u0441\u0442\u043E \u043C\u0430\u043D\u044C\u044F\u043A\u0430
-        \u0435\u0449\u0435 \u0438 \u0432\u0430\u0441 \u0438\u0441\u043A\u0430\u043B\u0438.
-        \u041F\u043E\u0434 \u043A\u0438\u0441\u043B\u043E\u0442\u043E\u0439 \u044D\u0442\u043E
-        \u043D\u0435 \u043F\u0440\u043E\u0441\u0442\u043E, \u043C\u0435\u0436\u0434\u0443
-        \u043F\u0440\u043E\u0447\u0435\u043C\u2026"
-      sound:
-        clip: {fileID: 0}
-        AudioSource: {fileID: 0}
-  - speakerName: 
-    heroID: 0
-    sentencesAndSounds:
-    - sentence: "\u0422\u0430 \u0441\u043E\u0440\u0438, \u0448\u043D\u0443\u0440\u043E\u043A
-        \u0440\u0430\u0437\u0432\u044F\u0437\u0430\u043B\u0441\u044F( "
-      sound:
-        clip: {fileID: 0}
-        AudioSource: {fileID: 0}
-  - speakerName: 
-    heroID: 5
-    sentencesAndSounds:
-    - sentence: "\u0414\u0430\u0430\u0430\u2026 \u0421 \u0442\u043E\u0431\u043E\u0439
-        \u043A\u0430\u0448\u0438, \u043A\u043E\u043D\u0435\u0447\u043D\u043E, \u043D\u0435
-        \u0441\u0432\u0430\u0440\u0438\u0448\u044C. \u041D\u0443 \u043D\u0435 \u0440\u0430\u0441\u0441\u0442\u0440\u0430\u0438\u0432\u0430\u0439\u0441\u044F,
-        \u0447\u0442\u043E \u0443\u0436 \u0442\u0430\u043C"
-      sound:
-        clip: {fileID: 0}
-        AudioSource: {fileID: 0}
-  - speakerName: 
-    heroID: 0
-    sentencesAndSounds:
-    - sentence: "\u041E\u043A. \u041B\u0430\u0434\u043D\u043E \u0440\u0435\u0431\u044F\u0442\u0430,
-        \u043F\u043E\u0437\u0434\u043D\u043E \u0443\u0436\u0435, \u043C\u043D\u0435
-        \u0434\u043E\u043C\u043E\u0439 \u043F\u043E\u0440\u0430."
-      sound:
-        clip: {fileID: 0}
-        AudioSource: {fileID: 0}
-  - speakerName: 
-    heroID: 7
-    sentencesAndSounds:
-    - sentence: "\u041E, \u043C\u043D\u0435 \u0442\u043E\u0436\u0435, \u043C\u043D\u0435
-        \u0436 \u0432 \u0448\u043A\u043E\u043B\u0443 \u0437\u0430\u0432\u0442\u0440\u0430)"
-      sound:
-        clip: {fileID: 0}
-        AudioSource: {fileID: 0}
-  - speakerName: 
-    heroID: 0
-    sentencesAndSounds:
-    - sentence: "*\u042D\u044D\u044D\u044D\u043C\u043C\u043C\u2026 \u041E, \u043E\u043D\u0430
-        \u0447\u0435 \u0442\u0438\u043F\u0430 \u043A\u0430\u043A \u0432 \xAB\u0423\u0447\u0438\u0442\u0435\u043B\u0435
-        \u041E\u043D\u0438\u0434\u0437\u0443\u043A\u0435\xBB? \u0422\u043E\u0436\u0435
-        \u0443\u0447\u0438\u0442\u0435\u043B\u0435\u043C \u0440\u0430\u0431\u043E\u0442\u0430\u0435\u0442?*"
-      sound:
-        clip: {fileID: 0}
-        AudioSource: {fileID: 0}
-  - speakerName: 
-    heroID: 7
-    sentencesAndSounds:
-    - sentence: "\u041F\u043E\u043A\u0430, \u0414\u0430\u043D\u0438\u043A, \u0442\u044B
-        \u043E\u0447\u0435\u043D\u044C \u043A\u043B\u0430\u0441\u0441\u043D\u044B\u0439)"
-      sound:
-        clip: {fileID: 0}
-        AudioSource: {fileID: 0}
-    - sentence: "*\u0446\u0435\u043B\u0443\u0435\u0442 \u0432 \u0449\u0435\u0447\u043A\u0443*"
-      sound:
-        clip: {fileID: 8300000, guid: 00a6574025fd8f042bdc00167cb0b648, type: 3}
-        AudioSource: {fileID: 0}
-  - speakerName: 
-    heroID: 0
-    sentencesAndSounds:
-    - sentence: "\u0410\u2026 \u0434\u0430\u2026 \u043F-\u043F\u043E\u043A\u0430)
-        \u0422-\u0442\u044B \u0442\u043E\u0436\u0435 \u0442\u0438\u043F\u0430\u2026"
-      sound:
-        clip: {fileID: 0}
-        AudioSource: {fileID: 0}
-    - sentence: "*\u0443\u0445\u043E\u0434\u044F\u0442*"
-      sound:
-        clip: {fileID: 0}
-        AudioSource: {fileID: 0}
-  nextTrigger: {fileID: 1871266885}
-  dialogueIsEnded: 0
---- !u!1 &1433699474
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1433699477}
-  - component: {fileID: 1433699476}
-  - component: {fileID: 1433699475}
-  m_Layer: 0
-  m_Name: "[\u0421\u043C\u0435\u043D\u0430 \u0444\u043E\u043D\u0430] \u0424\u043E\u0442\u043E
-    \u0413\u043E\u0440\u0434\u043E\u043D\u0430"
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1433699475
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1433699474}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8827578cfd5c82d49b1ee5048d48837c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  backgroundImage: {fileID: 1244400855}
-  newBackgroundImage: {fileID: 21300000, guid: 0b4a8341f1304a445a3b0ff89675516f, type: 3}
-  willCloseDialogue: 1
-  timerOnDialogueClose: 3
-  DialogueBox: {fileID: 1252078564}
-  newBackgroundSound: {fileID: 0}
---- !u!114 &1433699476
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1433699474}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 29fa3837d130a5545aa8c50c39a2f629, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  resultOfCondition:
-  - {fileID: 825832547}
---- !u!4 &1433699477
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1433699474}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.90672004, y: 0.18125324, z: -297.19647}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1116069344}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1443043903
 GameObject:
   m_ObjectHideFlags: 0
@@ -4566,71 +2911,6 @@ MonoBehaviour:
     - {fileID: 565503808}
     timer: 0
     repeat: 0
---- !u!1 &1457860550
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1457860553}
-  - component: {fileID: 1457860552}
-  - component: {fileID: 1457860551}
-  m_Layer: 0
-  m_Name: "[\u0421\u043C\u0435\u043D\u0430 \u0444\u043E\u043D\u0430] \u0421\u0442\u043E\u043F\u044D"
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1457860551
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1457860550}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8827578cfd5c82d49b1ee5048d48837c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  backgroundImage: {fileID: 1244400855}
-  newBackgroundImage: {fileID: 21300000, guid: 63e18c4fe2921d3438b53a3811946a37, type: 3}
-  willCloseDialogue: 1
-  timerOnDialogueClose: 3
-  DialogueBox: {fileID: 1252078564}
-  newBackgroundSound: {fileID: 8300000, guid: dcb5ed02fbd2bd940b7301136d9aafa5, type: 3}
---- !u!114 &1457860552
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1457860550}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 29fa3837d130a5545aa8c50c39a2f629, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  resultOfCondition:
-  - {fileID: 1407360022}
---- !u!4 &1457860553
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1457860550}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.90672004, y: 0.18125324, z: -297.19647}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1116069344}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1495669499
 GameObject:
   m_ObjectHideFlags: 0
@@ -4699,80 +2979,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   resultOfCondition:
   - {fileID: 1857981848}
---- !u!1 &1531693491
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1531693492}
-  - component: {fileID: 1531693493}
-  m_Layer: 0
-  m_Name: "[\u0414\u0438\u0430\u043B\u043E\u0433] \u0418\u0449\u0443\u0442 \u043E\u0441\u0442\u0430\u043B\u044C\u043D\u044B\u0445"
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1531693492
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1531693491}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.047982, y: -0.6697569, z: -80.79999}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1116069344}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1531693493
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1531693491}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 76259cfea18da354cbf679b0e33341ad, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  dialogues:
-  - speakerName: 
-    heroID: 0
-    sentencesAndSounds:
-    - sentence: "\u042D\u044D\u044D\u044D, \u0431\u043B\u0438\u043D, \u0430 \u0433\u0434\u0435
-        \u043E\u0441\u0442\u0430\u043B\u044C\u043D\u044B\u0435?"
-      sound:
-        clip: {fileID: 0}
-        AudioSource: {fileID: 0}
-  - speakerName: 
-    heroID: 9
-    sentencesAndSounds:
-    - sentence: "\u0411\u043B\u0438\u043D, \u044F \u043D\u0430 \u0448\u043D\u0443\u0440\u043A\u0438
-        \u0441\u043C\u043E\u0442\u0440\u0435\u043B\u0430. \u041E\u043B\u0435\u0433,
-        \u0442\u044B \u043D\u0435 \u0432\u0438\u0434\u0435\u043B, \u043A\u0443\u0434\u0430
-        \u043E\u043D\u0438 \u043F\u043E\u0448\u043B\u0438?"
-      sound:
-        clip: {fileID: 0}
-        AudioSource: {fileID: 0}
-  - speakerName: 
-    heroID: 8
-    sentencesAndSounds:
-    - sentence: "\u0414\u0430, \u0432\u0438\u0434\u0435\u043B. \u0422\u0443\u0434\u0430
-        \u0438\u0434\u0435\u043C \u0438 \u0432\u0441\u0435 \u0442\u0438\u043F-\u0442\u043E\u043F
-        \u0431\u0443\u0434\u0435\u0442!"
-      sound:
-        clip: {fileID: 0}
-        AudioSource: {fileID: 0}
-  nextTrigger: {fileID: 816471124}
-  dialogueIsEnded: 0
 --- !u!1 &1565459340
 GameObject:
   m_ObjectHideFlags: 0
@@ -4785,7 +2991,7 @@ GameObject:
   - component: {fileID: 1565459342}
   - component: {fileID: 1565459341}
   m_Layer: 0
-  m_Name: "[\u0421\u043C\u0435\u043D\u0430 \u0444\u043E\u043D\u0430] \u041A\u0440\u044B\u043B\u043E\u0432\u0430"
+  m_Name: "[\u0421\u043C\u0435\u043D\u0430 \u0444\u043E\u043D\u0430] \u0425\u043E\u043B\u043B\u043B"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4804,7 +3010,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   backgroundImage: {fileID: 1244400855}
-  newBackgroundImage: {fileID: 21300000, guid: 474ec0a8a8152834fa48721e721a3f31, type: 3}
+  newBackgroundImage: {fileID: 21300000, guid: b395ef6edebd9674e9bc5686e9251c93, type: 3}
   willCloseDialogue: 1
   timerOnDialogueClose: 3
   DialogueBox: {fileID: 1252078564}
@@ -4838,62 +3044,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1116069344}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1599557072
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1599557073}
-  - component: {fileID: 1599557074}
-  m_Layer: 0
-  m_Name: "[\u0414\u0438\u0430\u043B\u043E\u0433] \u0414\u0430\u043D\u044F \u0412\u043B\u044E\u0431\u043B\u044F\u0435\u0442\u0441\u044F"
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1599557073
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1599557072}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.047982, y: -0.6697569, z: -80.79999}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1116069344}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1599557074
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1599557072}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 76259cfea18da354cbf679b0e33341ad, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  dialogues:
-  - speakerName: 
-    heroID: 0
-    sentencesAndSounds:
-    - sentence: "\u041D\u0435\u0442\u2026. \u042D\u044D\u044D\u043C\u043C\u043C\u2026
-        \u041D\u043E, \u043A\u0430\u0436\u0435\u0442\u0441\u044F \u0441\u0435\u0439\u0447\u0430\u0441
-        \u044F \u043F\u043E\u043D\u0438\u043C\u0430\u044E\u2026"
-      sound:
-        clip: {fileID: 0}
-        AudioSource: {fileID: 0}
-  nextTrigger: {fileID: 962797264}
-  dialogueIsEnded: 0
 --- !u!1 &1624852038
 GameObject:
   m_ObjectHideFlags: 0
@@ -5027,7 +3177,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1624852038}
   m_CullTransparentMesh: 1
---- !u!1 &1658413873
+--- !u!1 &1634790919
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -5035,113 +3185,24 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1658413874}
-  - component: {fileID: 1658413875}
+  - component: {fileID: 1634790920}
+  - component: {fileID: 1634790922}
+  - component: {fileID: 1634790921}
   m_Layer: 0
-  m_Name: "[\u0414\u0438\u0430\u043B\u043E\u0433] \u0417\u0430\u0432\u044F\u0437\u044B\u0432\u0430\u044E\u0442
-    \u0448\u043D\u0443\u0440\u043A\u0438"
+  m_Name: "[\u041F\u0415\u0420\u0415\u0425\u041E\u0414 \u041D\u0410 \u0421\u041B\u0415\u0414\u0423\u042E\u0429\u0423\u042E
+    \u0421\u0426\u0415\u041D\u0423]"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &1658413874
+--- !u!4 &1634790920
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1658413873}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.047982, y: -0.6697569, z: -80.79999}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1116069344}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1658413875
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1658413873}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 76259cfea18da354cbf679b0e33341ad, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  dialogues:
-  - speakerName: 
-    heroID: 10
-    sentencesAndSounds:
-    - sentence: "\u0414\u0430\u0432\u0430\u0439 \u043F\u043E\u0441\u0432\u0435\u0447\u0443
-        \u0444\u043E\u043D\u0430\u0440\u0438\u043A\u043E\u043C."
-      sound:
-        clip: {fileID: 0}
-        AudioSource: {fileID: 0}
-  - speakerName: 
-    heroID: 11
-    sentencesAndSounds:
-    - sentence: "\u041E, \u0432\u044B \u043E\u0441\u0442\u0430\u043D\u0430\u0432\u043B\u0438\u0432\u0430\u0435\u0442\u0435\u0441\u044C.
-        \u0429\u0430\u0441 \u044F \u043C\u043E\u043D\u0441\u0442\u0440 \u043F\u043E\u043F\u044C\u044E."
-      sound:
-        clip: {fileID: 0}
-        AudioSource: {fileID: 0}
-  - speakerName: 
-    heroID: 0
-    sentencesAndSounds:
-    - sentence: "\u0411\u043B\u0438\u043D, \u043A\u0430\u043A \u043E\u043D \u0437\u0430\u0432\u044F\u0437\u044B\u0432\u0430\u0435\u0442\u0441\u044F...
-        \u0422\u0443\u043F\u043E\u0439 \u0448\u043D\u0443\u0440\u043E\u043A..."
-      sound:
-        clip: {fileID: 0}
-        AudioSource: {fileID: 0}
-  - speakerName: 
-    heroID: 10
-    sentencesAndSounds:
-    - sentence: "\u0414\u0430\u0432\u0430\u0439 \u043F\u043E\u043C\u043E\u0433\u0443
-        \u0442\u0435\u0431\u0435. \u0412\u043E\u0442, \u0433\u043E\u0442\u043E\u0432\u043E!"
-      sound:
-        clip: {fileID: 0}
-        AudioSource: {fileID: 0}
-  - speakerName: 
-    heroID: 11
-    sentencesAndSounds:
-    - sentence: "\u0424\u0443\u0445\u0445, \u043D\u0443 \u0438 \u0432\u043A\u0443\u0441\u043D\u044F\u0442\u0438\u043D\u0430
-        \u0436\u0435. \u0423\u043C\u0435\u044E\u0442 \u043F\u0440\u043E\u0438\u0437\u0432\u043E\u0434\u0438\u0442\u044C
-        \u0448\u0435\u0434\u0435\u0432\u0440\u044B!"
-      sound:
-        clip: {fileID: 0}
-        AudioSource: {fileID: 0}
-  nextTrigger: {fileID: 688586821}
-  dialogueIsEnded: 0
---- !u!1 &1669600714
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1669600715}
-  - component: {fileID: 1669600717}
-  - component: {fileID: 1669600716}
-  m_Layer: 0
-  m_Name: "[\u0421\u043C\u0435\u043D\u0430 \u043C\u0443\u0437\u044B\u043A\u0438]
-    \u041C\u0443\u0437\u044B\u043A\u0430 \u0412\u0435\u043D\u0435\u0440\u044B \u041F\u043B\u044E\u0441"
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1669600715
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1669600714}
+  m_GameObject: {fileID: 1634790919}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0.90672004, y: 0.18125324, z: -297.19647}
@@ -5150,280 +3211,33 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1116069344}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1669600716
+--- !u!114 &1634790921
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1669600714}
+  m_GameObject: {fileID: 1634790919}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8827578cfd5c82d49b1ee5048d48837c, type: 3}
+  m_Script: {fileID: 11500000, guid: c449f61363d01a54f93a21d5d93704eb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  backgroundImage: {fileID: 0}
-  newBackgroundImage: {fileID: 0}
-  willCloseDialogue: 0
-  timerOnDialogueClose: 0
-  DialogueBox: {fileID: 0}
-  newBackgroundSound: {fileID: 8300000, guid: dcb5ed02fbd2bd940b7301136d9aafa5, type: 3}
---- !u!114 &1669600717
+  numOfScene: 19
+--- !u!114 &1634790922
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1669600714}
+  m_GameObject: {fileID: 1634790919}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 29fa3837d130a5545aa8c50c39a2f629, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   resultOfCondition:
-  - {fileID: 1599557072}
---- !u!1 &1698775903
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1698775905}
-  - component: {fileID: 1698775904}
-  m_Layer: 0
-  m_Name: "[\u0414\u0438\u0430\u043B\u043E\u0433] \u041D\u0435\u0444\u043E\u0440\u044B
-    6/"
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1698775904
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1698775903}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 76259cfea18da354cbf679b0e33341ad, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  dialogues:
-  - speakerName: 
-    heroID: 8
-    sentencesAndSounds:
-    - sentence: "\u0411\u043B\u044F\u0442\u044C, \u0447\u0442\u043E \u044D\u0442\u043E
-        \u0437\u0430 \u0445\u0443\u0439\u043D\u044F!"
-      sound:
-        clip: {fileID: 0}
-        AudioSource: {fileID: 0}
-  - speakerName: 
-    heroID: 0
-    sentencesAndSounds:
-    - sentence: "\u041D-\u043D\u0435... \u041D\u0435 \u0437\u043D\u0430\u044E."
-      sound:
-        clip: {fileID: 0}
-        AudioSource: {fileID: 0}
-  - speakerName: 
-    heroID: 9
-    sentencesAndSounds:
-    - sentence: "\u0410\u0430\u0430\u0430\u0430, \u043C\u043D\u0435 \u0441\u0442\u0440\u0430\u0448\u043D\u043E,
-        \u0434\u0430\u0432\u0430\u0439\u0442\u0435 \u0443\u0439\u0434\u0435\u043C
-        \u043E\u0442\u0441\u044E\u0434\u0430 \u0438 \u043F\u043E\u0441\u043A\u043E\u0440\u0435\u0435
-        \u043D\u0430\u0439\u0434\u0435\u043C \u0440\u0435\u0431\u044F\u0442."
-      sound:
-        clip: {fileID: 0}
-        AudioSource: {fileID: 0}
-  - speakerName: 
-    heroID: 0
-    sentencesAndSounds:
-    - sentence: "\u0421\u0442\u043E\u0439\u0442\u0435, \u044D\u0442\u043E \u0436\u0435
-        \u0425\u0430\u0433\u0438-\u0412\u0430\u0433\u0438."
-      sound:
-        clip: {fileID: 0}
-        AudioSource: {fileID: 0}
-  nextTrigger: {fileID: 1728676576}
-  dialogueIsEnded: 0
---- !u!4 &1698775905
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1698775903}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.047982, y: -0.6697569, z: -80.79999}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1116069344}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1720910558
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1720910560}
-  - component: {fileID: 1720910559}
-  m_Layer: 0
-  m_Name: "[\u0414\u0438\u0430\u043B\u043E\u0433] \u041D\u0435\u0444\u043E\u0440\u044B
-    2/"
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1720910559
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1720910558}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 76259cfea18da354cbf679b0e33341ad, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  dialogues:
-  - speakerName: 
-    heroID: 3
-    sentencesAndSounds:
-    - sentence: "\u0422\u0430\u043A, \u043D\u0443 \u0432\u0440\u043E\u0434\u0435
-        \u0432\u0441\u0435 \u0441\u043E\u0431\u0440\u0430\u043B\u0438. \u0422\u044B
-        \u0441 \u043D\u0430\u043C\u0438 \u0438\u043B\u0438 \u043A\u0430\u043A?"
-      sound:
-        clip: {fileID: 0}
-        AudioSource: {fileID: 0}
-  - speakerName: 
-    heroID: 2
-    sentencesAndSounds:
-    - sentence: "\u0422\u0440\u0443\u0441\u0438\u0448\u043A\u0438 \u0432\u0437\u044F\u0442\u044C
-        \u043D\u0435 \u0437\u0430\u0431\u0443\u0434\u044C \u0441\u043C\u0435\u043D\u043D\u044B\u0435.
-        \u041A\u043E-\u043A\u043E-\u043A\u043E-\u043A\u043E-\u043A\u043E."
-      sound:
-        clip: {fileID: 0}
-        AudioSource: {fileID: 0}
-  - speakerName: 
-    heroID: 0
-    sentencesAndSounds:
-    - sentence: "\u0422\u0430 \u044F, \u043A\u043E\u0440\u043E\u0447\u0435, \u043B\u0430\u0434\u043D\u043E,
-        \u0437\u0430\u0431\u0435\u0439\u0442\u0435...."
-      sound:
-        clip: {fileID: 0}
-        AudioSource: {fileID: 0}
-    - sentence: "*\u0411\u043B\u0438\u043D, \u044F \u0436\u0435 \u0437\u0430\u0431\u044B\u043B,
-        \u0447\u0442\u043E \u0442\u0440\u0443\u0441\u044B \u043D\u0435 \u043C\u0435\u043D\u044F\u043B
-        \u043D\u0435\u0441\u043A\u043E\u043B\u044C\u043A\u043E \u0434\u043D\u0435\u0439.
-        \u041D\u0430\u0434\u0435\u044E\u0441\u044C, \u043D\u0435 \u0437\u0430\u043C\u0435\u0442\u044F\u0442.*"
-      sound:
-        clip: {fileID: 0}
-        AudioSource: {fileID: 0}
-    - sentence: "\u041F\u043E\u0433\u043D\u0430\u043B\u0438!"
-      sound:
-        clip: {fileID: 0}
-        AudioSource: {fileID: 0}
-  - speakerName: 
-    heroID: 2
-    sentencesAndSounds:
-    - sentence: "\u0429\u0430, \u044F \u043F\u043B\u0430\u0432\u043A\u0438 \u043D\u0430\u0434\u0435\u043D\u0443,
-        \u0432\u0434\u0440\u0443\u0433 \u0432 \u0432\u043E\u0434\u0443 \u0443\u043F\u0430\u0434\u0435\u043C.
-        \u041D\u0435 \u0445\u043E\u0447\u0435\u0442\u0441\u044F \u0432 \u0421\u0430\u043B\u0433\u0438\u0440\u0435
-        \u0440\u044B\u0431 \u043A\u043E\u0440\u043C\u0438\u0442\u044C."
-      sound:
-        clip: {fileID: 0}
-        AudioSource: {fileID: 0}
-  nextTrigger: {fileID: 308775105}
-  dialogueIsEnded: 0
---- !u!4 &1720910560
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1720910558}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.047982, y: -0.6697569, z: -80.79999}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1116069344}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1728676576
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1728676579}
-  - component: {fileID: 1728676578}
-  - component: {fileID: 1728676577}
-  m_Layer: 0
-  m_Name: "[\u0421\u043C\u0435\u043D\u0430 \u0444\u043E\u043D\u0430] \u0414\u0430\u043D\u044F
-    \u043F\u043E\u0434\u043E\u0448\u0435\u043B \u043A \u0425\u0430\u0433\u0438-\u0412\u0430\u0433\u0438"
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1728676577
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1728676576}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8827578cfd5c82d49b1ee5048d48837c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  backgroundImage: {fileID: 1244400855}
-  newBackgroundImage: {fileID: 21300000, guid: b2dace1b53e41664098e81697e372db0, type: 3}
-  willCloseDialogue: 1
-  timerOnDialogueClose: 3
-  DialogueBox: {fileID: 1252078564}
-  newBackgroundSound: {fileID: 0}
---- !u!114 &1728676578
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1728676576}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 29fa3837d130a5545aa8c50c39a2f629, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  resultOfCondition:
-  - {fileID: 526630237}
---- !u!4 &1728676579
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1728676576}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.90672004, y: 0.18125324, z: -297.19647}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1116069344}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  - {fileID: 0}
 --- !u!1 &1744755290
 GameObject:
   m_ObjectHideFlags: 0
@@ -5480,110 +3294,20 @@ MonoBehaviour:
     Name: "\u0414\u0430\u043D\u044F"
     Avatar: {fileID: 21300000, guid: e5211b3e89cdcc948b2801e2951cde25, type: 3}
   - Id: 1
-    Name: "*\u0417\u0432\u0443\u043A\u0438*"
+    Name: "*\u042E\u0440\u0430*"
     Avatar: {fileID: 21300000, guid: e5211b3e89cdcc948b2801e2951cde25, type: 3}
   - Id: 2
-    Name: "\u0410\u0440\u0441\u0435\u043D"
-    Avatar: {fileID: 21300000, guid: 6a1b072e857a3ea47b7ce0c2d63eee42, type: 3}
+    Name: "*\u0417\u0432\u043E\u043D\u043E\u043A*"
+    Avatar: {fileID: 21300000, guid: e5211b3e89cdcc948b2801e2951cde25, type: 3}
   - Id: 3
-    Name: "\u041F\u043E\u043B\u0438\u043D\u0430"
-    Avatar: {fileID: 21300000, guid: c828666d1e3deb641b2df8dbea8e0c26, type: 3}
+    Name: "\u041C\u0430\u043C\u0430"
+    Avatar: {fileID: 21300000, guid: 95315fbee62999b42988c2695852d431, type: 3}
   - Id: 4
-    Name: "\u041C\u0438\u043B\u0430\u043D\u0430"
-    Avatar: {fileID: 21300000, guid: 517e5e779e947124eb1c1ebabe319001, type: 3}
+    Name: "\u0418\u043B\u044C\u044F\u0441"
+    Avatar: {fileID: 21300000, guid: e5211b3e89cdcc948b2801e2951cde25, type: 3}
   - Id: 5
-    Name: "\u0415\u0432\u0433\u0435\u043D\u0438\u044F"
-    Avatar: {fileID: 21300000, guid: aacb7dec31606ec4e936b01f074969e4, type: 3}
-  - Id: 6
-    Name: "\u041D\u0435\u0444\u043E\u0440\u044B"
-    Avatar: {fileID: 21300000, guid: 73d3925ee93b3ff46b819f3be3bdbcad, type: 3}
-  - Id: 7
-    Name: "\u0412\u0435\u043D\u0435\u0440\u0430"
-    Avatar: {fileID: 21300000, guid: 97e8636e44ae52e439c8d026150ce0ab, type: 3}
-  - Id: 8
-    Name: "\u041E\u043B\u0435\u0433"
-    Avatar: {fileID: 21300000, guid: 6145723ed54b02348a7b27a904a4186e, type: 3}
-  - Id: 9
-    Name: "\u0412\u0435\u043D\u0435\u0440\u0430"
-    Avatar: {fileID: 21300000, guid: 9edd461e2493d2240ad2771e5e8da39c, type: 3}
-  - Id: 10
-    Name: "\u0412\u0435\u043D\u0435\u0440\u0430"
-    Avatar: {fileID: 21300000, guid: e5211b3e89cdcc948b2801e2951cde25, type: 3}
-  - Id: 11
-    Name: "\u041E\u043B\u0435\u0433"
-    Avatar: {fileID: 21300000, guid: e5211b3e89cdcc948b2801e2951cde25, type: 3}
---- !u!1 &1756695222
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1756695225}
-  - component: {fileID: 1756695224}
-  - component: {fileID: 1756695223}
-  m_Layer: 0
-  m_Name: "[\u0421\u043B\u0430\u0439\u0434\u0435\u0440] \u0425\u0430\u0433\u0438-\u0432\u0430\u0433\u0438
-    \u0421\u043A\u0440\u0438\u043C\u0435\u0440"
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1756695223
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1756695222}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e02b9d470a0ccad439a25adb351fbc4c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  willShadowWithChange: 1
-  backgroundImage: {fileID: 1244400855}
-  arrayNewBGImages:
-  - {fileID: 21300000, guid: 3212e5b4ea442134d8b6ffe0010d012c, type: 3}
-  - {fileID: 21300000, guid: e5e91279cf1ec09418c1f4fedbc30e27, type: 3}
-  - {fileID: 21300000, guid: b2dace1b53e41664098e81697e372db0, type: 3}
-  - {fileID: 21300000, guid: e5e91279cf1ec09418c1f4fedbc30e27, type: 3}
-  newImage: {fileID: 21300000, guid: 78447c7407673734fa43a4f145a41e6e, type: 3}
-  endMusicOnEnd: 1
-  timerBeforeNextSlide: 0.7
-  DialogueBox: {fileID: 1252078564}
-  newBackgroundSound: {fileID: 8300000, guid: f31456dd35725384c8672597b06113f0, type: 3}
---- !u!114 &1756695224
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1756695222}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 29fa3837d130a5545aa8c50c39a2f629, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  resultOfCondition:
-  - {fileID: 1698775903}
---- !u!4 &1756695225
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1756695222}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.90672004, y: 0.18125324, z: -297.19647}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1116069344}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+    Name: "\u042E\u0440\u0430"
+    Avatar: {fileID: 21300000, guid: 9826a18665c4905429c4439849ed21c7, type: 3}
 --- !u!1 &1801982555
 GameObject:
   m_ObjectHideFlags: 0
@@ -5755,7 +3479,7 @@ MonoBehaviour:
         clip: {fileID: 0}
         AudioSource: {fileID: 0}
   - speakerName: 
-    heroID: 1
+    heroID: 9
     sentencesAndSounds:
     - sentence: "\u0412 \u043B\u0435\u0441 \u043F\u043E\u043A\u0430 \u043D\u0435
         \u0445\u043E\u0434\u0438\u2026"
@@ -5824,132 +3548,6 @@ MonoBehaviour:
         AudioSource: {fileID: 0}
   nextTrigger: {fileID: 0}
   dialogueIsEnded: 0
---- !u!1 &1871266885
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1871266888}
-  - component: {fileID: 1871266887}
-  - component: {fileID: 1871266886}
-  m_Layer: 0
-  m_Name: "[\u041F\u0415\u0420\u0415\u0425\u041E\u0414 \u041D\u0410 \u0421\u041B\u0415\u0414\u0423\u042E\u0429\u0423\u042E
-    \u0421\u0426\u0415\u041D\u0423]"
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1871266886
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1871266885}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c449f61363d01a54f93a21d5d93704eb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  numOfScene: 22
---- !u!114 &1871266887
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1871266885}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 29fa3837d130a5545aa8c50c39a2f629, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  resultOfCondition:
-  - {fileID: 0}
---- !u!4 &1871266888
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1871266885}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.90672004, y: 0.18125324, z: -297.19647}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1116069344}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1947544194
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1947544195}
-  - component: {fileID: 1947544197}
-  - component: {fileID: 1947544196}
-  m_Layer: 0
-  m_Name: "[\u0421\u043C\u0435\u043D\u0430 \u0444\u043E\u043D\u0430] \u0428\u043D\u0443\u0440\u043E\u043A"
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1947544195
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1947544194}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.90672004, y: 0.18125324, z: -297.19647}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1116069344}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1947544196
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1947544194}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8827578cfd5c82d49b1ee5048d48837c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  backgroundImage: {fileID: 1244400855}
-  newBackgroundImage: {fileID: 21300000, guid: e56bfcd4d4a695d48a4714fbf4e4e1dd, type: 3}
-  willCloseDialogue: 1
-  timerOnDialogueClose: 3
-  DialogueBox: {fileID: 1252078564}
-  newBackgroundSound: {fileID: 8300000, guid: b04f67f909dc7bf46a3a9c0a1583681b, type: 3}
---- !u!114 &1947544197
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1947544194}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 29fa3837d130a5545aa8c50c39a2f629, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  resultOfCondition:
-  - {fileID: 1658413873}
 --- !u!1 &1948978938
 GameObject:
   m_ObjectHideFlags: 0
@@ -6167,183 +3765,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1970613735}
   m_CullTransparentMesh: 1
---- !u!1 &2055848183
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2055848185}
-  - component: {fileID: 2055848184}
-  m_Layer: 0
-  m_Name: "[\u0414\u0438\u0430\u043B\u043E\u0433] \u041D\u0435\u0444\u043E\u0440\u044B
-    5/"
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &2055848184
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2055848183}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 76259cfea18da354cbf679b0e33341ad, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  dialogues:
-  - speakerName: 
-    heroID: 9
-    sentencesAndSounds:
-    - sentence: "\u041A\u0430\u0436\u0435\u0442\u0441\u044F, \u043C\u044B \u0443\u0436\u0435
-        \u0442\u0443\u0442 \u0431\u044B\u043B\u0438. \u0413\u0434\u0435 \u043E\u043D\u0438?"
-      sound:
-        clip: {fileID: 0}
-        AudioSource: {fileID: 0}
-  - speakerName: 
-    heroID: 8
-    sentencesAndSounds:
-    - sentence: "\u0420\u0435\u0431\u044F\u0442\u0430, \u0440\u0430\u0441\u0441\u043B\u0430\u0431\u0442\u0435\u0441\u044C."
-      sound:
-        clip: {fileID: 0}
-        AudioSource: {fileID: 0}
-  - speakerName: 
-    heroID: 1
-    sentencesAndSounds:
-    - sentence: "*\u0428\u043E\u0440\u043E\u0445 \u0432 \u043A\u0443\u0441\u0442\u0430\u0445*"
-      sound:
-        clip: {fileID: 8300000, guid: 5c3dd2db7d1693f4099be3145442284f, type: 3}
-        AudioSource: {fileID: 0}
-  - speakerName: 
-    heroID: 9
-    sentencesAndSounds:
-    - sentence: "\u0410\u0439, \u043A\u0442\u043E \u0442\u0430\u043C?"
-      sound:
-        clip: {fileID: 0}
-        AudioSource: {fileID: 0}
-    - sentence: "*\u0411\u0435\u0440\u0435\u0442 \u0414\u0430\u043D\u044E \u0437\u0430
-        \u0440\u0443\u043A\u0443*"
-      sound:
-        clip: {fileID: 8300000, guid: 3b9759f62fffc3b4197a5f8172c5c965, type: 3}
-        AudioSource: {fileID: 0}
-  - speakerName: 
-    heroID: 0
-    sentencesAndSounds:
-    - sentence: "\u042D\u044D\u044D\u044D, \u0442\u0430 \u043D\u0435 \u0432\u0438\u0434\u043D\u043E
-        \u043D\u0438\u0447\u0435\u0433\u043E. \u041C\u0435\u0434\u0432\u0435\u0434\u044C
-        \u043C\u043E\u0436\u0435\u0442."
-      sound:
-        clip: {fileID: 0}
-        AudioSource: {fileID: 0}
-  - speakerName: 
-    heroID: 9
-    sentencesAndSounds:
-    - sentence: "\u042F \u0431\u043E\u044E\u0441\u044C \u043C\u0435\u0434\u0432\u0435\u0434\u0435\u0439.
-        \u041E\u043D \u0436\u0435 \u043D\u0430\u0441 \u0440\u0430\u0437\u043E\u0440\u0432\u0435\u0442!!!"
-      sound:
-        clip: {fileID: 0}
-        AudioSource: {fileID: 0}
-  - speakerName: 
-    heroID: 8
-    sentencesAndSounds:
-    - sentence: "\u041C\u0435\u043D\u044F \u0443\u0436\u0435 \u043E\u0442 \u043C\u043E\u043D\u0441\u0442\u0440\u0430
-        \u0440\u0430\u0437\u043E\u0440\u0432\u0430\u043B\u043E)) \u0429\u0430 \u044F
-        \u0435\u043C\u0443 \u043F\u043E\u043A\u0430\u0436\u0443 \u0432\u0441\u044E
-        \u0441\u0438\u043B\u0443 \u0447\u0438\u0441\u0442\u043E\u0439 \u044D\u043D\u0435\u0440\u0433\u0438\u0438!!!
-        \u041F\u043E\u0441\u0432\u044F\u0442\u0438-\u043A\u0430 \u0442\u0443\u0434\u0430,
-        \u0414\u0430\u043D\u0438\u043B\u0430.\r"
-      sound:
-        clip: {fileID: 0}
-        AudioSource: {fileID: 0}
-  nextTrigger: {fileID: 1756695222}
-  dialogueIsEnded: 0
---- !u!4 &2055848185
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2055848183}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.047982, y: -0.6697569, z: -80.79999}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1116069344}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &2098469231
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2098469234}
-  - component: {fileID: 2098469233}
-  - component: {fileID: 2098469232}
-  m_Layer: 0
-  m_Name: "[\u0421\u043C\u0435\u043D\u0430 \u0444\u043E\u043D\u0430] \u0412\u0441\u0435
-    \u043F\u0440\u0435\u043A\u0440\u0430\u0449\u0430\u0435\u0442\u0441\u044F"
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &2098469232
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2098469231}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8827578cfd5c82d49b1ee5048d48837c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  backgroundImage: {fileID: 1244400855}
-  newBackgroundImage: {fileID: 21300000, guid: 63e18c4fe2921d3438b53a3811946a37, type: 3}
-  willCloseDialogue: 1
-  timerOnDialogueClose: 3
-  DialogueBox: {fileID: 1252078564}
-  newBackgroundSound: {fileID: 0}
---- !u!114 &2098469233
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2098469231}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 29fa3837d130a5545aa8c50c39a2f629, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  resultOfCondition:
-  - {fileID: 406051327}
---- !u!4 &2098469234
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2098469231}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.90672004, y: 0.18125324, z: -297.19647}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1116069344}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2110928148
 GameObject:
   m_ObjectHideFlags: 0

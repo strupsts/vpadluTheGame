@@ -56,6 +56,24 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/src/Scenes/Day 5/Day 5 End.unity
     guid: 7ba3cd0fe721e374991d20a5f8fdce68
+  - enabled: 1
+    path: Assets/src/Scenes/Day 6/Day 6 (Start).unity
+    guid: 0bdb4d9e10e10ef4faefa7854c201042
+  - enabled: 1
+    path: Assets/src/Scenes/Day 6/Day 6 (Efim).unity
+    guid: 0b2d5006591e7894fae5b12ed795c8f7
+  - enabled: 1
+    path: Assets/src/Scenes/Day 6/Day 6 (Brigada).unity
+    guid: ad2e7e2a9e88531449bc12d5a191248d
+  - enabled: 1
+    path: Assets/src/Scenes/Day 6/Day 6 (Friends).unity
+    guid: edcf5ff93e4b4c6429a86a5f278f575b
+  - enabled: 1
+    path: Assets/src/Scenes/Day 6/Day 6 (Nefori).unity
+    guid: eee170cba14493345bc85c8e5735650b
+  - enabled: 1
+    path: Assets/src/Scenes/Day 6/Day 6 (End).unity
+    guid: 59d2a1811d144484b89a149216959e4f
   m_configObjects:
     com.unity.adaptiveperformance.google.android.provider_settings: {fileID: 11400000, guid: 3fc81371c149a5b4786a20a2af506bbd, type: 2}
     com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: 60af0dfb25d26654f8fab2c8bdee1dea, type: 2}
