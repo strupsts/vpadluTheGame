@@ -3,11 +3,15 @@
   "WorkspaceRootPath": "C:\\Users\\User\\vpadluTheGame\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{EC5D261D-67E1-86DF-3472-9811628B5930}|Assembly-CSharp.csproj|c:\\users\\user\\vpadluthegame\\assets\\src\\scripts\\day6-scripts\\neforsfivechoicecustomscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC5D261D-67E1-86DF-3472-9811628B5930}|Assembly-CSharp.csproj|solutionrelative:assets\\src\\scripts\\day6-scripts\\neforsfivechoicecustomscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{EC5D261D-67E1-86DF-3472-9811628B5930}|Assembly-CSharp.csproj|c:\\users\\user\\vpadluthegame\\assets\\src\\scripts\\day5-scripts\\nunchakiconditionscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EC5D261D-67E1-86DF-3472-9811628B5930}|Assembly-CSharp.csproj|solutionrelative:assets\\src\\scripts\\day5-scripts\\nunchakiconditionscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EC5D261D-67E1-86DF-3472-9811628B5930}|Assembly-CSharp.csproj|c:\\users\\user\\vpadluthegame\\assets\\src\\scripts\\day1-scripts\\tobaccoconditionscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{EC5D261D-67E1-86DF-3472-9811628B5930}|Assembly-CSharp.csproj|C:\\Users\\User\\vpadluTheGame\\assets\\src\\scripts\\day1-scripts\\tobaccoconditionscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EC5D261D-67E1-86DF-3472-9811628B5930}|Assembly-CSharp.csproj|solutionrelative:assets\\src\\scripts\\day1-scripts\\tobaccoconditionscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -27,6 +31,23 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "NeforsFiveChoiceCustomScript.cs",
+              "DocumentMoniker": "C:\\Users\\User\\vpadluTheGame\\Assets\\src\\Scripts\\Day6-Scripts\\NeforsFiveChoiceCustomScript.cs",
+              "RelativeDocumentMoniker": "Assets\\src\\Scripts\\Day6-Scripts\\NeforsFiveChoiceCustomScript.cs",
+              "ToolTip": "C:\\Users\\User\\vpadluTheGame\\Assets\\src\\Scripts\\Day6-Scripts\\NeforsFiveChoiceCustomScript.cs",
+              "RelativeToolTip": "Assets\\src\\Scripts\\Day6-Scripts\\NeforsFiveChoiceCustomScript.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-25T07:59:52.424Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "NunchakiConditionScript.cs",
               "DocumentMoniker": "C:\\Users\\User\\vpadluTheGame\\Assets\\src\\Scripts\\Day5-Scripts\\NunchakiConditionScript.cs",
               "RelativeDocumentMoniker": "Assets\\src\\Scripts\\Day5-Scripts\\NunchakiConditionScript.cs",
@@ -39,7 +60,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "TobaccoConditionScript.cs",
               "DocumentMoniker": "C:\\Users\\User\\vpadluTheGame\\Assets\\src\\Scripts\\Day1-Scripts\\TobaccoConditionScript.cs",
               "RelativeDocumentMoniker": "Assets\\src\\Scripts\\Day1-Scripts\\TobaccoConditionScript.cs",
@@ -47,16 +68,11 @@
               "RelativeToolTip": "Assets\\src\\Scripts\\Day1-Scripts\\TobaccoConditionScript.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-17T08:45:36.309Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+              "WhenOpened": "2024-07-17T08:45:36.309Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "ChangeSceneDay5Handler.cs",
               "DocumentMoniker": "C:\\Users\\User\\vpadluTheGame\\Assets\\src\\Scripts\\Day3-Scripts\\ChangeSceneDay5Handler.cs",
               "RelativeDocumentMoniker": "Assets\\src\\Scripts\\Day3-Scripts\\ChangeSceneDay5Handler.cs",

@@ -331,7 +331,7 @@ MonoBehaviour:
   backgroundImage: {fileID: 1244400855}
   arrayNewBGImages:
   - {fileID: 21300000, guid: 1dc68b72623713a488a493aa2bd4a5d7, type: 3}
-  newImage: {fileID: 21300000, guid: 1dc68b72623713a488a493aa2bd4a5d7, type: 3}
+  newImage: {fileID: 21300000, guid: 387703b251c6a754f87c0da4e3bb22cc, type: 3}
   endMusicOnEnd: 1
   timerBeforeNextSlide: 3
   DialogueBox: {fileID: 1252078564}
@@ -674,7 +674,7 @@ MonoBehaviour:
   backgroundImage: {fileID: 1244400855}
   arrayNewBGImages:
   - {fileID: 21300000, guid: bdd88cc4d4b0b82499958147617c313a, type: 3}
-  newImage: {fileID: 21300000, guid: df11ab0f853bba44ca4bd83e69f248d7, type: 3}
+  newImage: {fileID: 21300000, guid: 85b97ea014c670442a4897b14ceaac1e, type: 3}
   endMusicOnEnd: 1
   timerBeforeNextSlide: 3
   DialogueBox: {fileID: 1252078564}
@@ -1087,7 +1087,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nameText: {fileID: 211457225}
   dialogueText: {fileID: 645555840}
-  StartDialogueTrigger: {fileID: 182781849}
+  StartDialogueTrigger: {fileID: 1637082411}
   animator: {fileID: 1252078565}
   musicSource: {fileID: 0}
   backgroundMusic: {fileID: 0}
@@ -1708,7 +1708,7 @@ MonoBehaviour:
   backgroundImage: {fileID: 1244400855}
   arrayNewBGImages:
   - {fileID: 21300000, guid: 4b14634941414ce469e5b1202e4fea92, type: 3}
-  newImage: {fileID: 21300000, guid: 4b14634941414ce469e5b1202e4fea92, type: 3}
+  newImage: {fileID: 21300000, guid: 75a1a846fd6de6d40a7809855efde19d, type: 3}
   endMusicOnEnd: 1
   timerBeforeNextSlide: 3
   DialogueBox: {fileID: 1252078564}
@@ -3287,7 +3287,7 @@ MonoBehaviour:
   backgroundImage: {fileID: 1244400855}
   arrayNewBGImages:
   - {fileID: 21300000, guid: 2b4a3e75d53a73f4d8db4ffe44ca4a72, type: 3}
-  newImage: {fileID: 21300000, guid: 2b4a3e75d53a73f4d8db4ffe44ca4a72, type: 3}
+  newImage: {fileID: 21300000, guid: 4f2b4bdf363a0ea45a764e8ea01e0f02, type: 3}
   endMusicOnEnd: 1
   timerBeforeNextSlide: 3
   DialogueBox: {fileID: 1252078564}
@@ -4331,7 +4331,7 @@ MonoBehaviour:
   backgroundImage: {fileID: 1244400855}
   arrayNewBGImages:
   - {fileID: 21300000, guid: d6a8b2f4ea0db0041a0ea22b39003404, type: 3}
-  newImage: {fileID: 21300000, guid: d6a8b2f4ea0db0041a0ea22b39003404, type: 3}
+  newImage: {fileID: 21300000, guid: 0d6445466dcd7004e80caa9edda1ea71, type: 3}
   endMusicOnEnd: 1
   timerBeforeNextSlide: 3
   DialogueBox: {fileID: 1252078564}
@@ -4934,7 +4934,7 @@ MonoBehaviour:
   backgroundImage: {fileID: 1244400855}
   arrayNewBGImages:
   - {fileID: 21300000, guid: e2619bc64cb39984ea595c2c392cc56e, type: 3}
-  newImage: {fileID: 21300000, guid: e2619bc64cb39984ea595c2c392cc56e, type: 3}
+  newImage: {fileID: 21300000, guid: 7ec75fe38fc83274c9dff6545fc16968, type: 3}
   endMusicOnEnd: 1
   timerBeforeNextSlide: 3
   DialogueBox: {fileID: 1252078564}
@@ -5003,7 +5003,7 @@ MonoBehaviour:
   backgroundImage: {fileID: 1244400855}
   arrayNewBGImages:
   - {fileID: 21300000, guid: 196aa83a822d2664e80e09d300136ec5, type: 3}
-  newImage: {fileID: 21300000, guid: 196aa83a822d2664e80e09d300136ec5, type: 3}
+  newImage: {fileID: 21300000, guid: 2140bd83586deeb4e97ae958eb8d8570, type: 3}
   endMusicOnEnd: 1
   timerBeforeNextSlide: 3
   DialogueBox: {fileID: 1252078564}
@@ -5346,7 +5346,7 @@ MonoBehaviour:
   backgroundImage: {fileID: 1244400855}
   arrayNewBGImages:
   - {fileID: 21300000, guid: 8c1f7401c5ba6d4458ec2f6e3f339afc, type: 3}
-  newImage: {fileID: 21300000, guid: 8c1f7401c5ba6d4458ec2f6e3f339afc, type: 3}
+  newImage: {fileID: 21300000, guid: d1b9fe1d1463d624ca9be8356359f813, type: 3}
   endMusicOnEnd: 1
   timerBeforeNextSlide: 3
   DialogueBox: {fileID: 1252078564}
@@ -5936,7 +5936,7 @@ MonoBehaviour:
   backgroundImage: {fileID: 1244400855}
   arrayNewBGImages:
   - {fileID: 21300000, guid: df11ab0f853bba44ca4bd83e69f248d7, type: 3}
-  newImage: {fileID: 21300000, guid: df11ab0f853bba44ca4bd83e69f248d7, type: 3}
+  newImage: {fileID: 21300000, guid: 85b97ea014c670442a4897b14ceaac1e, type: 3}
   endMusicOnEnd: 1
   timerBeforeNextSlide: 3
   DialogueBox: {fileID: 1252078564}
@@ -6394,7 +6394,7 @@ MonoBehaviour:
   backgroundImage: {fileID: 1244400855}
   arrayNewBGImages:
   - {fileID: 21300000, guid: fd546a1a3ee511b4989e8ed91b20593d, type: 3}
-  newImage: {fileID: 21300000, guid: fd546a1a3ee511b4989e8ed91b20593d, type: 3}
+  newImage: {fileID: 21300000, guid: e957a1dfa48b8384a8bd79506b96a92d, type: 3}
   endMusicOnEnd: 1
   timerBeforeNextSlide: 3
   DialogueBox: {fileID: 1252078564}
@@ -6464,7 +6464,7 @@ MonoBehaviour:
   arrayNewBGImages:
   - {fileID: 21300000, guid: df11ab0f853bba44ca4bd83e69f248d7, type: 3}
   - {fileID: 21300000, guid: 6a615347b4b305b41840c6d74bc46471, type: 3}
-  newImage: {fileID: 21300000, guid: 6a615347b4b305b41840c6d74bc46471, type: 3}
+  newImage: {fileID: 21300000, guid: 984b0d78f584dc6479e4feb84dbd6c5d, type: 3}
   endMusicOnEnd: 1
   timerBeforeNextSlide: 3
   DialogueBox: {fileID: 1252078564}

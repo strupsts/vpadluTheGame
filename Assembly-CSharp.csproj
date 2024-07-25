@@ -130,6 +130,7 @@
     <Compile Include="Assets\src\Scripts\CommonScripts\Dialogue.cs" />
     <Compile Include="Assets\src\Scripts\Day1-Scripts\BogdanAdviceConditionTrigger.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SkewTextExample.cs" />
+    <Compile Include="Assets\src\Scripts\Day6-Scripts\NeforsFourChoiceCustomScript.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\WarpTextExample.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshProFloatingText.cs" />
     <Compile Include="Assets\src\Scripts\CommonScripts\AdditionalChoiceScript.cs" />
