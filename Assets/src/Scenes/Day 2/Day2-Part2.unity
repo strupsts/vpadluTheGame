@@ -2479,7 +2479,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nameText: {fileID: 916398711}
   dialogueText: {fileID: 1829307765}
-  StartDialogueTrigger: {fileID: 2132022865}
+  StartDialogueTrigger: {fileID: 1448226590}
   animator: {fileID: 1354915569}
   musicSource: {fileID: 0}
   backgroundMusic: {fileID: 0}
@@ -5030,7 +5030,7 @@ MonoBehaviour:
         \u043D\u0435\u043A\u0440\u0430\u0441\u0438\u0432\u043E \u043F\u043E\u043B\u0443\u0447\u0430\u0435\u0442\u0441\u044F
         \u0431\u043B\u0438\u043D\u2026"
       sound:
-        clip: {fileID: 8300000, guid: c6c189b22aaad954e832e3e361c0df24, type: 3}
+        clip: {fileID: 8300000, guid: d096c51bcf793314299664ef32f64a40, type: 3}
         AudioSource: {fileID: 0}
   - speakerName: 
     heroID: 14
@@ -5052,7 +5052,7 @@ MonoBehaviour:
     sentencesAndSounds:
     - sentence: "\u0420\u0435\u0430\u043B\u044C\u043D\u043E)"
       sound:
-        clip: {fileID: 8300000, guid: e6d542a5bb56c744e83d4ada70da87bf, type: 3}
+        clip: {fileID: 8300000, guid: 3019f0039944ee845bd9bd1e886b178c, type: 3}
         AudioSource: {fileID: 0}
   - speakerName: 
     heroID: 16
