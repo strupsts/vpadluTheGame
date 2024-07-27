@@ -2,17 +2,17 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class kolyaWinOrLoseConditionTrigger : MonoBehaviour, IConditionHandler
+public class OzonCheckConditionTrigger : MonoBehaviour, IConditionHandler
 {
 
     public int StartConditionHandle()
     {
-        if (Quiz.getQuizPoints("MamaQuiz") < 5)
+        bool ozonPressure = GameManager.Instance.GetSomeThingsListValue("OzonPressure");
+        if (ozonPressure)
         {
-            
             return 0;
         }
-        else if (Quiz.getQuizPoints("MamaQuiz") == 5)
+        else if (!ozonPressure)
         {
 
             return 1;

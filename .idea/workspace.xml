@@ -1,16 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="33c7207c-eba3-4188-8fbc-643204c7e0a2" name="Changes" comment="test-cli">
+    <list default="true" id="33c7207c-eba3-4188-8fbc-643204c7e0a2" name="Changes" comment="Script change scene 2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.vs/VpadluGame/v17/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/VpadluGame/v17/.suo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assembly-CSharp-Editor.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp-Editor.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/src/Scenes/Day 4/Day4-KOLYA.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/src/Scenes/Day 4/Day4-KOLYA.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/src/Scenes/Day 5/Day 5.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/src/Scenes/Day 5/Day 5.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/src/Scripts/CommonScripts/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/src/Scripts/CommonScripts/GameManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/src/Scripts/Day5-Scripts/NeforsFourChoiceCustomScript.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/src/Scripts/Day5-Scripts/NeforsFourChoiceCustomScript.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/Scripts/Day5-Scripts/KolyaWInOrLoseConditionTrigger.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/src/Scripts/Day5-Scripts/KolyaWInOrLoseConditionTrigger.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/Scripts/Day6-Scripts/NeforsFourChoiceCustomScript.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/Scripts/Day6-Scripts/NeforsFourChoiceCustomScript.cs.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/VpadluGame.sln" beforeDir="false" afterPath="$PROJECT_DIR$/VpadluGame.sln" afterDir="false" />
     </list>
@@ -21,7 +19,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />

@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class NeforsFourChoiceCustomScript : MonoBehaviour, ICustomTrigger
+public class NeforsFiveChoiceCustomScript : MonoBehaviour, ICustomTrigger
 {
     
     void ICustomTrigger.Trigger()
