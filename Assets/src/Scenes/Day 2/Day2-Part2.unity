@@ -3865,6 +3865,7 @@ MonoBehaviour:
   willShadowWithChange: 1
   backgroundImage: {fileID: 2033453796}
   arrayNewBGImages:
+  - {fileID: 21300000, guid: 3212e5b4ea442134d8b6ffe0010d012c, type: 3}
   - {fileID: 21300000, guid: 8ce9a362d9e338a43a22137a211cd872, type: 3}
   newImage: {fileID: 21300000, guid: bb32742cbc62ac44a88917d7a7f94c52, type: 3}
   endMusicOnEnd: 1
