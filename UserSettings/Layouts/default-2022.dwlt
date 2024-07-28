@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 989
   m_ShowMode: 4
-  m_Title: Hierarchy
+  m_Title: Project
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -189,8 +189,8 @@ MonoBehaviour:
     y: 0
     width: 448
     height: 540
-  m_MinSize: {x: 201, y: 221}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 13}
   m_Panes:
   - {fileID: 13}
@@ -324,7 +324,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/src/Assets/Images/day 6
+    - Assets/src/Scripts/Day5-Scripts
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
@@ -332,16 +332,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 63
   m_LastFolders:
-  - Assets/src/Assets/Images/day 6
+  - Assets/src/Scripts/Day5-Scripts
   m_LastFoldersGridSize: 63
   m_LastProjectPath: C:\Users\User\vpadluTheGame
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 506}
-    m_SelectedIDs: c26b0000
-    m_LastClickedID: 27586
-    m_ExpandedIDs: 00000000966700005c6800009e680000a2680000b26b0000b46b000048d9000052d900005ad9000000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 250}
+    m_SelectedIDs: 70710000
+    m_LastClickedID: 29040
+    m_ExpandedIDs: 00000000ee670000b4680000f6680000f8680000106900001269000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -369,7 +369,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 0000000096670000
+    m_ExpandedIDs: 00000000ee670000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -462,9 +462,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: e8180100
-      m_LastClickedID: 71912
-      m_ExpandedIDs: e0e2feff3407ffffd407ffff182dffffea2dffff4c2effff4c2fffff783bffff6261fffffc61ffff0665ffffa868ffffea91ffff9492ffff60abffff90acffff80adffff3caeffff2aafffffe2bcffff8ecdffff48e1ffff60edffffbcefffff76f6ffffb2f9ffff16fbffff7a650000186900006a690000046b000002700000c6700000f6700000a071000076750000fe790000e87e00003a7f0000328200008885000074880000c68800009c8a0000be8c0000968e0000c2930000149400005e950000b0950000d4a8000002ae000042b30000cab400001cb5000040e000005ae0000092e0000022e600008ce7000028e9000048ea00008eea00006005010088060100d4060100e2170100361801003e180100
+      m_SelectedIDs: 88630000
+      m_LastClickedID: 0
+      m_ExpandedIDs: 34f8ffffd4faffff8a65000092650000086a0000686a0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
