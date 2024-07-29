@@ -1028,7 +1028,7 @@ MonoBehaviour:
     sentencesAndSounds:
     - sentence: "*\u041F\u0430\u0443\u0437\u0430*"
       sound:
-        clip: {fileID: 8300000, guid: 3fd8e63b52bb6b14aaefc14ac41fef9c, type: 3}
+        clip: {fileID: 8300000, guid: 9b35d6bfefe2fcb4dbb72fef00f3da0a, type: 3}
         AudioSource: {fileID: 0}
   - speakerName: 
     heroID: 4
@@ -1087,7 +1087,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nameText: {fileID: 211457225}
   dialogueText: {fileID: 645555840}
-  StartDialogueTrigger: {fileID: 182781849}
+  StartDialogueTrigger: {fileID: 445657699}
   animator: {fileID: 1252078565}
   musicSource: {fileID: 0}
   backgroundMusic: {fileID: 0}
@@ -1565,7 +1565,7 @@ MonoBehaviour:
     sentencesAndSounds:
     - sentence: "*\u041F\u0430\u0443\u0437\u0430*"
       sound:
-        clip: {fileID: 8300000, guid: 3fd8e63b52bb6b14aaefc14ac41fef9c, type: 3}
+        clip: {fileID: 8300000, guid: 854c4d9da0098be45903819c4639856a, type: 3}
         AudioSource: {fileID: 0}
   - speakerName: 
     heroID: 1
@@ -3222,7 +3222,7 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 2b4a3e75d53a73f4d8db4ffe44ca4a72, type: 3}
   newImage: {fileID: 21300000, guid: 4f2b4bdf363a0ea45a764e8ea01e0f02, type: 3}
   endMusicOnEnd: 1
-  timerBeforeNextSlide: 3
+  timerBeforeNextSlide: 7
   DialogueBox: {fileID: 1252078564}
   newBackgroundSound: {fileID: 8300000, guid: e1c9976fbeba08649b31d67474b10e7b, type: 3}
 --- !u!114 &1149538768
@@ -5107,7 +5107,7 @@ MonoBehaviour:
   endMusicOnEnd: 1
   timerBeforeNextSlide: 3
   DialogueBox: {fileID: 1252078564}
-  newBackgroundSound: {fileID: 8300000, guid: c3639798e035361498b4cad1e509863e, type: 3}
+  newBackgroundSound: {fileID: 0}
 --- !u!114 &1803513152
 MonoBehaviour:
   m_ObjectHideFlags: 0
