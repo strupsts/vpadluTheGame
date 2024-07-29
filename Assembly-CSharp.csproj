@@ -68,6 +68,7 @@
     <Compile Include="Assets\src\Scripts\Day1-Scripts\hasCucumbersConditionTrigger.cs" />
     <Compile Include="Assets\src\Scripts\CommonScripts\ConditionCheckSystem\Action.cs" />
     <Compile Include="Assets\src\Scripts\Day1-Scripts\BogdanCheckCondition.cs" />
+    <Compile Include="Assets\src\Scripts\Day5-Scripts\NunchakiConditionTrigger.cs" />
     <Compile Include="Assets\src\Scripts\Day2-Scripts\FakeGame\CarTrigger.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_ExampleScript_01.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMPro_InstructionOverlay.cs" />
@@ -103,7 +104,6 @@
     <Compile Include="Assets\src\Scripts\CommonScripts\GameManager.cs" />
     <Compile Include="Assets\src\Scripts\PrologueScripts\FirstCondition.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_DigitValidator.cs" />
-    <Compile Include="Assets\src\Scripts\Day5-Scripts\NunchakiConditionScript.cs" />
     <Compile Include="Assets\src\Scripts\Day2-Scripts\PrigozhinCondtionTrigger.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_FrameRateCounter.cs" />
     <Compile Include="Assets\src\Scripts\CommonScripts\ConditionCheckSystem\ConditionHandlerWrapper.cs" />

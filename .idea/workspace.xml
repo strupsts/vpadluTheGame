@@ -1,16 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="33c7207c-eba3-4188-8fbc-643204c7e0a2" name="Changes" comment="Script change scene 2">
+    <list default="true" id="33c7207c-eba3-4188-8fbc-643204c7e0a2" name="Changes" comment="KolyaWinScript changed">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/VpadluGame/v17/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/VpadluGame/v17/.suo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/VpadluGame/FileContentIndex/470c152a-86df-4ef5-afb6-e9c7f1af1c33.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/VpadluGame/FileContentIndex/fc6ac7cb-1e26-4faf-a16a-9b349b644d16.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/VpadluGame/FileContentIndex/fef52ec0-9fa0-4fe7-8486-1aa6f8cee87d.vsidx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assembly-CSharp-Editor.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp-Editor.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/src/Scripts/Day5-Scripts/KolyaWInOrLoseConditionTrigger.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/src/Scripts/Day5-Scripts/KolyaWInOrLoseConditionTrigger.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/src/Scripts/Day6-Scripts/NeforsFourChoiceCustomScript.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/src/Scripts/Day6-Scripts/NeforsFourChoiceCustomScript.cs.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/VpadluGame.sln" beforeDir="false" afterPath="$PROJECT_DIR$/VpadluGame.sln" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +17,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -48,6 +47,7 @@
       <updated>1719319522032</updated>
       <workItem from="1719319523199" duration="442000" />
       <workItem from="1719319975869" duration="572000" />
+      <workItem from="1722196440164" duration="1616000" />
     </task>
     <task id="LOCAL-00001" summary="test-cli">
       <created>1720982033156</created>
@@ -56,7 +56,14 @@
       <option name="project" value="LOCAL" />
       <updated>1720982033156</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="KolyaWinScript changed">
+      <created>1722113352753</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1722113352753</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -75,6 +82,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="test-cli" />
-    <option name="LAST_COMMIT_MESSAGE" value="test-cli" />
+    <MESSAGE value="KolyaWinScript changed" />
+    <option name="LAST_COMMIT_MESSAGE" value="KolyaWinScript changed" />
   </component>
 </project>
