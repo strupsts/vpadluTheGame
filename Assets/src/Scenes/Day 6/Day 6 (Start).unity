@@ -2586,6 +2586,8 @@ MonoBehaviour:
   backgroundImage: {fileID: 1244400855}
   arrayNewBGImages:
   - {fileID: 21300000, guid: 3212e5b4ea442134d8b6ffe0010d012c, type: 3}
+  - {fileID: 21300000, guid: 3212e5b4ea442134d8b6ffe0010d012c, type: 3}
+  - {fileID: 21300000, guid: 3212e5b4ea442134d8b6ffe0010d012c, type: 3}
   newImage: {fileID: 21300000, guid: 02fcc072f9e389f4faf8b455bc7a1c60, type: 3}
   endMusicOnEnd: 1
   timerBeforeNextSlide: 3
@@ -3802,7 +3804,7 @@ MonoBehaviour:
     sentencesAndSounds:
     - sentence: "\u0422\u042B \u0411\u041E\u041B\u042C\u0428\u0415 \u041D\u0415 \u0410\u0420\u041C\u042F\u041D\u0418\u041D! "
       sound:
-        clip: {fileID: 0}
+        clip: {fileID: 8300000, guid: 8d155cf5c1a11054f843f94e4986cd11, type: 3}
         AudioSource: {fileID: 0}
     - sentence: "*\u0441\u0431\u0440\u043E\u0441 \u0442\u0440\u0443\u0431\u043A\u0438*"
       sound:
@@ -4358,7 +4360,7 @@ MonoBehaviour:
     sentencesAndSounds:
     - sentence: "*\u043F\u043E\u0434\u0431\u0435\u0433\u0430\u0435\u0442*"
       sound:
-        clip: {fileID: 8300000, guid: b9da9b16462ded144835ddbc7b6d95df, type: 3}
+        clip: {fileID: 8300000, guid: 0ddebaba44ad48e4fac4064cb1545b4a, type: 3}
         AudioSource: {fileID: 0}
   - speakerName: 
     heroID: 0
@@ -4430,6 +4432,8 @@ MonoBehaviour:
   willShadowWithChange: 1
   backgroundImage: {fileID: 1244400855}
   arrayNewBGImages:
+  - {fileID: 21300000, guid: 3212e5b4ea442134d8b6ffe0010d012c, type: 3}
+  - {fileID: 21300000, guid: 3212e5b4ea442134d8b6ffe0010d012c, type: 3}
   - {fileID: 21300000, guid: 3212e5b4ea442134d8b6ffe0010d012c, type: 3}
   newImage: {fileID: 21300000, guid: 02fcc072f9e389f4faf8b455bc7a1c60, type: 3}
   endMusicOnEnd: 1
@@ -4522,7 +4526,7 @@ MonoBehaviour:
     Avatar: {fileID: 21300000, guid: 9826a18665c4905429c4439849ed21c7, type: 3}
   - Id: 6
     Name: "\u0414\u043E\u043A\u0442\u043E\u0440"
-    Avatar: {fileID: 21300000, guid: e5211b3e89cdcc948b2801e2951cde25, type: 3}
+    Avatar: {fileID: 21300000, guid: 88b9cb0154087844e8383c33e046b3ba, type: 3}
 --- !u!1 &1785697715
 GameObject:
   m_ObjectHideFlags: 0
