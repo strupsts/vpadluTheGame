@@ -738,10 +738,10 @@ MonoBehaviour:
   willShadowWithChange: 1
   backgroundImage: {fileID: 1244400855}
   arrayNewBGImages:
-  - {fileID: 21300000, guid: bdd88cc4d4b0b82499958147617c313a, type: 3}
+  - {fileID: 21300000, guid: 85b97ea014c670442a4897b14ceaac1e, type: 3}
   newImage: {fileID: 21300000, guid: 85b97ea014c670442a4897b14ceaac1e, type: 3}
   endMusicOnEnd: 1
-  timerBeforeNextSlide: 3
+  timerBeforeNextSlide: 10
   DialogueBox: {fileID: 1252078564}
   newBackgroundSound: {fileID: 0}
 --- !u!114 &337880571
@@ -5015,7 +5015,7 @@ MonoBehaviour:
   backgroundImage: {fileID: 1244400855}
   arrayNewBGImages:
   - {fileID: 21300000, guid: 196aa83a822d2664e80e09d300136ec5, type: 3}
-  newImage: {fileID: 0}
+  newImage: {fileID: 21300000, guid: 2140bd83586deeb4e97ae958eb8d8570, type: 3}
   endMusicOnEnd: 1
   timerBeforeNextSlide: 7
   DialogueBox: {fileID: 1252078564}
@@ -5842,8 +5842,7 @@ GameObject:
   - component: {fileID: 1850181232}
   m_Layer: 0
   m_Name: "[\u0414\u0438\u0430\u043B\u043E\u0433] \u041E\u0431\u0441\u0443\u0436\u0434\u0435\u043D\u0438\u0435
-    7/11 (\u041E\u0437\u0432\u0443\u0447\u043A\u0438 \u0434\u0430\u043B\u044C\u0448\u0435
-    \u043D\u0435\u0442)"
+    7/11"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
