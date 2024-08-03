@@ -853,7 +853,7 @@ GameObject:
   m_Component:
   - component: {fileID: 479919472}
   - component: {fileID: 479919474}
-  - component: {fileID: 479919473}
+  - component: {fileID: 479919475}
   m_Layer: 0
   m_Name: "[\u041F\u0420\u041E\u0412\u0415\u0420\u041A\u0410] \u041F\u0440\u0430\u0432\u0438\u043B\u044C\u043D\u043E
     \u043B\u0438 \u043E\u0442\u0432\u0435\u0442\u0438\u043B \u043D\u0430 \u0432\u043E\u043F\u0440\u043E\u0441?"
@@ -881,24 +881,6 @@ Transform:
   - {fileID: 320468557}
   m_Father: {fileID: 1116069344}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &479919473
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 479919471}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8827578cfd5c82d49b1ee5048d48837c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  backgroundImage: {fileID: 0}
-  newBackgroundImage: {fileID: 0}
-  willCloseDialogue: 0
-  timerOnDialogueClose: 0
-  DialogueBox: {fileID: 0}
-  newBackgroundSound: {fileID: 8300000, guid: d3fc97aec341112418d4e0fd010bb223, type: 3}
 --- !u!114 &479919474
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -913,6 +895,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   resultOfCondition:
   - {fileID: 1812992699}
+  - {fileID: 2119206277}
+--- !u!114 &479919475
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 479919471}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bdb56d3d4ad05674c854536f6af442e6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &490476376
 GameObject:
   m_ObjectHideFlags: 0
@@ -945,7 +940,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nameText: {fileID: 211457225}
   dialogueText: {fileID: 645555840}
-  StartDialogueTrigger: {fileID: 2119206279}
+  StartDialogueTrigger: {fileID: 182781849}
   animator: {fileID: 1252078565}
   musicSource: {fileID: 0}
   backgroundMusic: {fileID: 0}

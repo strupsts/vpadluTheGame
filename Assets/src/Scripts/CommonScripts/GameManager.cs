@@ -25,12 +25,13 @@ public class GameManager : MonoBehaviour
         { "BogdanAdvice", false },
         { "hasCucumbers", false },
         { "askBurgerMarinad", false },
+        { "FreskoCorrect", false },
         { "MedalLGBT", false },
         { "Chocolate", false },
         { "DeclineNeforsOne", false },
         { "DeclineNeforsTwo", false },
         { "DeclineNeforsThree", false },
-  
+
     };
 
     public bool GetSomeThingsListValue(string key)   // Геттер для шняг
