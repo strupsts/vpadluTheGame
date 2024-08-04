@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Xml;
@@ -28,9 +29,12 @@ public class GameManager : MonoBehaviour
         { "FreskoCorrect", false },
         { "MedalLGBT", false },
         { "Chocolate", false },
-        { "DeclineNeforsOne", false },
+        { "DeclineNeforsOne", true },
         { "DeclineNeforsTwo", false },
         { "DeclineNeforsThree", false },
+        { "DeclineNeforsFour", false },
+        { "DeclineNeforsFive", false },
+        { "LieToEfim", false },
 
     };
 

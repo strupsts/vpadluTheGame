@@ -3,22 +3,22 @@ using System.Collections.Generic;
 using UnityEngine;
 
 // опнбепыхй
-public class Day5MindsConditionTrigger : MonoBehaviour, IConditionHandler
+public class WasGermanConditionTrigger : MonoBehaviour, IConditionHandler
 {
 
     public int StartConditionHandle()
     {
+        bool wasGerman = GameManager.Instance.GetSomeThingsListValue("DeclineNeforsOne");
 
-        bool vovaChoosen = GameManager.Instance.GetSomeThingsListValue("DeclineNeforsThree");
-
-        if (!vovaChoosen)
+        if (!wasGerman)
         {
-            return 0; // - еякх бНБЮ
+            return 0; // - еякх дю
 
         }
-        else if (vovaChoosen)
+       
+        else if (wasGerman)
         {
-            return 1; // - еякх мЕТНПШ
+            return 1; // - еякх мер 
         }
         else
         {

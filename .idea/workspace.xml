@@ -1,38 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="33c7207c-eba3-4188-8fbc-643204c7e0a2" name="Changes" comment="KolyaWinScript changed">
-      <change afterPath="$PROJECT_DIR$/.vs/VpadluGame/FileContentIndex/0565d39d-698b-4fd7-9022-20ec9dffcf1d.vsidx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vs/VpadluGame/FileContentIndex/9af9e9af-d1df-49e2-a5ea-b5599f85d583.vsidx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vs/VpadluGame/FileContentIndex/b248bf16-04b1-42c2-a6f7-bde466652de5.vsidx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/src/Scripts/Day3-Scripts/FreskoChoiceCustomScript.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/src/Scripts/Day3-Scripts/FreskoChoiceCustomScript.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/src/Scripts/Day4-Scripts/Day4MindsConditionTrigger.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/src/Scripts/Day4-Scripts/Day4MindsConditionTrigger.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/src/Scripts/Day7-Scripts.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/src/Scripts/Day7-Scripts/FreskoConditionTrigger.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/src/Scripts/Day7-Scripts/FreskoConditionTrigger.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/src/Scripts/TEMPLATES.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/src/Scripts/TEMPLATES/PROVERKA.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/src/Scripts/TEMPLATES/PROVERKA/[CHECK]ConditionTrigger.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/src/Scripts/TEMPLATES/PROVERKA/[CHECK]ConditionTrigger.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/src/Scripts/TEMPLATES/PROVERKA/[SETUP]ChoiceCustomScript.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/src/Scripts/TEMPLATES/PROVERKA/[SETUP]ChoiceCustomScript.cs.meta" afterDir="false" />
+    <list default="true" id="33c7207c-eba3-4188-8fbc-643204c7e0a2" name="Changes" comment="Minds Check-Script+, Zhak Check-Script+">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/VpadluGame/FileContentIndex/54a64fa9-44e9-4229-b30d-0649e929896e.vsidx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/VpadluGame/FileContentIndex/65ceb72d-0673-4775-a313-ba3b5dfe4063.vsidx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/VpadluGame/FileContentIndex/b69f98df-3b11-450f-962c-796f30d73f26.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/VpadluGame/FileContentIndex/0565d39d-698b-4fd7-9022-20ec9dffcf1d.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/VpadluGame/FileContentIndex/9af9e9af-d1df-49e2-a5ea-b5599f85d583.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/VpadluGame/FileContentIndex/b248bf16-04b1-42c2-a6f7-bde466652de5.vsidx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.vs/VpadluGame/v17/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/VpadluGame/v17/.suo" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assembly-CSharp-Editor.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp-Editor.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/src/Scenes/Day 3/Day3.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/src/Scenes/Day 3/Day3.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/src/Scenes/Day 4/Day4-EndOfDay.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/src/Scenes/Day 4/Day4-EndOfDay.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/src/Scenes/Day 5/Day 5.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/src/Scenes/Day 5/Day 5.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/src/Scenes/Day 6/Day 6 (Start).unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/src/Scenes/Day 6/Day 6 (Start).unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/src/Scenes/Day 7/Day 7 (Best).unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/src/Scenes/Day 7/Day 7 (Best).unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/Scenes/Day 5/Day 5 End.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/src/Scenes/Day 5/Day 5 End.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/Scenes/Day 6/Day 6 (Efim).unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/src/Scenes/Day 6/Day 6 (Efim).unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/src/Scripts/CommonScripts/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/src/Scripts/CommonScripts/GameManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/Scripts/Day5-Scripts/Day5MindsConditionTrigger.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/src/Scripts/Day5-Scripts/Day5MindsConditionTrigger.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +53,8 @@
       <workItem from="1719319523199" duration="442000" />
       <workItem from="1719319975869" duration="572000" />
       <workItem from="1722196440164" duration="1616000" />
-      <workItem from="1722710391017" duration="1763000" />
+      <workItem from="1722710391017" duration="2377000" />
+      <workItem from="1722791790239" duration="984000" />
     </task>
     <task id="LOCAL-00001" summary="test-cli">
       <created>1720982033156</created>
@@ -88,7 +70,14 @@
       <option name="project" value="LOCAL" />
       <updated>1722113352753</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Minds Check-Script+, Zhak Check-Script+">
+      <created>1722719707542</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1722719707543</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -108,6 +97,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="test-cli" />
     <MESSAGE value="KolyaWinScript changed" />
-    <option name="LAST_COMMIT_MESSAGE" value="KolyaWinScript changed" />
+    <MESSAGE value="Minds Check-Script+, Zhak Check-Script+" />
+    <option name="LAST_COMMIT_MESSAGE" value="Minds Check-Script+, Zhak Check-Script+" />
   </component>
 </project>
