@@ -1761,10 +1761,6 @@ MonoBehaviour:
       sound:
         clip: {fileID: 8300000, guid: 588ffc4208f453345b0c03eef39f40c2, type: 3}
         AudioSource: {fileID: 0}
-    - sentence: "*\u0429\u0435\u043B\u043A*"
-      sound:
-        clip: {fileID: 8300000, guid: b448c1a354d7f8e408225fdb5d64a437, type: 3}
-        AudioSource: {fileID: 0}
   nextTrigger: {fileID: 1680114347}
   dialogueIsEnded: 0
 --- !u!4 &720626840
@@ -4304,8 +4300,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backgroundImage: {fileID: 1244400855}
   newBackgroundImage: {fileID: 21300000, guid: 6ecd31f9cc47b0046afb7b5a99ce754a, type: 3}
-  willCloseDialogue: 1
-  timerOnDialogueClose: 1
+  willCloseDialogue: 0
+  timerOnDialogueClose: 0
   DialogueBox: {fileID: 1252078564}
   newBackgroundSound: {fileID: 0}
 --- !u!114 &1680114350
@@ -4367,6 +4363,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogues:
+  - speakerName: 
+    heroID: 3
+    sentencesAndSounds:
+    - sentence: "*\u0429\u0435\u043B\u043A*"
+      sound:
+        clip: {fileID: 8300000, guid: b448c1a354d7f8e408225fdb5d64a437, type: 3}
+        AudioSource: {fileID: 0}
   - speakerName: 
     heroID: 2
     sentencesAndSounds:
@@ -4520,6 +4523,9 @@ MonoBehaviour:
   - Id: 2
     Name: "\u0417\u043B\u043E\u0439 \u0412\u043E\u0432\u0430"
     Avatar: {fileID: 21300000, guid: 6e3412be69462754b9591ea95fca8ab2, type: 3}
+  - Id: 3
+    Name: "\u0417\u0432\u0443\u043A"
+    Avatar: {fileID: 21300000, guid: e5211b3e89cdcc948b2801e2951cde25, type: 3}
 --- !u!1 &1801982555
 GameObject:
   m_ObjectHideFlags: 0
@@ -4823,6 +4829,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogues:
+  - speakerName: 
+    heroID: 3
+    sentencesAndSounds:
+    - sentence: "*\u0429\u0435\u043B\u043A*"
+      sound:
+        clip: {fileID: 8300000, guid: b448c1a354d7f8e408225fdb5d64a437, type: 3}
+        AudioSource: {fileID: 0}
   - speakerName: 
     heroID: 1
     sentencesAndSounds:
@@ -5229,8 +5242,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backgroundImage: {fileID: 1244400855}
   newBackgroundImage: {fileID: 21300000, guid: 6ecd31f9cc47b0046afb7b5a99ce754a, type: 3}
-  willCloseDialogue: 1
-  timerOnDialogueClose: 1
+  willCloseDialogue: 0
+  timerOnDialogueClose: 0
   DialogueBox: {fileID: 1252078564}
   newBackgroundSound: {fileID: 0}
 --- !u!114 &2120898056
