@@ -98,6 +98,7 @@
     <Compile Include="Assets\src\Scripts\CommonScripts\DialogueManager.cs" />
     <Compile Include="Assets\src\Scripts\MenuScripts\mainMenu.cs" />
     <Compile Include="Assets\src\Scripts\CommonScripts\ConditionCheckSystem\ConditionTrigger.cs" />
+    <Compile Include="Assets\src\Scripts\Day6-Scripts\ChangeSceneDay6Handler.cs" />
     <Compile Include="Assets\src\Scripts\Day1-Scripts\TobaccoConditionScript.cs" />
     <Compile Include="Assets\src\Scripts\CommonScripts\Interfaces\ICustomTrigger.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ChatController.cs" />
