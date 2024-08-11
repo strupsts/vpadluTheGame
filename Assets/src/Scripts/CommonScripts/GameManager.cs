@@ -29,7 +29,7 @@ public class GameManager : MonoBehaviour
         { "FreskoCorrect", false },
         { "MedalLGBT", false },
         { "Chocolate", false },
-        { "DeclineNeforsOne", true },
+        { "DeclineNeforsOne", false },
         { "DeclineNeforsTwo", false },
         { "DeclineNeforsThree", false },
         { "DeclineNeforsFour", false },
