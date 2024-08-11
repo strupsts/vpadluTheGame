@@ -959,7 +959,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nameText: {fileID: 211457225}
   dialogueText: {fileID: 645555840}
-  StartDialogueTrigger: {fileID: 182781849}
+  StartDialogueTrigger: {fileID: 1111503834}
   animator: {fileID: 1252078565}
   musicSource: {fileID: 0}
   backgroundMusic: {fileID: 0}
@@ -1261,7 +1261,7 @@ MonoBehaviour:
     - sentence: "\u041A\u043E\u043D\u0435\u0447\u043D\u043E, \u0443\u0436\u0435 \u043D\u0435
         \u0432\u0435\u0440\u043D\u0451\u0448\u044C\u0441\u044F."
       sound:
-        clip: {fileID: 0}
+        clip: {fileID: 8300000, guid: 57f167e044cf2c84ab3c62dfd2111185, type: 3}
         AudioSource: {fileID: 0}
     - sentence: "*\u0434\u043E\u0441\u0442\u0430\u0435\u0442 \u043F\u0438\u0441\u0442\u043E\u043B\u0435\u0442*"
       sound:
@@ -1290,7 +1290,7 @@ MonoBehaviour:
     - sentence: "\u0422\u044B \u0447\u0435 \u0434\u0435\u043B\u0430\u0435\u0448\u044C?
         \u0422\u044B \u0447\u0435 \u0431\u0435\u0448\u0435\u043D\u043D\u044B\u0439? "
       sound:
-        clip: {fileID: 0}
+        clip: {fileID: 8300000, guid: 038e3a41a1eb6c44dbcdb6d0caa338f4, type: 3}
         AudioSource: {fileID: 0}
   - speakerName: 
     heroID: 0
@@ -1305,7 +1305,7 @@ MonoBehaviour:
     sentencesAndSounds:
     - sentence: "\u0422\u044B \u0447\u0435? \u0422\u044B \u0449\u0430\u0441 \u0432\u0437\u043E\u0440\u0432\u0451\u0448\u044C\u0441\u044F!"
       sound:
-        clip: {fileID: 0}
+        clip: {fileID: 8300000, guid: 52636e669c4879c41a54320d681a47d6, type: 3}
         AudioSource: {fileID: 0}
   - speakerName: 
     heroID: 0
@@ -1320,17 +1320,13 @@ MonoBehaviour:
       sound:
         clip: {fileID: 0}
         AudioSource: {fileID: 0}
-    - sentence: "*\u0437\u0432\u0443\u043A*"
-      sound:
-        clip: {fileID: 0}
-        AudioSource: {fileID: 0}
   - speakerName: 
     heroID: 4
     sentencesAndSounds:
     - sentence: "\u0422\u0430 \u0431\u043B\u044F, \u043D\u0435 \u043C\u0443\u0447\u0430\u0439\u0441\u044F,
         \u0431\u0440\u0430\u0442\u0438\u0448\u043A\u0430\u2026"
       sound:
-        clip: {fileID: 0}
+        clip: {fileID: 8300000, guid: 1a4e2a89f214fdc458830f34f311e812, type: 3}
         AudioSource: {fileID: 0}
     - sentence: "*\u0437\u0432\u0443\u043A \u0432\u044B\u0441\u0442\u0440\u0435\u043B\u0430*"
       sound:
@@ -2161,8 +2157,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backgroundImage: {fileID: 1244400855}
   newBackgroundImage: {fileID: 21300000, guid: 6be1f7a619aeab346a018531c014eee4, type: 3}
-  willCloseDialogue: 1
-  timerOnDialogueClose: 3
+  willCloseDialogue: 0
+  timerOnDialogueClose: 1
   DialogueBox: {fileID: 1252078564}
   newBackgroundSound: {fileID: 0}
 --- !u!114 &846443905
@@ -2695,10 +2691,14 @@ MonoBehaviour:
     heroID: 4
     sentencesAndSounds:
     - sentence: "\u0422\u044B \u0447\u0435 \u0440\u0430\u0434\u0443\u0435\u0448\u044C\u0441\u044F,
-        \u0433\u043E\u0432\u043D\u043E? \u042F \u0442\u0435\u0431\u044F \u0441\u0435\u0439\u0447\u0430\u0441
+        \u0433\u043E\u0432\u043D\u043E?"
+      sound:
+        clip: {fileID: 8300000, guid: 04e8de130e8b7634894db0e52a526a81, type: 3}
+        AudioSource: {fileID: 0}
+    - sentence: "\u042F \u0442\u0435\u0431\u044F \u0441\u0435\u0439\u0447\u0430\u0441
         \u043D\u0430 \u043D\u043E\u043B\u044C \u043F\u043E\u0440\u0435\u0436\u0443!"
       sound:
-        clip: {fileID: 0}
+        clip: {fileID: 8300000, guid: b04d3e3068df69945bb79d97c45ef5cd, type: 3}
         AudioSource: {fileID: 0}
   nextTrigger: {fileID: 846443902}
   dialogueIsEnded: 0
@@ -4090,8 +4090,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backgroundImage: {fileID: 1244400855}
   newBackgroundImage: {fileID: 21300000, guid: c00ab653967978c4d8ec69d31802aaec, type: 3}
-  willCloseDialogue: 1
-  timerOnDialogueClose: 3
+  willCloseDialogue: 0
+  timerOnDialogueClose: 1
   DialogueBox: {fileID: 1252078564}
   newBackgroundSound: {fileID: 0}
 --- !u!114 &1342389807
