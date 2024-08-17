@@ -1,23 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="33c7207c-eba3-4188-8fbc-643204c7e0a2" name="Changes" comment="Efim Conditions Day6 +">
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_11_08_2024_13_56_[Changes]/shelved.patch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_04_08_2024_11_17_[Changes]/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_11_08_2024_13_56_[Changes]/.suo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_04_08_2024_11_17_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_04_08_2024_11_17__Changes_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_28_07_2024_13_57_[Changes]1/.suo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_28_07_2024_13_57_[Changes]1/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_28_07_2024_13_57__Changes_1.xml" beforeDir="false" />
+    <list default="true" id="33c7207c-eba3-4188-8fbc-643204c7e0a2" name="Changes" comment="Efim end +">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/VpadluGame/FileContentIndex/2c7d1b95-037e-4f90-8192-dbef87c67d60.vsidx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/VpadluGame/FileContentIndex/81454065-3531-43b4-bdd6-ccc6b15a5e01.vsidx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/VpadluGame/FileContentIndex/90a78984-1dcb-4280-a5fd-23caccf654f4.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/VpadluGame/FileContentIndex/21445fce-10d5-47c9-a7d3-1315ae116fde.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/VpadluGame/FileContentIndex/2fef6ed0-cf3e-448e-abc0-1e4e00dfd693.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/VpadluGame/FileContentIndex/d97dc918-49f9-4645-b70b-805f12266f02.vsidx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.vs/VpadluGame/v17/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/VpadluGame/v17/.suo" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assembly-CSharp-Editor.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp-Editor.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/src/Scenes/Day 6/Day 6 (Efim).unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/src/Scenes/Day 6/Day 6 (Efim).unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/src/Scripts/CommonScripts/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/src/Scripts/CommonScripts/GameManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/Scenes/Day 5/Day 5 (Nefori).unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/src/Scenes/Day 5/Day 5 (Nefori).unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2022.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2022.dwlt" afterDir="false" />
     </list>
@@ -62,7 +54,8 @@
       <workItem from="1722710391017" duration="2377000" />
       <workItem from="1722791790239" duration="2242000" />
       <workItem from="1723314193930" duration="628000" />
-      <workItem from="1723406208083" duration="636000" />
+      <workItem from="1723406208083" duration="833000" />
+      <workItem from="1723924688634" duration="3743000" />
     </task>
     <task id="LOCAL-00001" summary="test-cli">
       <created>1720982033156</created>
@@ -92,7 +85,14 @@
       <option name="project" value="LOCAL" />
       <updated>1722796200300</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Efim end +">
+      <created>1723409499851</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1723409499851</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -114,6 +114,7 @@
     <MESSAGE value="KolyaWinScript changed" />
     <MESSAGE value="Minds Check-Script+, Zhak Check-Script+" />
     <MESSAGE value="Efim Conditions Day6 +" />
-    <option name="LAST_COMMIT_MESSAGE" value="Efim Conditions Day6 +" />
+    <MESSAGE value="Efim end +" />
+    <option name="LAST_COMMIT_MESSAGE" value="Efim end +" />
   </component>
 </project>
