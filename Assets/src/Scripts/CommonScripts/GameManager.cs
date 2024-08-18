@@ -15,6 +15,7 @@ public class GameManager : MonoBehaviour
 
     public GameObject prefabNotifyItem;
     public GameObject prefabNotifyAchievment;
+    public GameObject prefabWarningItem;
 
     private bool hasNotifyShowing = false;
 
@@ -64,7 +65,7 @@ public class GameManager : MonoBehaviour
         { "Parents",  50},
         { "RuslanAndSanya",  70},
         { "Bogdan",  50},
-        { "Company",  50},
+        { "Company",  25},
         { "Neformals",  50},
     };
 
@@ -214,7 +215,7 @@ public class GameManager : MonoBehaviour
         StartCoroutine(showNotify(notifyRep));
     }
 
-    public void notifyItemHandler(bool isItem, string itemName, Sprite image = null)
+    public void notifyItemHandler(bool isItem, string itemName, Sprite image = null, bool isWarning = false)
     {
         GameObject notifyItem;
         GameObject notifyContainer = GameObject.Find("notifyContainer");
@@ -226,6 +227,10 @@ public class GameManager : MonoBehaviour
         if (isItem)
         {
             notifyItem = Instantiate(prefabNotifyItem);
+        }
+        else if (isWarning)
+        {
+            notifyItem = Instantiate(prefabWarningItem);
         }
         else
         {
@@ -244,6 +249,8 @@ public class GameManager : MonoBehaviour
 
         StartCoroutine(showNotify(notifyItem));
     }
+
+
 
     IEnumerator showNotify(GameObject notify)
             {
@@ -300,11 +307,8 @@ public class GameManager : MonoBehaviour
 
         while (musicSource.volume > 0.00f && !sliderStop)
         {
-            Debug.Log(musicSource.volume);
             // Затухание музыки
-            Debug.Log(musicSource.volume - 0.0005f);
             musicSource.volume = musicSource.volume - 0.0005f;
-            Debug.Log(musicSource.volume);
 
             yield return null;
         }

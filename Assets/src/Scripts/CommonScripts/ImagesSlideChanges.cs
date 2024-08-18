@@ -61,7 +61,7 @@ public class ImagesSlideChanges: MonoBehaviour, IConditionHandler
         {
 
             if (willShadowWithChange) StartCoroutine(ShadowChangeBackground(imgIndex));
-            else changeBackground(imgIndex);
+            else StartCoroutine(changeBackground(imgIndex));
             
             imgIndex++;
 
@@ -106,6 +106,13 @@ public class ImagesSlideChanges: MonoBehaviour, IConditionHandler
         }
     }
 
+    private IEnumerator changeBackground(int imgIndex)
+    {
+        backgroundImage.sprite = arrayNewBGImages[imgIndex];
+        yield return null;
+    }
+
+
     private void setEnvironmentMusic()
     {
 
@@ -116,8 +123,5 @@ public class ImagesSlideChanges: MonoBehaviour, IConditionHandler
 
     }
 
-    private void changeBackground(int imgIndex)
-    {
-
-    }
+   
 }

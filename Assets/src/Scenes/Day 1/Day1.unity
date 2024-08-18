@@ -1976,7 +1976,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backgroundImage: {fileID: 1488822096}
   newBackgroundImage: {fileID: 21300000, guid: f9b7e8f0ef57bad44a2a1ea7dac52824, type: 3}
-  animationDuration: 0
   willCloseDialogue: 0
   timerOnDialogueClose: 0
   DialogueBox: {fileID: 0}
@@ -2193,7 +2192,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backgroundImage: {fileID: 1488822096}
   newBackgroundImage: {fileID: 21300000, guid: 6cdf3fa20d3090141b275ebc367d734e, type: 3}
-  animationDuration: 0
   willCloseDialogue: 0
   timerOnDialogueClose: 0
   DialogueBox: {fileID: 0}
@@ -2749,7 +2747,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backgroundImage: {fileID: 1488822096}
   newBackgroundImage: {fileID: 21300000, guid: 93cb0db221350d348b5344a361510f15, type: 3}
-  animationDuration: 0
   willCloseDialogue: 0
   timerOnDialogueClose: 0
   DialogueBox: {fileID: 0}
@@ -2924,7 +2921,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backgroundImage: {fileID: 1488822096}
   newBackgroundImage: {fileID: 21300000, guid: f9b7e8f0ef57bad44a2a1ea7dac52824, type: 3}
-  animationDuration: 0
   willCloseDialogue: 0
   timerOnDialogueClose: 0
   DialogueBox: {fileID: 0}
@@ -3094,7 +3090,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backgroundImage: {fileID: 1488822096}
   newBackgroundImage: {fileID: 21300000, guid: 0ba815243c81ca9448d8ccae24b3735e, type: 3}
-  animationDuration: 0
   willCloseDialogue: 0
   timerOnDialogueClose: 0
   DialogueBox: {fileID: 0}
@@ -3609,7 +3604,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backgroundImage: {fileID: 1488822096}
   newBackgroundImage: {fileID: 21300000, guid: 967d882fc86e840418d292ca0c564b4f, type: 3}
-  animationDuration: 0
   willCloseDialogue: 0
   timerOnDialogueClose: 0
   DialogueBox: {fileID: 0}
@@ -3721,7 +3715,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backgroundImage: {fileID: 1488822096}
   newBackgroundImage: {fileID: 21300000, guid: 6cdf3fa20d3090141b275ebc367d734e, type: 3}
-  animationDuration: 0
   willCloseDialogue: 0
   timerOnDialogueClose: 0
   DialogueBox: {fileID: 0}
@@ -4418,7 +4411,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backgroundImage: {fileID: 1488822096}
   newBackgroundImage: {fileID: 21300000, guid: 3b8392806250dc34aa935484f65900cd, type: 3}
-  animationDuration: 0
   willCloseDialogue: 0
   timerOnDialogueClose: 0
   DialogueBox: {fileID: 0}
@@ -4723,7 +4715,7 @@ PrefabInstance:
     - target: {fileID: 2454183494722847304, guid: f50f8a1c96c7fa247b1f338d7dbac901, type: 3}
       propertyPath: StartDialogueTrigger
       value: 
-      objectReference: {fileID: 666943633}
+      objectReference: {fileID: 1422751493}
     - target: {fileID: 3311051040849249046, guid: f50f8a1c96c7fa247b1f338d7dbac901, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.8901967

@@ -77,6 +77,18 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/src/Scenes/Day 7/Day 7 (Start).unity
     guid: 6ee2784202c1cd14a92a9906e08a81e7
+  - enabled: 1
+    path: Assets/src/Scenes/Day 7/Day 7 (Best).unity
+    guid: 99a051865a58bb047a604182d86b054b
+  - enabled: 1
+    path: Assets/src/Scenes/Day 7/Day 7 (Worst).unity
+    guid: 4482d775475c3714b9b72ea18f2e0bdc
+  - enabled: 1
+    path: Assets/src/Scenes/Day 7/Day 7 (GOOD END).unity
+    guid: 4eea0b67cf86e354db4fbfba3adba731
+  - enabled: 1
+    path: Assets/src/Scenes/Day 7/Day 7 (BAD).unity
+    guid: 6692a60cb8bb97c41acd0f91bf16c200
   m_configObjects:
     com.unity.adaptiveperformance.google.android.provider_settings: {fileID: 11400000, guid: 3fc81371c149a5b4786a20a2af506bbd, type: 2}
     com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: 60af0dfb25d26654f8fab2c8bdee1dea, type: 2}

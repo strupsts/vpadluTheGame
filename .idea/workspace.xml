@@ -1,17 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="33c7207c-eba3-4188-8fbc-643204c7e0a2" name="Changes" comment="Efim end +">
+    <list default="true" id="33c7207c-eba3-4188-8fbc-643204c7e0a2" name="Changes" comment="[SCRIPT] Slider 2.0 added ++">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/VpadluGame/FileContentIndex/21445fce-10d5-47c9-a7d3-1315ae116fde.vsidx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/VpadluGame/FileContentIndex/2fef6ed0-cf3e-448e-abc0-1e4e00dfd693.vsidx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/VpadluGame/FileContentIndex/d97dc918-49f9-4645-b70b-805f12266f02.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/VpadluGame/FileContentIndex/63331f12-6355-4857-b760-62ad61c6bb97.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/VpadluGame/FileContentIndex/8d1c0bab-1e87-4297-83ff-d6fbb2767e36.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/VpadluGame/FileContentIndex/a6ee6643-94ee-4aa7-a163-3581c4ea03b5.vsidx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.vs/VpadluGame/v17/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/VpadluGame/v17/.suo" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assembly-CSharp-Editor.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp-Editor.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/Scenes/Day 1/Day1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/src/Scenes/Day 1/Day1.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/src/Scenes/Day 5/Day 5 (Nefori).unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/src/Scenes/Day 5/Day 5 (Nefori).unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/Scenes/Day 5/Day 5 (Volodymir).unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/src/Scenes/Day 5/Day 5 (Volodymir).unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/Scenes/Day 6/Day 6 (Efim).unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/src/Scenes/Day 6/Day 6 (Efim).unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/Scenes/Day 6/Day 6 (Friends).unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/src/Scenes/Day 6/Day 6 (Friends).unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/Scenes/Day 6/Day 6 (Start).unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/src/Scenes/Day 6/Day 6 (Start).unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/Scenes/Day 7/Day 7 (Best).unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/src/Scenes/Day 7/Day 7 (Best).unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/Scenes/Day 7/Day 7 (Start).unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/src/Scenes/Day 7/Day 7 (Start).unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/Scenes/Day 7/Day 7 (Worst).unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/src/Scenes/Day 7/Day 7 (Worst).unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/Scripts/CommonScripts/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/src/Scripts/CommonScripts/GameManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/Scripts/CommonScripts/ImagesSlideChanges.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/src/Scripts/CommonScripts/ImagesSlideChanges.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/Scripts/CommonScripts/SaveManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/src/Scripts/CommonScripts/SaveManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2022.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2022.dwlt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +68,8 @@
       <workItem from="1722791790239" duration="2242000" />
       <workItem from="1723314193930" duration="628000" />
       <workItem from="1723406208083" duration="833000" />
-      <workItem from="1723924688634" duration="3743000" />
+      <workItem from="1723924688634" duration="4383000" />
+      <workItem from="1724004761651" duration="2462000" />
     </task>
     <task id="LOCAL-00001" summary="test-cli">
       <created>1720982033156</created>
@@ -92,7 +106,14 @@
       <option name="project" value="LOCAL" />
       <updated>1723409499851</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="[SCRIPT] Slider 2.0 added ++">
+      <created>1723930708572</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1723930708572</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -115,6 +136,7 @@
     <MESSAGE value="Minds Check-Script+, Zhak Check-Script+" />
     <MESSAGE value="Efim Conditions Day6 +" />
     <MESSAGE value="Efim end +" />
-    <option name="LAST_COMMIT_MESSAGE" value="Efim end +" />
+    <MESSAGE value="[SCRIPT] Slider 2.0 added ++" />
+    <option name="LAST_COMMIT_MESSAGE" value="[SCRIPT] Slider 2.0 added ++" />
   </component>
 </project>
