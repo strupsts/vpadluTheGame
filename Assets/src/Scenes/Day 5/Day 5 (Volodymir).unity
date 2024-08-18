@@ -937,7 +937,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nameText: {fileID: 211457225}
   dialogueText: {fileID: 645555840}
-  StartDialogueTrigger: {fileID: 182781849}
+  StartDialogueTrigger: {fileID: 587346509}
   animator: {fileID: 1252078565}
   musicSource: {fileID: 0}
   backgroundMusic: {fileID: 0}
@@ -2916,7 +2916,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1149538769}
   - component: {fileID: 1149538768}
-  - component: {fileID: 1149538767}
+  - component: {fileID: 1149538770}
   m_Layer: 0
   m_Name: "[\u0421\u043B\u0430\u0439\u0434\u0435\u0440] \u0418\u0433\u0440\u0430
     \u043D\u0430 \u0433\u0438\u0442\u0430\u0440\u0430\u0445"
@@ -2925,30 +2925,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1149538767
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1149538766}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e02b9d470a0ccad439a25adb351fbc4c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  willShadowWithChange: 1
-  backgroundImage: {fileID: 1244400855}
-  arrayNewBGImages:
-  - {fileID: 21300000, guid: 3212e5b4ea442134d8b6ffe0010d012c, type: 3}
-  - {fileID: 21300000, guid: 265e008003b842a40bf939ef573dcb90, type: 3}
-  - {fileID: 21300000, guid: 1aa63e36289269f45b66efdc34b6e495, type: 3}
-  - {fileID: 21300000, guid: 7c525b3b3d772084e915342f57971430, type: 3}
-  newImage: {fileID: 21300000, guid: 05793b21a84e83040af391d788c17f9b, type: 3}
-  endMusicOnEnd: 1
-  timerBeforeNextSlide: 1
-  DialogueBox: {fileID: 1252078564}
-  newBackgroundSound: {fileID: 8300000, guid: 7ee43d4bbb417464caf715180f22ecbb, type: 3}
 --- !u!114 &1149538768
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2978,6 +2954,32 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1116069344}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1149538770
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1149538766}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7fbed79c170dd440b8b31ec12a04972, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  willShadow: 0
+  backgroundImage: {fileID: 1244400855}
+  timingOfFiniteSlide: 1
+  arrayNewBGImages:
+  - sliderImage: {fileID: 21300000, guid: 265e008003b842a40bf939ef573dcb90, type: 3}
+    sliderTiming: 1
+  - sliderImage: {fileID: 21300000, guid: 1aa63e36289269f45b66efdc34b6e495, type: 3}
+    sliderTiming: 1
+  - sliderImage: {fileID: 21300000, guid: 7c525b3b3d772084e915342f57971430, type: 3}
+    sliderTiming: 1
+  newImage: {fileID: 21300000, guid: 05793b21a84e83040af391d788c17f9b, type: 3}
+  endMusicOnEnd: 0
+  DialogueBox: {fileID: 1252078564}
+  newBackgroundSound: {fileID: 0}
 --- !u!1 &1155653350
 GameObject:
   m_ObjectHideFlags: 0
@@ -4613,7 +4615,7 @@ MonoBehaviour:
         \u0442\u0430\u043A \u0438\u0437 \u0440\u043E\u0433\u0430\u0442\u043A\u0438
         \u0441\u0432\u043E\u0435\u0439."
       sound:
-        clip: {fileID: 0}
+        clip: {fileID: 8300000, guid: 7ee43d4bbb417464caf715180f22ecbb, type: 3}
         AudioSource: {fileID: 0}
     - sentence: "\u042D\u0439 \u043C\u0430\u043B\u044B\u0448, \u0441\u0442\u0440\u0435\u043B\u044F\u0439
         \u0438 \u0445\u0432\u0430\u0441\u0442\u0430\u0439 \u0434\u0440\u0443\u0433\u0438\u043C,

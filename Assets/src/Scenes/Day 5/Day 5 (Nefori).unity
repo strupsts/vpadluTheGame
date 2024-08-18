@@ -291,7 +291,7 @@ GameObject:
   m_Component:
   - component: {fileID: 150142074}
   - component: {fileID: 150142076}
-  - component: {fileID: 150142075}
+  - component: {fileID: 150142077}
   m_Layer: 0
   m_Name: "[\u0421\u043B\u0430\u0439\u0434\u0435\u0440] \u0421\u043F\u0430\u0439\u0434\u0435\u0440\u043C\u0435\u043D
     11/11 (\u041A\u043E\u043D\u0446\u043E\u0432\u043A\u0430)"
@@ -315,27 +315,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1116069344}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &150142075
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 150142073}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e02b9d470a0ccad439a25adb351fbc4c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  willShadowWithChange: 1
-  backgroundImage: {fileID: 1244400855}
-  arrayNewBGImages:
-  - {fileID: 21300000, guid: 1dc68b72623713a488a493aa2bd4a5d7, type: 3}
-  newImage: {fileID: 21300000, guid: 387703b251c6a754f87c0da4e3bb22cc, type: 3}
-  endMusicOnEnd: 1
-  timerBeforeNextSlide: 12
-  DialogueBox: {fileID: 1252078564}
-  newBackgroundSound: {fileID: 0}
 --- !u!114 &150142076
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -350,6 +329,28 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   resultOfCondition:
   - {fileID: 1847949847}
+--- !u!114 &150142077
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 150142073}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7fbed79c170dd440b8b31ec12a04972, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  willShadow: 0
+  backgroundImage: {fileID: 1244400855}
+  timingOfFiniteSlide: 1
+  arrayNewBGImages:
+  - sliderImage: {fileID: 21300000, guid: 1dc68b72623713a488a493aa2bd4a5d7, type: 3}
+    sliderTiming: 14
+  newImage: {fileID: 21300000, guid: 387703b251c6a754f87c0da4e3bb22cc, type: 3}
+  endMusicOnEnd: 0
+  DialogueBox: {fileID: 1252078564}
+  newBackgroundSound: {fileID: 0}
 --- !u!1 &182781847
 GameObject:
   m_ObjectHideFlags: 0
@@ -624,71 +625,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 249943263}
   m_CullTransparentMesh: 1
---- !u!1 &291888208
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 291888211}
-  - component: {fileID: 291888210}
-  - component: {fileID: 291888209}
-  m_Layer: 0
-  m_Name: "[\u0421\u043C\u0435\u043D\u0430 \u0444\u043E\u043D\u0430] "
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &291888209
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 291888208}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8827578cfd5c82d49b1ee5048d48837c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  backgroundImage: {fileID: 1244400855}
-  newBackgroundImage: {fileID: 21300000, guid: 2140bd83586deeb4e97ae958eb8d8570, type: 3}
-  willCloseDialogue: 0
-  timerOnDialogueClose: 0
-  DialogueBox: {fileID: 1252078564}
-  newBackgroundSound: {fileID: 0}
---- !u!114 &291888210
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 291888208}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 29fa3837d130a5545aa8c50c39a2f629, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  resultOfCondition:
-  - {fileID: 1655402512}
---- !u!4 &291888211
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 291888208}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1708562192}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &337880568
 GameObject:
   m_ObjectHideFlags: 0
@@ -699,7 +635,7 @@ GameObject:
   m_Component:
   - component: {fileID: 337880569}
   - component: {fileID: 337880571}
-  - component: {fileID: 337880570}
+  - component: {fileID: 337880572}
   m_Layer: 0
   m_Name: "[\u0421\u043B\u0430\u0439\u0434\u0435\u0440] 5 \u043C\u0438\u043D\u0443\u0442
     \u0441\u043F\u0443\u0441\u0442\u044F"
@@ -723,27 +659,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1116069344}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &337880570
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 337880568}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e02b9d470a0ccad439a25adb351fbc4c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  willShadowWithChange: 1
-  backgroundImage: {fileID: 1244400855}
-  arrayNewBGImages:
-  - {fileID: 21300000, guid: 85b97ea014c670442a4897b14ceaac1e, type: 3}
-  newImage: {fileID: 21300000, guid: 85b97ea014c670442a4897b14ceaac1e, type: 3}
-  endMusicOnEnd: 1
-  timerBeforeNextSlide: 10
-  DialogueBox: {fileID: 1252078564}
-  newBackgroundSound: {fileID: 0}
 --- !u!114 &337880571
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -758,6 +673,28 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   resultOfCondition:
   - {fileID: 942318886}
+--- !u!114 &337880572
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 337880568}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7fbed79c170dd440b8b31ec12a04972, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  willShadow: 0
+  backgroundImage: {fileID: 1244400855}
+  timingOfFiniteSlide: 1
+  arrayNewBGImages:
+  - sliderImage: {fileID: 21300000, guid: 85b97ea014c670442a4897b14ceaac1e, type: 3}
+    sliderTiming: 10
+  newImage: {fileID: 21300000, guid: 85b97ea014c670442a4897b14ceaac1e, type: 3}
+  endMusicOnEnd: 0
+  DialogueBox: {fileID: 1252078564}
+  newBackgroundSound: {fileID: 0}
 --- !u!1 &346650272
 GameObject:
   m_ObjectHideFlags: 0
@@ -1086,7 +1023,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nameText: {fileID: 211457225}
   dialogueText: {fileID: 645555840}
-  StartDialogueTrigger: {fileID: 1058088521}
+  StartDialogueTrigger: {fileID: 1637082411}
   animator: {fileID: 1252078565}
   musicSource: {fileID: 0}
   backgroundMusic: {fileID: 0}
@@ -1736,7 +1673,7 @@ GameObject:
   m_Component:
   - component: {fileID: 664612889}
   - component: {fileID: 664612891}
-  - component: {fileID: 664612890}
+  - component: {fileID: 664612892}
   m_Layer: 0
   m_Name: "[\u0421\u043B\u0430\u0439\u0434\u0435\u0440] \u0421\u043F\u0430\u0439\u0434\u0435\u0440\u043C\u0435\u043D
     10/11 (\u041F\u0438\u0442\u0435\u0440 \u043F\u043E\u0441\u0442\u043E\u0439)"
@@ -1760,27 +1697,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1116069344}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &664612890
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 664612888}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e02b9d470a0ccad439a25adb351fbc4c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  willShadowWithChange: 1
-  backgroundImage: {fileID: 1244400855}
-  arrayNewBGImages:
-  - {fileID: 21300000, guid: 4b14634941414ce469e5b1202e4fea92, type: 3}
-  newImage: {fileID: 21300000, guid: 75a1a846fd6de6d40a7809855efde19d, type: 3}
-  endMusicOnEnd: 1
-  timerBeforeNextSlide: 6
-  DialogueBox: {fileID: 1252078564}
-  newBackgroundSound: {fileID: 0}
 --- !u!114 &664612891
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1795,6 +1711,28 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   resultOfCondition:
   - {fileID: 1637082409}
+--- !u!114 &664612892
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 664612888}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7fbed79c170dd440b8b31ec12a04972, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  willShadow: 0
+  backgroundImage: {fileID: 1244400855}
+  timingOfFiniteSlide: 1
+  arrayNewBGImages:
+  - sliderImage: {fileID: 21300000, guid: 4b14634941414ce469e5b1202e4fea92, type: 3}
+    sliderTiming: 5
+  newImage: {fileID: 21300000, guid: 75a1a846fd6de6d40a7809855efde19d, type: 3}
+  endMusicOnEnd: 0
+  DialogueBox: {fileID: 1252078564}
+  newBackgroundSound: {fileID: 0}
 --- !u!1 &669850768
 GameObject:
   m_ObjectHideFlags: 0
@@ -2779,9 +2717,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogues:
   - speakerName: 
-    heroID: 7
+    heroID: 0
     sentencesAndSounds:
-    - sentence: "*\u041F\u0430\u0443\u0437\u0430*"
+    - sentence: "*\u0427\u0435 \u043E\u043D \u0442\u0430\u043A \u0434\u043E\u043B\u0433\u043E?*"
       sound:
         clip: {fileID: 0}
         AudioSource: {fileID: 0}
@@ -2937,60 +2875,6 @@ RectTransform:
   m_AnchoredPosition: {x: -105, y: 400}
   m_SizeDelta: {x: 2574.89, y: 1241.96}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!1 &1058088520
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1058088522}
-  - component: {fileID: 1058088521}
-  m_Layer: 0
-  m_Name: "\u0422\u0415\u0421\u0422\u0415\u0420"
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1058088521
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1058088520}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 76259cfea18da354cbf679b0e33341ad, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  dialogues:
-  - speakerName: 
-    heroID: 1
-    sentencesAndSounds:
-    - sentence: "\u0422\u0435\u0421\u0422\u0415\u0420"
-      sound:
-        clip: {fileID: 0}
-        AudioSource: {fileID: 0}
-  nextTrigger: {fileID: 1803513150}
-  dialogueIsEnded: 0
---- !u!4 &1058088522
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1058088520}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.047982, y: -0.6697569, z: -80.79999}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1116069344}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1077551538
 GameObject:
   m_ObjectHideFlags: 0
@@ -3167,7 +3051,6 @@ Transform:
   - {fileID: 698684339}
   - {fileID: 721373253}
   - {fileID: 1730007276}
-  - {fileID: 1058088522}
   - {fileID: 1803513153}
   - {fileID: 445657700}
   - {fileID: 1149538769}
@@ -3379,11 +3262,9 @@ MonoBehaviour:
   backgroundImage: {fileID: 1244400855}
   timingOfFiniteSlide: 1
   arrayNewBGImages:
-  - sliderImage: {fileID: 21300000, guid: e4e3a00b8220eda439a13dfe4c913e53, type: 3}
-    sliderTiming: 3
-  - sliderImage: {fileID: 21300000, guid: 19731826f16512042be04ec3b81a5692, type: 3}
-    sliderTiming: 5
-  newImage: {fileID: 21300000, guid: 9123932e2ab5cf449b26ea854fe55184, type: 3}
+  - sliderImage: {fileID: 21300000, guid: 2b4a3e75d53a73f4d8db4ffe44ca4a72, type: 3}
+    sliderTiming: 9
+  newImage: {fileID: 21300000, guid: 4f2b4bdf363a0ea45a764e8ea01e0f02, type: 3}
   endMusicOnEnd: 0
   DialogueBox: {fileID: 1252078564}
   newBackgroundSound: {fileID: 0}
@@ -4496,7 +4377,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1494259048}
   - component: {fileID: 1494259050}
-  - component: {fileID: 1494259049}
+  - component: {fileID: 1494259051}
   m_Layer: 0
   m_Name: "[\u0421\u043B\u0430\u0439\u0434\u0435\u0440] \u0421\u043F\u0430\u0439\u0434\u0435\u0440\u043C\u0435\u043D
     7/11 (\u041C\u0430\u043D\u0435\u043A\u0435\u043D)"
@@ -4520,27 +4401,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1116069344}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1494259049
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1494259047}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e02b9d470a0ccad439a25adb351fbc4c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  willShadowWithChange: 1
-  backgroundImage: {fileID: 1244400855}
-  arrayNewBGImages:
-  - {fileID: 21300000, guid: d6a8b2f4ea0db0041a0ea22b39003404, type: 3}
-  newImage: {fileID: 21300000, guid: 0d6445466dcd7004e80caa9edda1ea71, type: 3}
-  endMusicOnEnd: 1
-  timerBeforeNextSlide: 5
-  DialogueBox: {fileID: 1252078564}
-  newBackgroundSound: {fileID: 0}
 --- !u!114 &1494259050
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4555,6 +4415,28 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   resultOfCondition:
   - {fileID: 1850181230}
+--- !u!114 &1494259051
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1494259047}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7fbed79c170dd440b8b31ec12a04972, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  willShadow: 0
+  backgroundImage: {fileID: 1244400855}
+  timingOfFiniteSlide: 1
+  arrayNewBGImages:
+  - sliderImage: {fileID: 21300000, guid: d6a8b2f4ea0db0041a0ea22b39003404, type: 3}
+    sliderTiming: 7
+  newImage: {fileID: 21300000, guid: 0d6445466dcd7004e80caa9edda1ea71, type: 3}
+  endMusicOnEnd: 0
+  DialogueBox: {fileID: 1252078564}
+  newBackgroundSound: {fileID: 0}
 --- !u!1 &1495669499
 GameObject:
   m_ObjectHideFlags: 0
@@ -4876,7 +4758,7 @@ MonoBehaviour:
     sentencesAndSounds:
     - sentence: "*\u041F\u0430\u0443\u0437\u0430*"
       sound:
-        clip: {fileID: 0}
+        clip: {fileID: 8300000, guid: 955bce25a47b87a4c94858fa4a50a6db, type: 3}
         AudioSource: {fileID: 0}
   - speakerName: 
     heroID: 1
@@ -5033,7 +4915,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1702375437}
   - component: {fileID: 1702375439}
-  - component: {fileID: 1702375438}
+  - component: {fileID: 1702375440}
   m_Layer: 0
   m_Name: "[\u0421\u043B\u0430\u0439\u0434\u0435\u0440] \u0421\u043F\u0430\u0439\u0434\u0435\u0440\u043C\u0435\u043D
     6/11 (\u042F \u0443\u0447\u0435\u043D\u044B\u0439)"
@@ -5057,27 +4939,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1116069344}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1702375438
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1702375436}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e02b9d470a0ccad439a25adb351fbc4c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  willShadowWithChange: 1
-  backgroundImage: {fileID: 1244400855}
-  arrayNewBGImages:
-  - {fileID: 21300000, guid: e2619bc64cb39984ea595c2c392cc56e, type: 3}
-  newImage: {fileID: 21300000, guid: 7ec75fe38fc83274c9dff6545fc16968, type: 3}
-  endMusicOnEnd: 1
-  timerBeforeNextSlide: 5
-  DialogueBox: {fileID: 1252078564}
-  newBackgroundSound: {fileID: 0}
 --- !u!114 &1702375439
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5092,6 +4953,28 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   resultOfCondition:
   - {fileID: 1815682303}
+--- !u!114 &1702375440
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1702375436}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7fbed79c170dd440b8b31ec12a04972, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  willShadow: 0
+  backgroundImage: {fileID: 1244400855}
+  timingOfFiniteSlide: 1
+  arrayNewBGImages:
+  - sliderImage: {fileID: 21300000, guid: e2619bc64cb39984ea595c2c392cc56e, type: 3}
+    sliderTiming: 4
+  newImage: {fileID: 21300000, guid: 7ec75fe38fc83274c9dff6545fc16968, type: 3}
+  endMusicOnEnd: 0
+  DialogueBox: {fileID: 1252078564}
+  newBackgroundSound: {fileID: 0}
 --- !u!1 &1708562191
 GameObject:
   m_ObjectHideFlags: 0
@@ -5102,7 +4985,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1708562192}
   - component: {fileID: 1708562194}
-  - component: {fileID: 1708562193}
+  - component: {fileID: 1708562195}
   m_Layer: 0
   m_Name: "[\u0421\u043B\u0430\u0439\u0434\u0435\u0440] \u0421\u043F\u0430\u0439\u0434\u0435\u0440\u043C\u0435\u043D
     5/11 (\u0411\u0435\u043D \u0443\u043C\u0435\u0440)"
@@ -5123,31 +5006,9 @@ Transform:
   m_LocalPosition: {x: 0.90672004, y: 0.18125324, z: -297.19647}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 291888211}
+  m_Children: []
   m_Father: {fileID: 1116069344}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1708562193
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1708562191}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e02b9d470a0ccad439a25adb351fbc4c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  willShadowWithChange: 1
-  backgroundImage: {fileID: 1244400855}
-  arrayNewBGImages:
-  - {fileID: 21300000, guid: 196aa83a822d2664e80e09d300136ec5, type: 3}
-  newImage: {fileID: 21300000, guid: 2140bd83586deeb4e97ae958eb8d8570, type: 3}
-  endMusicOnEnd: 1
-  timerBeforeNextSlide: 7
-  DialogueBox: {fileID: 1252078564}
-  newBackgroundSound: {fileID: 8300000, guid: 955bce25a47b87a4c94858fa4a50a6db, type: 3}
 --- !u!114 &1708562194
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5161,7 +5022,29 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   resultOfCondition:
-  - {fileID: 291888208}
+  - {fileID: 1655402512}
+--- !u!114 &1708562195
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1708562191}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7fbed79c170dd440b8b31ec12a04972, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  willShadow: 0
+  backgroundImage: {fileID: 1244400855}
+  timingOfFiniteSlide: 1
+  arrayNewBGImages:
+  - sliderImage: {fileID: 21300000, guid: 196aa83a822d2664e80e09d300136ec5, type: 3}
+    sliderTiming: 15
+  newImage: {fileID: 21300000, guid: 2140bd83586deeb4e97ae958eb8d8570, type: 3}
+  endMusicOnEnd: 0
+  DialogueBox: {fileID: 1252078564}
+  newBackgroundSound: {fileID: 0}
 --- !u!1 &1730007273
 GameObject:
   m_ObjectHideFlags: 0
@@ -5401,17 +5284,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e7fbed79c170dd440b8b31ec12a04972, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  willShadow: 1
+  willShadow: 0
   backgroundImage: {fileID: 1244400855}
-  timingOfFiniteSlide: 5
+  timingOfFiniteSlide: 1
   arrayNewBGImages:
-  - sliderImage: {fileID: 21300000, guid: cc201e63566297446807c58c061d1872, type: 3}
-    sliderTiming: 5
-  - sliderImage: {fileID: 21300000, guid: 380e263507c979e44b174f5d3060ca04, type: 3}
-    sliderTiming: 8
-  - sliderImage: {fileID: 21300000, guid: 0ba815243c81ca9448d8ccae24b3735e, type: 3}
+  - sliderImage: {fileID: 21300000, guid: 614b1277b17ba6f41839075c5e25ab87, type: 3}
     sliderTiming: 2
-  newImage: {fileID: 0}
+  - sliderImage: {fileID: 21300000, guid: 388d39d9a1676ef4b9053fc08739363a, type: 3}
+    sliderTiming: 4
+  newImage: {fileID: 21300000, guid: 8e04ac1b1f2d37342b0fc5b09a993236, type: 3}
   endMusicOnEnd: 0
   DialogueBox: {fileID: 1252078564}
   newBackgroundSound: {fileID: 0}
@@ -5516,7 +5397,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1829181493}
   - component: {fileID: 1829181495}
-  - component: {fileID: 1829181494}
+  - component: {fileID: 1829181496}
   m_Layer: 0
   m_Name: "[\u0421\u043B\u0430\u0439\u0434\u0435\u0440] \u0421\u043F\u0430\u0439\u0434\u0435\u0440\u043C\u0435\u043D
     3/11 (\u0410 \u0432\u043E\u0442 \u044D\u0442\u043E \u043D\u0435 \u043C\u043E\u044F
@@ -5541,27 +5422,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1116069344}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1829181494
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1829181492}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e02b9d470a0ccad439a25adb351fbc4c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  willShadowWithChange: 1
-  backgroundImage: {fileID: 1244400855}
-  arrayNewBGImages:
-  - {fileID: 21300000, guid: 8c1f7401c5ba6d4458ec2f6e3f339afc, type: 3}
-  newImage: {fileID: 21300000, guid: d1b9fe1d1463d624ca9be8356359f813, type: 3}
-  endMusicOnEnd: 1
-  timerBeforeNextSlide: 3
-  DialogueBox: {fileID: 1252078564}
-  newBackgroundSound: {fileID: 0}
 --- !u!114 &1829181495
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5576,6 +5436,28 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   resultOfCondition:
   - {fileID: 1247023968}
+--- !u!114 &1829181496
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1829181492}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7fbed79c170dd440b8b31ec12a04972, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  willShadow: 0
+  backgroundImage: {fileID: 1244400855}
+  timingOfFiniteSlide: 1
+  arrayNewBGImages:
+  - sliderImage: {fileID: 21300000, guid: 8c1f7401c5ba6d4458ec2f6e3f339afc, type: 3}
+    sliderTiming: 4
+  newImage: {fileID: 21300000, guid: d1b9fe1d1463d624ca9be8356359f813, type: 3}
+  endMusicOnEnd: 0
+  DialogueBox: {fileID: 1252078564}
+  newBackgroundSound: {fileID: 0}
 --- !u!1 &1836529305
 GameObject:
   m_ObjectHideFlags: 0
@@ -6115,7 +5997,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1888859974}
   - component: {fileID: 1888859976}
-  - component: {fileID: 1888859975}
+  - component: {fileID: 1888859977}
   m_Layer: 0
   m_Name: "[\u0421\u043B\u0430\u0439\u0434\u0435\u0440] \u0421\u043F\u0430\u0439\u0434\u0435\u0440\u043C\u0435\u043D
     8/11 (\u0421\u0438\u0441\u044C\u043A\u0438)"
@@ -6139,27 +6021,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1116069344}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1888859975
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1888859973}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e02b9d470a0ccad439a25adb351fbc4c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  willShadowWithChange: 1
-  backgroundImage: {fileID: 1244400855}
-  arrayNewBGImages:
-  - {fileID: 21300000, guid: df11ab0f853bba44ca4bd83e69f248d7, type: 3}
-  newImage: {fileID: 21300000, guid: 85b97ea014c670442a4897b14ceaac1e, type: 3}
-  endMusicOnEnd: 1
-  timerBeforeNextSlide: 5
-  DialogueBox: {fileID: 1252078564}
-  newBackgroundSound: {fileID: 0}
 --- !u!114 &1888859976
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6174,6 +6035,28 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   resultOfCondition:
   - {fileID: 1155835473}
+--- !u!114 &1888859977
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1888859973}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7fbed79c170dd440b8b31ec12a04972, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  willShadow: 0
+  backgroundImage: {fileID: 1244400855}
+  timingOfFiniteSlide: 1
+  arrayNewBGImages:
+  - sliderImage: {fileID: 21300000, guid: df11ab0f853bba44ca4bd83e69f248d7, type: 3}
+    sliderTiming: 7
+  newImage: {fileID: 21300000, guid: 85b97ea014c670442a4897b14ceaac1e, type: 3}
+  endMusicOnEnd: 0
+  DialogueBox: {fileID: 1252078564}
+  newBackgroundSound: {fileID: 0}
 --- !u!1 &1948978938
 GameObject:
   m_ObjectHideFlags: 0
@@ -6573,7 +6456,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2119650427}
   - component: {fileID: 2119650429}
-  - component: {fileID: 2119650428}
+  - component: {fileID: 2119650430}
   m_Layer: 0
   m_Name: "[\u0421\u043B\u0430\u0439\u0434\u0435\u0440] \u0421\u043F\u0430\u0439\u0434\u0435\u0440\u043C\u0435\u043D
     4/11 (\u041F\u0438\u0442\u0435\u0440)"
@@ -6597,27 +6480,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1116069344}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2119650428
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2119650426}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e02b9d470a0ccad439a25adb351fbc4c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  willShadowWithChange: 1
-  backgroundImage: {fileID: 1244400855}
-  arrayNewBGImages:
-  - {fileID: 21300000, guid: fd546a1a3ee511b4989e8ed91b20593d, type: 3}
-  newImage: {fileID: 21300000, guid: e957a1dfa48b8384a8bd79506b96a92d, type: 3}
-  endMusicOnEnd: 1
-  timerBeforeNextSlide: 13
-  DialogueBox: {fileID: 1252078564}
-  newBackgroundSound: {fileID: 0}
 --- !u!114 &2119650429
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6632,6 +6494,28 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   resultOfCondition:
   - {fileID: 1334014067}
+--- !u!114 &2119650430
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2119650426}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7fbed79c170dd440b8b31ec12a04972, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  willShadow: 0
+  backgroundImage: {fileID: 1244400855}
+  timingOfFiniteSlide: 1
+  arrayNewBGImages:
+  - sliderImage: {fileID: 21300000, guid: fd546a1a3ee511b4989e8ed91b20593d, type: 3}
+    sliderTiming: 11
+  newImage: {fileID: 21300000, guid: e957a1dfa48b8384a8bd79506b96a92d, type: 3}
+  endMusicOnEnd: 0
+  DialogueBox: {fileID: 1252078564}
+  newBackgroundSound: {fileID: 0}
 --- !u!1 &2128711750
 GameObject:
   m_ObjectHideFlags: 0
@@ -6696,7 +6580,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2141653140}
   - component: {fileID: 2141653142}
-  - component: {fileID: 2141653141}
+  - component: {fileID: 2141653143}
   m_Layer: 0
   m_Name: "[\u0421\u043B\u0430\u0439\u0434\u0435\u0440] \u0421\u043F\u0430\u0439\u0434\u0435\u0440\u043C\u0435\u043D
     9/11 (\u0413\u043E\u043B\u044B\u0435)"
@@ -6720,27 +6604,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1116069344}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2141653141
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2141653139}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e02b9d470a0ccad439a25adb351fbc4c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  willShadowWithChange: 1
-  backgroundImage: {fileID: 1244400855}
-  arrayNewBGImages:
-  - {fileID: 21300000, guid: 6a615347b4b305b41840c6d74bc46471, type: 3}
-  newImage: {fileID: 21300000, guid: 984b0d78f584dc6479e4feb84dbd6c5d, type: 3}
-  endMusicOnEnd: 1
-  timerBeforeNextSlide: 5
-  DialogueBox: {fileID: 1252078564}
-  newBackgroundSound: {fileID: 0}
 --- !u!114 &2141653142
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6755,6 +6618,28 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   resultOfCondition:
   - {fileID: 1443080295}
+--- !u!114 &2141653143
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2141653139}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7fbed79c170dd440b8b31ec12a04972, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  willShadow: 0
+  backgroundImage: {fileID: 1244400855}
+  timingOfFiniteSlide: 1
+  arrayNewBGImages:
+  - sliderImage: {fileID: 21300000, guid: 6a615347b4b305b41840c6d74bc46471, type: 3}
+    sliderTiming: 7
+  newImage: {fileID: 21300000, guid: 984b0d78f584dc6479e4feb84dbd6c5d, type: 3}
+  endMusicOnEnd: 0
+  DialogueBox: {fileID: 1252078564}
+  newBackgroundSound: {fileID: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
