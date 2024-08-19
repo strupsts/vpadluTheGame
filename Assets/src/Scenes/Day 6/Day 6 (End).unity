@@ -352,7 +352,7 @@ MonoBehaviour:
     sentencesAndSounds:
     - sentence: "*\u043F\u043E\u0434\u0431\u0435\u0433\u0430\u0435\u0442*"
       sound:
-        clip: {fileID: 8300000, guid: 75af72ac8fa31e448b4f5c8f40827364, type: 3}
+        clip: {fileID: 8300000, guid: d5db5f5904f32484d9eb6e357253f569, type: 3}
         AudioSource: {fileID: 0}
     - sentence: "\u0421\u0430\u043D\u044F, \u044D\u0442\u043E \u0442\u2026 \u0430\u2026
         \u041F\u0440\u0438\u0432\u0435\u0442, \u0414\u0430\u043D\u044F\u2026"
@@ -3517,6 +3517,7 @@ MonoBehaviour:
   - {fileID: 2421706348551240941, guid: 785e3e994063de7429ac65535464b398, type: 3}
   prefabNotifyItem: {fileID: 2421706348551240941, guid: 40f286c5e47a155429b09fa9eab8408e, type: 3}
   prefabNotifyAchievment: {fileID: 2421706348551240941, guid: af01a2ee4b8f02948b2a7ce0ff5ff6ba, type: 3}
+  prefabWarningItem: {fileID: 0}
   sliderStop: 0
   currentCharacter: {fileID: 1018568848}
   VpadluHeroes:

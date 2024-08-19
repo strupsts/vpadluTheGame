@@ -189,8 +189,8 @@ MonoBehaviour:
     y: 0
     width: 452
     height: 538
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 201, y: 221}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 13}
   m_Panes:
   - {fileID: 13}
@@ -215,8 +215,8 @@ MonoBehaviour:
     y: 0
     width: 1077
     height: 538
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 202, y: 221}
+  m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 16}
   m_Panes:
   - {fileID: 14}
@@ -324,7 +324,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/src/Assets/Images/day 6/D6-Nefors
+    - Assets/src/Assets/Audio/Day 6/Nefori
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
@@ -332,16 +332,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 63
   m_LastFolders:
-  - Assets/src/Assets/Images/day 6/D6-Nefors
+  - Assets/src/Assets/Audio/Day 6/Nefori
   m_LastFoldersGridSize: 63
   m_LastProjectPath: C:\Users\User\vpadluTheGame
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 520}
-    m_SelectedIDs: 00290100
-    m_LastClickedID: 76032
-    m_ExpandedIDs: 00000000ae67000076680000bc680000c0680000c2680000c27a0000c47a0000d07a0000d27a0000761a01008a1a010000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 143}
+    m_SelectedIDs: 74910000
+    m_LastClickedID: 37236
+    m_ExpandedIDs: 00000000a66900006c6a0000ae6a0000b06a0000b26a0000b66a0000ea6a00004e91000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -369,7 +369,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000ae670000
+    m_ExpandedIDs: 00000000a6690000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -421,7 +421,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 0}
+    m_ScrollPosition: {x: 0, y: 40}
     m_GridSize: 63
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 209
@@ -461,26 +461,24 @@ MonoBehaviour:
     m_OverlaysVisible: 1
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 180}
-      m_SelectedIDs: 76280100
-      m_LastClickedID: 75894
-      m_ExpandedIDs: 344cffff8661ffff5ef9ffffe0faffffae6900000c6a0000d06a000094120100f612010038270100b4270100
+      scrollPos: {x: 0, y: 0}
+      m_SelectedIDs: 0e9d0000
+      m_LastClickedID: 40206
+      m_ExpandedIDs: 3cbdffffb6c0ffff00f7ffffa4f9ffff066c00007c6c0000649a0000529d0000ce9d0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: "[\u0414\u0438\u0430\u043B\u043E\u0433] \u041D\u0435\u0444\u043E\u0440\u044B
-          6/"
-        m_OriginalName: "[\u0414\u0438\u0430\u043B\u043E\u0433] \u041D\u0435\u0444\u043E\u0440\u044B
-          6/"
+        m_Name: 
+        m_OriginalName: 
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: 75868
+        m_UserData: 0
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 0
+        m_OriginalEventType: 11
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 8}
       m_SearchString: 
