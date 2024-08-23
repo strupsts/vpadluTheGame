@@ -21,16 +21,16 @@ public class NeforsChangeSceneScript : MonoBehaviour, IConditionHandler
             
             switch (companyRep)
             {
-                case 100:
+                case 75:
                     SceneManager.LoadScene(7);
                     break;
-                case 75:
+                case 50:
                     SceneManager.LoadScene(11);
                     break;
-                case 50:
+                case 25:
                     SceneManager.LoadScene(15);
                     break;
-                case 25:
+                case 0:
                     SceneManager.LoadScene(21);
                     break;
                 default:
