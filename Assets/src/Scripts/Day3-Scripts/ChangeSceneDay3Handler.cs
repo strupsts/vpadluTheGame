@@ -3,7 +3,7 @@ using UnityEngine.SceneManagement;
 
 public class ChangeSceneDay3Handler : MonoBehaviour, IConditionHandler
 {
-    public GameObject conditionHandlerObject;
+    /*public GameObject conditionHandlerObject;*/
 
     public int StartConditionHandle()
     {

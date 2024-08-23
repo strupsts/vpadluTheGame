@@ -821,10 +821,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 241931728}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ac66302ba3bb571409db25f2e49e0376, type: 3}
+  m_Script: {fileID: 11500000, guid: 4232bb6bd42a28e448aed7c409b42761, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  conditionHandlerObject: {fileID: 0}
+  checkValue: DeclineNeforsThree
+  SceneOfCompanyMember: 14
 --- !u!1 &249943263
 GameObject:
   m_ObjectHideFlags: 0
@@ -6438,6 +6439,7 @@ MonoBehaviour:
   - {fileID: 2421706348551240941, guid: 785e3e994063de7429ac65535464b398, type: 3}
   prefabNotifyItem: {fileID: 2421706348551240941, guid: 40f286c5e47a155429b09fa9eab8408e, type: 3}
   prefabNotifyAchievment: {fileID: 2421706348551240941, guid: af01a2ee4b8f02948b2a7ce0ff5ff6ba, type: 3}
+  prefabWarningItem: {fileID: 0}
   sliderStop: 0
   currentCharacter: {fileID: 1018568848}
   VpadluHeroes:

@@ -1128,7 +1128,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nameText: {fileID: 211457225}
   dialogueText: {fileID: 645555840}
-  StartDialogueTrigger: {fileID: 182781849}
+  StartDialogueTrigger: {fileID: 75594756}
   animator: {fileID: 1252078565}
   musicSource: {fileID: 0}
   backgroundMusic: {fileID: 0}
@@ -1711,7 +1711,7 @@ GameObject:
   m_Component:
   - component: {fileID: 589745451}
   - component: {fileID: 589745450}
-  - component: {fileID: 589745449}
+  - component: {fileID: 589745452}
   m_Layer: 0
   m_Name: "[\u041F\u0420\u041E\u0412\u0415\u0420\u041A\u0410] \u0410 \u043F\u043E\u043C\u043E\u0433
     \u043B\u0438 \u0442\u044B \u0411\u043E\u0433\u0434\u0430\u043D\u0443?"
@@ -1720,18 +1720,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &589745449
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 589745448}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bdb56d3d4ad05674c854536f6af442e6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &589745450
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1766,6 +1754,18 @@ Transform:
   - {fileID: 518385074}
   m_Father: {fileID: 1116069344}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &589745452
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 589745448}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e425798516e369149a004fe8a642060e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &619284064
 GameObject:
   m_ObjectHideFlags: 0

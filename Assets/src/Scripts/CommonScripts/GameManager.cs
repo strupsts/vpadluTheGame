@@ -30,7 +30,7 @@ public class GameManager : MonoBehaviour
         { "FreskoCorrect", false },
         { "MedalLGBT", false },
         { "Chocolate", false },
-        { "DeclineNeforsOne", false },
+        { "DeclineNeforsOne", true },
         { "DeclineNeforsTwo", false },
         { "DeclineNeforsThree", false },
         { "DeclineNeforsFour", false },
@@ -65,8 +65,8 @@ public class GameManager : MonoBehaviour
         { "Parents",  50},
         { "RuslanAndSanya",  70},
         { "Bogdan",  50},
-        { "Company",  25},
-        { "Neformals",  50},
+        { "Company",  100},
+        { "Neformals",  0},
     };
 
     public int GetReputationListValue(string key)   // Геттер для репутации

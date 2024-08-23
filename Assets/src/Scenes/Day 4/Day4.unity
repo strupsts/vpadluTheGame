@@ -5356,6 +5356,7 @@ MonoBehaviour:
   - {fileID: 2421706348551240941, guid: 785e3e994063de7429ac65535464b398, type: 3}
   prefabNotifyItem: {fileID: 2421706348551240941, guid: 40f286c5e47a155429b09fa9eab8408e, type: 3}
   prefabNotifyAchievment: {fileID: 2421706348551240941, guid: af01a2ee4b8f02948b2a7ce0ff5ff6ba, type: 3}
+  prefabWarningItem: {fileID: 0}
   sliderStop: 0
   currentCharacter: {fileID: 1018568848}
   VpadluHeroes:
@@ -6279,10 +6280,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 2105232311}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b0d3b28b48c88c64b9b40d25a7c8a0ff, type: 3}
+  m_Script: {fileID: 11500000, guid: 4232bb6bd42a28e448aed7c409b42761, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  conditionHandlerObject: {fileID: 0}
+  checkValue: DeclineNeforsTwo
+  SceneOfCompanyMember: 10
 --- !u!1 &2110928148
 GameObject:
   m_ObjectHideFlags: 0
