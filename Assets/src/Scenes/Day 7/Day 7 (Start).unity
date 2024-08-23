@@ -1128,7 +1128,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nameText: {fileID: 211457225}
   dialogueText: {fileID: 645555840}
-  StartDialogueTrigger: {fileID: 676990371}
+  StartDialogueTrigger: {fileID: 182781849}
   animator: {fileID: 1252078565}
   musicSource: {fileID: 0}
   backgroundMusic: {fileID: 0}
@@ -4153,9 +4153,7 @@ MonoBehaviour:
   backgroundImage: {fileID: 1244400855}
   arrayNewBGImages:
   - {fileID: 21300000, guid: 3212e5b4ea442134d8b6ffe0010d012c, type: 3}
-  - {fileID: 21300000, guid: 30bcb7b696d7b294ea5790afadb094b8, type: 3}
-  - {fileID: 21300000, guid: 3212e5b4ea442134d8b6ffe0010d012c, type: 3}
-  newImage: {fileID: 21300000, guid: f9b7e8f0ef57bad44a2a1ea7dac52824, type: 3}
+  newImage: {fileID: 21300000, guid: 08e3a7bb4613bdf46a5616739cb796f8, type: 3}
   endMusicOnEnd: 1
   timerBeforeNextSlide: 3
   DialogueBox: {fileID: 1252078564}
@@ -4339,8 +4337,7 @@ MonoBehaviour:
   backgroundImage: {fileID: 1244400855}
   arrayNewBGImages:
   - {fileID: 21300000, guid: 3212e5b4ea442134d8b6ffe0010d012c, type: 3}
-  - {fileID: 21300000, guid: e9ef28228af241a4ab71baca342ff921, type: 3}
-  newImage: {fileID: 21300000, guid: a0427920a412d4e40a937f63dc3b7118, type: 3}
+  newImage: {fileID: 21300000, guid: 08e3a7bb4613bdf46a5616739cb796f8, type: 3}
   endMusicOnEnd: 1
   timerBeforeNextSlide: 3
   DialogueBox: {fileID: 1252078564}
@@ -5780,7 +5777,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   backgroundImage: {fileID: 1244400855}
-  newBackgroundImage: {fileID: 21300000, guid: b395ef6edebd9674e9bc5686e9251c93, type: 3}
+  newBackgroundImage: {fileID: 21300000, guid: d33332fcd88bb914bb66c7bded9945bd, type: 3}
   willCloseDialogue: 1
   timerOnDialogueClose: 3
   DialogueBox: {fileID: 1252078564}
@@ -6708,7 +6705,7 @@ MonoBehaviour:
     Avatar: {fileID: 21300000, guid: e5211b3e89cdcc948b2801e2951cde25, type: 3}
   - Id: 1
     Name: "\u0421\u0432\u044F\u0449\u0435\u043D\u043D\u0438\u043A"
-    Avatar: {fileID: 21300000, guid: e5211b3e89cdcc948b2801e2951cde25, type: 3}
+    Avatar: {fileID: 21300000, guid: 0c12675f814e16d4580b673dff47b0a1, type: 3}
   - Id: 2
     Name: "\u041F\u0440\u043E\u0445\u043E\u0436\u0438\u04391"
     Avatar: {fileID: 21300000, guid: e5211b3e89cdcc948b2801e2951cde25, type: 3}
