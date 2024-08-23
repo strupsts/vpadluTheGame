@@ -4715,7 +4715,7 @@ PrefabInstance:
     - target: {fileID: 2454183494722847304, guid: f50f8a1c96c7fa247b1f338d7dbac901, type: 3}
       propertyPath: StartDialogueTrigger
       value: 
-      objectReference: {fileID: 1422751493}
+      objectReference: {fileID: 666943633}
     - target: {fileID: 3311051040849249046, guid: f50f8a1c96c7fa247b1f338d7dbac901, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.8901967

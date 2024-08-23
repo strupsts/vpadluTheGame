@@ -2064,6 +2064,7 @@ MonoBehaviour:
   - {fileID: 2421706348551240941, guid: 785e3e994063de7429ac65535464b398, type: 3}
   prefabNotifyItem: {fileID: 2421706348551240941, guid: 40f286c5e47a155429b09fa9eab8408e, type: 3}
   prefabNotifyAchievment: {fileID: 2421706348551240941, guid: af01a2ee4b8f02948b2a7ce0ff5ff6ba, type: 3}
+  prefabWarningItem: {fileID: 0}
   sliderStop: 0
   currentCharacter: {fileID: 326934780}
   VpadluHeroes:
@@ -2479,7 +2480,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nameText: {fileID: 916398711}
   dialogueText: {fileID: 1829307765}
-  StartDialogueTrigger: {fileID: 1448226590}
+  StartDialogueTrigger: {fileID: 796071226}
   animator: {fileID: 1354915569}
   musicSource: {fileID: 0}
   backgroundMusic: {fileID: 0}

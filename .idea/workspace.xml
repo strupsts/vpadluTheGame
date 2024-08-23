@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="33c7207c-eba3-4188-8fbc-643204c7e0a2" name="Changes" comment="[SCRIPT] Slider 2.0 added ++">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_11_08_2024_13_56_[Changes]/.suo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_11_08_2024_13_56_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_11_08_2024_13_56__Changes_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/VpadluGame/v17/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/VpadluGame/v17/.suo" afterDir="false" />
+    <list default="true" id="33c7207c-eba3-4188-8fbc-643204c7e0a2" name="Changes" comment="Nefors system edit">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/Scenes/Day 1/Day1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/src/Scenes/Day 1/Day1.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/Scenes/Day 2/Day2-Part2.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/src/Scenes/Day 2/Day2-Part2.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/Scenes/Day 4/Day4-EndOfDay.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/src/Scenes/Day 4/Day4-EndOfDay.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/Scenes/Day 4/Day4-NEFORS.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/src/Scenes/Day 4/Day4-NEFORS.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +54,7 @@
       <workItem from="1723924688634" duration="4383000" />
       <workItem from="1724004761651" duration="2462000" />
       <workItem from="1724433121461" duration="111000" />
+      <workItem from="1724446657929" duration="1250000" />
     </task>
     <task id="LOCAL-00001" summary="test-cli">
       <created>1720982033156</created>
@@ -95,7 +98,21 @@
       <option name="project" value="LOCAL" />
       <updated>1723930708572</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Nefors system +, couple little scripts +">
+      <created>1724446728047</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1724446728047</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Nefors system edit">
+      <created>1724446900489</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1724446900489</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -119,6 +136,8 @@
     <MESSAGE value="Efim Conditions Day6 +" />
     <MESSAGE value="Efim end +" />
     <MESSAGE value="[SCRIPT] Slider 2.0 added ++" />
-    <option name="LAST_COMMIT_MESSAGE" value="[SCRIPT] Slider 2.0 added ++" />
+    <MESSAGE value="Nefors system +, couple little scripts +" />
+    <MESSAGE value="Nefors system edit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Nefors system edit" />
   </component>
 </project>
