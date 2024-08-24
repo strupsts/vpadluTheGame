@@ -7,8 +7,12 @@ public class HillFinalChoiceCustomScript : MonoBehaviour, ICustomTrigger
   
     void ICustomTrigger.Trigger()
     {
-        Quiz.setQuizPoints("Veterans", 1);
-        Quiz.setQuizPoints("VladimirHillQuiz", 1);
+        
+        int vetPoints = 1;
+        Quiz.setQuizPoints("Veterans", vetPoints);
+
+        int hillPoints = 1;
+        Quiz.setQuizPoints("VladimirHillQuiz", hillPoints);
     }
 
    

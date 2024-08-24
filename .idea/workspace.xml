@@ -3,11 +3,19 @@
   <component name="ChangeListManager">
     <list default="true" id="33c7207c-eba3-4188-8fbc-643204c7e0a2" name="Changes" comment="Nefors system edit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/src/Scenes/Day 1/Day1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/src/Scenes/Day 1/Day1.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/src/Scenes/Day 2/Day2-Part2.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/src/Scenes/Day 2/Day2-Part2.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/src/Scenes/Day 4/Day4-EndOfDay.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/src/Scenes/Day 4/Day4-EndOfDay.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/src/Scenes/Day 4/Day4-NEFORS.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/src/Scenes/Day 4/Day4-NEFORS.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/VpadluGame/FileContentIndex/00eaecc8-ae7a-4fb7-b493-945430d66164.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/VpadluGame/FileContentIndex/2a0acabb-a04b-4af6-bd5c-5f537176d7cf.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/VpadluGame/FileContentIndex/c72f7e2e-2fc2-4219-b526-35981f8ec272.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/VpadluGame/v17/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/VpadluGame/v17/.suo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assembly-CSharp-Editor.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp-Editor.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/Scenes/Day 2/Day2.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/src/Scenes/Day 2/Day2.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/Scenes/Prologue.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/src/Scenes/Prologue.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/Scripts/Day2-Scripts/HillFinalChoiceCustomScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/src/Scripts/Day2-Scripts/HillFinalChoiceCustomScript.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2022.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2022.dwlt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +63,7 @@
       <workItem from="1724004761651" duration="2462000" />
       <workItem from="1724433121461" duration="111000" />
       <workItem from="1724446657929" duration="1250000" />
+      <workItem from="1724523389279" duration="1752000" />
     </task>
     <task id="LOCAL-00001" summary="test-cli">
       <created>1720982033156</created>
