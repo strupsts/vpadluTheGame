@@ -4367,31 +4367,10 @@ MonoBehaviour:
     Avatar: {fileID: 21300000, guid: e5211b3e89cdcc948b2801e2951cde25, type: 3}
   - Id: 8
     Name: "4\u0419 \u0411\u0420\u0410\u0422"
-    Avatar: {fileID: 21300000, guid: e5211b3e89cdcc948b2801e2951cde25, type: 3}
+    Avatar: {fileID: 21300000, guid: f1f891f581b10444696a23ba811f05fe, type: 3}
   - Id: 9
     Name: "\u041F\u043E\u043B\u0438\u0446\u0435\u0439\u0441\u043A\u0438\u0439"
     Avatar: {fileID: 21300000, guid: e5211b3e89cdcc948b2801e2951cde25, type: 3}
-  - Id: 10
-    Name: "\u0412\u043E\u0432\u0430"
-    Avatar: {fileID: 21300000, guid: e1691999c59291947baea51958a85d73, type: 3}
-  - Id: 11
-    Name: "\u0412\u043E\u0432\u0430"
-    Avatar: {fileID: 21300000, guid: 6e3412be69462754b9591ea95fca8ab2, type: 3}
-  - Id: 12
-    Name: "\u0413\u0435\u0440\u043C\u0430\u043D"
-    Avatar: {fileID: 21300000, guid: 8912171af041e4942aae02d2eceeb732, type: 3}
-  - Id: 13
-    Name: "\u041A\u043E\u043B\u044F"
-    Avatar: {fileID: 21300000, guid: 9ab525adaaf6a044b973abaa7d9690cf, type: 3}
-  - Id: 14
-    Name: "\u0418\u043B\u044C\u044F\u0441"
-    Avatar: {fileID: 21300000, guid: e5211b3e89cdcc948b2801e2951cde25, type: 3}
-  - Id: 15
-    Name: "\u0412\u0440\u0430\u0447\u0438"
-    Avatar: {fileID: 21300000, guid: e5211b3e89cdcc948b2801e2951cde25, type: 3}
-  - Id: 16
-    Name: "\u0421\u0430\u043D\u044F"
-    Avatar: {fileID: 21300000, guid: af7e4d3f266658f4d929f4adda23ab61, type: 3}
 --- !u!1 &1761806252
 GameObject:
   m_ObjectHideFlags: 0
