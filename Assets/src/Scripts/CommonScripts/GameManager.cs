@@ -17,6 +17,8 @@ public class GameManager : MonoBehaviour
     public GameObject prefabNotifyAchievment;
     public GameObject prefabWarningItem;
 
+    public static int currentScene = 0;
+
     private bool hasNotifyShowing = false;
 
     public bool sliderStop;

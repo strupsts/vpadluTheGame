@@ -3367,7 +3367,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1578806682}
   - component: {fileID: 1578806684}
-  - component: {fileID: 1578806683}
+  - component: {fileID: 1578806685}
   m_Layer: 0
   m_Name: "[\u041F\u0415\u0420\u0415\u0425\u041E\u0414 \u041D\u0410 \u0421\u041B\u0415\u0414\u0423\u042E\u0429\u0423\u042E
     \u0421\u0426\u0415\u041D\u0423]"
@@ -3391,19 +3391,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1116069344}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1578806683
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1578806681}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c449f61363d01a54f93a21d5d93704eb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  numOfScene: 8
 --- !u!114 &1578806684
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3418,6 +3405,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   resultOfCondition:
   - {fileID: 0}
+--- !u!114 &1578806685
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1578806681}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6abbe444bca1a048baa2c9a7a9380b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1605194166
 GameObject:
   m_ObjectHideFlags: 0
@@ -3723,6 +3722,9 @@ MonoBehaviour:
   - {fileID: 2421706348551240941, guid: 785e3e994063de7429ac65535464b398, type: 3}
   prefabNotifyItem: {fileID: 2421706348551240941, guid: 40f286c5e47a155429b09fa9eab8408e, type: 3}
   prefabNotifyAchievment: {fileID: 2421706348551240941, guid: af01a2ee4b8f02948b2a7ce0ff5ff6ba, type: 3}
+  prefabWarningItem: {fileID: 0}
+  currentScene: 0
+  sliderStop: 0
   currentCharacter: {fileID: 1018568848}
   VpadluHeroes:
   - Id: 0

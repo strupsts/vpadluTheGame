@@ -1,20 +1,152 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="33c7207c-eba3-4188-8fbc-643204c7e0a2" name="Changes" comment="Nefors system edit">
+    <list default="true" id="33c7207c-eba3-4188-8fbc-643204c7e0a2" name="Changes" comment="Prologue Video System +, Quiz Hill edit">
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_17_08_2024_13_58_[Changes]/.suo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_17_08_2024_13_58_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_17_08_2024_13_58__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_23_08_2024_11_12_[Changes]/.suo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_23_08_2024_11_12_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_23_08_2024_11_12__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/VpadluGame/FileContentIndex/00eaecc8-ae7a-4fb7-b493-945430d66164.vsidx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/VpadluGame/FileContentIndex/2a0acabb-a04b-4af6-bd5c-5f537176d7cf.vsidx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/VpadluGame/FileContentIndex/c72f7e2e-2fc2-4219-b526-35981f8ec272.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/VpadluGame/FileContentIndex/5a66a04b-595c-4387-9932-697ee775bb77.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/VpadluGame/FileContentIndex/cd3431ff-9c10-4d3d-a203-18112b5c9eec.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/VpadluGame/FileContentIndex/e641f237-37eb-45b8-b2ad-3fb8f060a4c7.vsidx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.vs/VpadluGame/v17/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/VpadluGame/v17/.suo" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assembly-CSharp-Editor.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp-Editor.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/src/Scenes/Day 2/Day2.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/src/Scenes/Day 2/Day2.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/src/Scenes/Prologue.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/src/Scenes/Prologue.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/src/Scripts/Day2-Scripts/HillFinalChoiceCustomScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/src/Scripts/Day2-Scripts/HillFinalChoiceCustomScript.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/Assets/Images/BG-2/chetverg.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/src/Assets/Images/BG-2/chetverg.jpg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/Assets/Images/BG-2/nedilya.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/src/Assets/Images/BG-2/nedilya.jpg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/Assets/Images/BG-2/polygraph-bossEve.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/src/Assets/Images/BG-2/polygraph-bossEve.jpg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/Assets/Images/BG-2/polygraphEve.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/src/Assets/Images/BG-2/polygraphEve.jpg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/Assets/Images/BG-2/polygraphEve2.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/src/Assets/Images/BG-2/polygraphEve2.jpg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/Assets/Images/BG-2/pyatnica.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/src/Assets/Images/BG-2/pyatnica.jpg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/Assets/Images/BG-2/sreda.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/src/Assets/Images/BG-2/sreda.jpg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/Assets/Images/BG-2/subbota.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/src/Assets/Images/BG-2/subbota.jpg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/Assets/Images/BG-2/white-bg.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/src/Assets/Images/BG-2/white-bg.jpg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/Assets/Images/Characters/Bee (3).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/src/Assets/Images/Characters/Bee (3).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/Assets/Images/Characters/Brigada.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/src/Assets/Images/Characters/Brigada.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/Assets/Images/Characters/Doktor.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/src/Assets/Images/Characters/Doktor.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/Assets/Images/Characters/Efim.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/src/Assets/Images/Characters/Efim.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/Assets/Images/Characters/Feel (3).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/src/Assets/Images/Characters/Feel (3).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/Assets/Images/Characters/Ilyas1.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/src/Assets/Images/Characters/Ilyas1.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/Assets/Images/Characters/Ilyas2.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/src/Assets/Images/Characters/Ilyas2.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/Assets/Images/Characters/Ment (jirniy).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/src/Assets/Images/Characters/Ment (jirniy).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/Assets/Images/Characters/Ment (jirniy)2.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/src/Assets/Images/Characters/Ment (jirniy)2.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/Assets/Images/Characters/Ment (jirniy)3.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/src/Assets/Images/Characters/Ment (jirniy)3.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/Assets/Images/Characters/Ment2.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/src/Assets/Images/Characters/Ment2.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/Assets/Images/Characters/Ozone.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/src/Assets/Images/Characters/Ozone.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/Assets/Images/Characters/Pashaev.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/src/Assets/Images/Characters/Pashaev.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/Assets/Images/Characters/Rapper2.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/src/Assets/Images/Characters/Rapper2.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/Assets/Images/Characters/Sasha White (3).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/src/Assets/Images/Characters/Sasha White (3).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/Assets/Images/Characters/Space.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/src/Assets/Images/Characters/Space.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/Assets/Images/Characters/Ura.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/src/Assets/Images/Characters/Ura.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/Assets/Images/day 5/KtoYaDlyaTebya.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/src/Assets/Images/day 5/KtoYaDlyaTebya.jpg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/Assets/Images/day 5/MirzaAlbum.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/src/Assets/Images/day 5/MirzaAlbum.jpg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/Assets/Images/day 5/nefori/Spiderman1.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/src/Assets/Images/day 5/nefori/Spiderman1.jpg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/Assets/Images/day 5/nefori/Spiderman10.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/src/Assets/Images/day 5/nefori/Spiderman10.jpg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/Assets/Images/day 5/nefori/Spiderman11.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/src/Assets/Images/day 5/nefori/Spiderman11.jpg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/Assets/Images/day 5/nefori/Spiderman12.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/src/Assets/Images/day 5/nefori/Spiderman12.jpg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/Assets/Images/day 5/nefori/Spiderman13.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/src/Assets/Images/day 5/nefori/Spiderman13.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/Assets/Images/day 5/nefori/Spiderman2.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/src/Assets/Images/day 5/nefori/Spiderman2.jpg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/Assets/Images/day 5/nefori/Spiderman3.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/src/Assets/Images/day 5/nefori/Spiderman3.jpg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/Assets/Images/day 5/nefori/Spiderman4.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/src/Assets/Images/day 5/nefori/Spiderman4.jpg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/Assets/Images/day 5/nefori/Spiderman5.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/src/Assets/Images/day 5/nefori/Spiderman5.jpg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/Assets/Images/day 5/nefori/Spiderman6.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/src/Assets/Images/day 5/nefori/Spiderman6.jpg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/Assets/Images/day 5/nefori/Spiderman7.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/src/Assets/Images/day 5/nefori/Spiderman7.jpg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/Assets/Images/day 5/nefori/Spiderman8.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/src/Assets/Images/day 5/nefori/Spiderman8.jpg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/Assets/Images/day 5/nefori/Spiderman9.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/src/Assets/Images/day 5/nefori/Spiderman9.jpg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/Assets/Images/day 5/nefori/SpidermanPause1.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/src/Assets/Images/day 5/nefori/SpidermanPause1.jpg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/Assets/Images/day 5/nefori/SpidermanPause10.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/src/Assets/Images/day 5/nefori/SpidermanPause10.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/Assets/Images/day 5/nefori/SpidermanPause11.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/src/Assets/Images/day 5/nefori/SpidermanPause11.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/Assets/Images/day 5/nefori/SpidermanPause12.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/src/Assets/Images/day 5/nefori/SpidermanPause12.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/Assets/Images/day 5/nefori/SpidermanPause3.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/src/Assets/Images/day 5/nefori/SpidermanPause3.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/Assets/Images/day 5/nefori/SpidermanPause4.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/src/Assets/Images/day 5/nefori/SpidermanPause4.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/Assets/Images/day 5/nefori/SpidermanPause5.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/src/Assets/Images/day 5/nefori/SpidermanPause5.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/Assets/Images/day 5/nefori/SpidermanPause6.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/src/Assets/Images/day 5/nefori/SpidermanPause6.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/Assets/Images/day 5/nefori/SpidermanPause7.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/src/Assets/Images/day 5/nefori/SpidermanPause7.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/Assets/Images/day 5/nefori/SpidermanPause8.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/src/Assets/Images/day 5/nefori/SpidermanPause8.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/Assets/Images/day 5/nefori/SpidermanPause9.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/src/Assets/Images/day 5/nefori/SpidermanPause9.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/Assets/Images/day 5/vova/DomVovi.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/src/Assets/Images/day 5/vova/DomVovi.jpg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/Assets/Images/day 5/vova/Guitars.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/src/Assets/Images/day 5/vova/Guitars.jpg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/Assets/Images/day 5/vova/KvartiraVovi.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/src/Assets/Images/day 5/vova/KvartiraVovi.jpg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/Assets/Images/day 5/vova/MinusSvet 1.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/src/Assets/Images/day 5/vova/MinusSvet 1.jpg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/Assets/Images/day 5/vova/Otschet1.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/src/Assets/Images/day 5/vova/Otschet1.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/Assets/Images/day 5/vova/Otschet2.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/src/Assets/Images/day 5/vova/Otschet2.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/Assets/Images/day 5/vova/Otschet3.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/src/Assets/Images/day 5/vova/Otschet3.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/Assets/Images/day 5/vova/Pedali.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/src/Assets/Images/day 5/vova/Pedali.jpg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/Assets/Images/day 5/vova/PodvalBezSveta 1.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/src/Assets/Images/day 5/vova/PodvalBezSveta 1.jpg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/Assets/Images/day 5/vova/PodvalVovi.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/src/Assets/Images/day 5/vova/PodvalVovi.jpg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/Assets/Images/day 5/vova/Vova (dobriy).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/src/Assets/Images/day 5/vova/Vova (dobriy).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/Assets/Images/day 5/vova/Vova (zloy).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/src/Assets/Images/day 5/vova/Vova (zloy).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/Assets/Images/day 6/10RUBLES.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/src/Assets/Images/day 6/10RUBLES.jpg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/Assets/Images/day 6/Bolnica.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/src/Assets/Images/day 6/Bolnica.jpg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/Assets/Images/day 6/D6-Ilyas/DanyaShevchenko.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/src/Assets/Images/day 6/D6-Ilyas/DanyaShevchenko.jpg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/Assets/Images/day 6/D6-Ilyas/Doroga.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/src/Assets/Images/day 6/D6-Ilyas/Doroga.jpg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/Assets/Images/day 6/D6-Ilyas/GigaVirg.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/src/Assets/Images/day 6/D6-Ilyas/GigaVirg.jpg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/Assets/Images/day 6/D6-Ilyas/Kazarmi.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/src/Assets/Images/day 6/D6-Ilyas/Kazarmi.jpg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/Assets/Images/day 6/D6-Ilyas/Korabl.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/src/Assets/Images/day 6/D6-Ilyas/Korabl.jpg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/Assets/Images/day 6/D6-Ilyas/Okopi1.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/src/Assets/Images/day 6/D6-Ilyas/Okopi1.jpg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/Assets/Images/day 6/D6-Ilyas/Okopi2.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/src/Assets/Images/day 6/D6-Ilyas/Okopi2.jpg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/Assets/Images/day 6/D6-Ilyas/Provoloka.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/src/Assets/Images/day 6/D6-Ilyas/Provoloka.jpg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/Assets/Images/day 6/D6-Ilyas/Shevchenko.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/src/Assets/Images/day 6/D6-Ilyas/Shevchenko.jpg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/Assets/Images/day 6/D6-Ilyas/Tanki.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/src/Assets/Images/day 6/D6-Ilyas/Tanki.jpg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/Assets/Images/day 6/D6-Ilyas/Urich.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/src/Assets/Images/day 6/D6-Ilyas/Urich.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/Assets/Images/day 6/D6-Ilyas/Zenit.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/src/Assets/Images/day 6/D6-Ilyas/Zenit.jpg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/Assets/Images/day 6/D6-Nefors/ForrestVhod.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/src/Assets/Images/day 6/D6-Nefors/ForrestVhod.jpg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/Assets/Images/day 6/D6-Nefors/HagiVagiScreamer.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/src/Assets/Images/day 6/D6-Nefors/HagiVagiScreamer.jpg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/Assets/Images/day 6/D6-Nefors/HagiVagiSvet.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/src/Assets/Images/day 6/D6-Nefors/HagiVagiSvet.jpg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/Assets/Images/day 6/D6-Nefors/Les1.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/src/Assets/Images/day 6/D6-Nefors/Les1.jpg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/Assets/Images/day 6/D6-Nefors/Les2.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/src/Assets/Images/day 6/D6-Nefors/Les2.jpg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/Assets/Images/day 6/D6-Nefors/Les3.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/src/Assets/Images/day 6/D6-Nefors/Les3.jpg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/Assets/Images/day 6/D6-Nefors/Les4.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/src/Assets/Images/day 6/D6-Nefors/Les4.jpg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/Assets/Images/day 6/D6-Nefors/Les5.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/src/Assets/Images/day 6/D6-Nefors/Les5.jpg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/Assets/Images/day 6/D6-Nefors/Les6.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/src/Assets/Images/day 6/D6-Nefors/Les6.jpg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/Assets/Images/day 6/D6-Nefors/Les7.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/src/Assets/Images/day 6/D6-Nefors/Les7.jpg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/Assets/Images/day 6/D6-Nefors/Les8.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/src/Assets/Images/day 6/D6-Nefors/Les8.jpg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/Assets/Images/day 6/D6-Nefors/LesVhod.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/src/Assets/Images/day 6/D6-Nefors/LesVhod.jpg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/Assets/Images/day 6/D6-Nefors/LesVihod.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/src/Assets/Images/day 6/D6-Nefors/LesVihod.jpg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/Assets/Images/day 6/D6-Nefors/VeneraZoom.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/src/Assets/Images/day 6/D6-Nefors/VeneraZoom.jpg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/Assets/Images/day 6/D6-Nefors/photo_2024-07-22_23-42-04.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/src/Assets/Images/day 6/D6-Nefors/photo_2024-07-22_23-42-04.jpg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/Assets/Images/day 6/DanyaPrihuel.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/src/Assets/Images/day 6/DanyaPrihuel.jpg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/Assets/Images/day 6/DanyaVLesu.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/src/Assets/Images/day 6/DanyaVLesu.jpg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/Assets/Images/day 6/EfeemLes.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/src/Assets/Images/day 6/EfeemLes.jpg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/Assets/Images/day 6/EfimZaDanya.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/src/Assets/Images/day 6/EfimZaDanya.jpg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/Assets/Images/day 6/LesEfim.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/src/Assets/Images/day 6/LesEfim.jpg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/Assets/Images/day 6/LuzhaEfim.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/src/Assets/Images/day 6/LuzhaEfim.jpg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/Assets/Images/day 6/LuzhaEfim2.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/src/Assets/Images/day 6/LuzhaEfim2.jpg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/Assets/Images/day 6/Palata.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/src/Assets/Images/day 6/Palata.jpg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/Assets/Images/day 6/PhotoGordon.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/src/Assets/Images/day 6/PhotoGordon.jpg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/Assets/Images/day 6/Pribili.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/src/Assets/Images/day 6/Pribili.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/Assets/Images/day 6/Pribili2.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/src/Assets/Images/day 6/Pribili2.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/Assets/Images/day 6/Shnurki.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/src/Assets/Images/day 6/Shnurki.jpg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/Assets/Images/day 6/Smorch.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/src/Assets/Images/day 6/Smorch.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/Assets/Images/day 6/Stadium.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/src/Assets/Images/day 6/Stadium.jpg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/Assets/Images/day 6/Street.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/src/Assets/Images/day 6/Street.jpg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/Assets/Images/day 6/Venera(ispug) (2).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/src/Assets/Images/day 6/Venera(ispug) (2).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/Assets/Images/day 6/hagivagi.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/src/Assets/Images/day 6/hagivagi.jpg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/Assets/Images/day 6/pngwing.com (2).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/src/Assets/Images/day 6/pngwing.com (2).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/Assets/Images/day 7/Brat-4.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/src/Assets/Images/day 7/Brat-4.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/Assets/Images/day 7/ChurchInto.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/src/Assets/Images/day 7/ChurchInto.jpg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/Assets/Images/day 7/ChurchOut.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/src/Assets/Images/day 7/ChurchOut.jpg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/Assets/Images/day 7/Ogneslav.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/src/Assets/Images/day 7/Ogneslav.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/Assets/Images/day 7/Ostanovka.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/src/Assets/Images/day 7/Ostanovka.jpg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/Scenes/Day 3/Day3-GERMAN.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/src/Scenes/Day 3/Day3-GERMAN.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/Scenes/Day 3/Day3-NEFORS.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/src/Scenes/Day 3/Day3-NEFORS.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/Scenes/Day 4/Day4-KOLYA.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/src/Scenes/Day 4/Day4-KOLYA.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/Scenes/Day 4/Day4-NEFORS.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/src/Scenes/Day 4/Day4-NEFORS.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/Scenes/Day 5/Day 5 (Nefori).unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/src/Scenes/Day 5/Day 5 (Nefori).unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/Scenes/Day 5/Day 5 (Volodymir).unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/src/Scenes/Day 5/Day 5 (Volodymir).unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/Scenes/Day 6/Day 6 (End).unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/src/Scenes/Day 6/Day 6 (End).unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/Scenes/Day 6/Day 6 (Friends).unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/src/Scenes/Day 6/Day 6 (Friends).unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/Scenes/Day 6/Day 6 (Nefori).unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/src/Scenes/Day 6/Day 6 (Nefori).unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/Scenes/MainMenu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/src/Scenes/MainMenu.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/Scripts/CommonScripts/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/src/Scripts/CommonScripts/GameManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/Scripts/CommonScripts/NeforsChangeSceneScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/src/Scripts/CommonScripts/NeforsChangeSceneScript.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2022.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2022.dwlt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -63,7 +195,11 @@
       <workItem from="1724004761651" duration="2462000" />
       <workItem from="1724433121461" duration="111000" />
       <workItem from="1724446657929" duration="1250000" />
-      <workItem from="1724523389279" duration="1752000" />
+      <workItem from="1724523389279" duration="1890000" />
+      <workItem from="1725217753759" duration="780000" />
+      <workItem from="1725743895051" duration="57000" />
+      <workItem from="1725744153269" duration="1173000" />
+      <workItem from="1725826285534" duration="1456000" />
     </task>
     <task id="LOCAL-00001" summary="test-cli">
       <created>1720982033156</created>
@@ -121,7 +257,14 @@
       <option name="project" value="LOCAL" />
       <updated>1724446900489</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Prologue Video System +, Quiz Hill edit">
+      <created>1724533263354</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1724533263354</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -147,6 +290,7 @@
     <MESSAGE value="[SCRIPT] Slider 2.0 added ++" />
     <MESSAGE value="Nefors system +, couple little scripts +" />
     <MESSAGE value="Nefors system edit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Nefors system edit" />
+    <MESSAGE value="Prologue Video System +, Quiz Hill edit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Prologue Video System +, Quiz Hill edit" />
   </component>
 </project>

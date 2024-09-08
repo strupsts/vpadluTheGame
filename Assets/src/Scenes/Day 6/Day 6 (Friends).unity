@@ -1144,8 +1144,7 @@ GameObject:
   - component: {fileID: 355560692}
   - component: {fileID: 355560691}
   m_Layer: 0
-  m_Name: "[\u0421\u043C\u0435\u043D\u0430 \u0444\u043E\u043D\u0430] \u041A\u043E\u0440\u0430\u0431\u043B\u044C
-    (\u0412\u0441\u0442\u0430\u0432\u0438\u0442\u044C \u0448\u0443\u043C \u043C\u043E\u0440\u044F)"
+  m_Name: "[\u0421\u043C\u0435\u043D\u0430 \u0444\u043E\u043D\u0430] \u041A\u043E\u0440\u0430\u0431\u043B\u044C"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1183,7 +1182,7 @@ MonoBehaviour:
   willCloseDialogue: 1
   timerOnDialogueClose: 3
   DialogueBox: {fileID: 1252078564}
-  newBackgroundSound: {fileID: 8300000, guid: dcb5ed02fbd2bd940b7301136d9aafa5, type: 3}
+  newBackgroundSound: {fileID: 8300000, guid: ed41a51fcbd6b2c4897d595f947786b9, type: 3}
 --- !u!114 &355560692
 MonoBehaviour:
   m_ObjectHideFlags: 0
