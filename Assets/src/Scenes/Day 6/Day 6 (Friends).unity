@@ -736,7 +736,7 @@ MonoBehaviour:
     - sentence: "\u0414\u043E\u0431\u0440\u0435. \u041F\u0440\u0430\u0446\u044E\u0454\u043C\u043E,
         \u0431\u0440\u0430\u0442\u0442\u044F!"
       sound:
-        clip: {fileID: 0}
+        clip: {fileID: 8300000, guid: bb185d07bd1a12a47942c9d50c88d004, type: 3}
         AudioSource: {fileID: 0}
     - sentence: "*\u0441\u0431\u0440\u0430\u0441\u044B\u0432\u0430\u0435\u0442*"
       sound:
@@ -1490,7 +1490,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nameText: {fileID: 211457225}
   dialogueText: {fileID: 645555840}
-  StartDialogueTrigger: {fileID: 182781849}
+  StartDialogueTrigger: {fileID: 1086684077}
   animator: {fileID: 1252078565}
   musicSource: {fileID: 0}
   backgroundMusic: {fileID: 0}

@@ -3,11 +3,15 @@
   "WorkspaceRootPath": "C:\\Users\\User\\vpadluTheGame\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{EC5D261D-67E1-86DF-3472-9811628B5930}|Assembly-CSharp.csproj|c:\\users\\user\\vpadluthegame\\assets\\src\\scripts\\commonscripts\\startdialoguetrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC5D261D-67E1-86DF-3472-9811628B5930}|Assembly-CSharp.csproj|solutionrelative:assets\\src\\scripts\\commonscripts\\startdialoguetrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{EC5D261D-67E1-86DF-3472-9811628B5930}|Assembly-CSharp.csproj|c:\\users\\user\\vpadluthegame\\assets\\src\\scripts\\commonscripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EC5D261D-67E1-86DF-3472-9811628B5930}|Assembly-CSharp.csproj|solutionrelative:assets\\src\\scripts\\commonscripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EC5D261D-67E1-86DF-3472-9811628B5930}|Assembly-CSharp.csproj|c:\\users\\user\\vpadluthegame\\assets\\src\\scripts\\day5-scripts\\neforsthreechoicecustomscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{EC5D261D-67E1-86DF-3472-9811628B5930}|Assembly-CSharp.csproj|C:\\Users\\User\\vpadluTheGame\\assets\\src\\scripts\\day5-scripts\\neforsthreechoicecustomscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EC5D261D-67E1-86DF-3472-9811628B5930}|Assembly-CSharp.csproj|solutionrelative:assets\\src\\scripts\\day5-scripts\\neforsthreechoicecustomscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -55,6 +59,23 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "StartDIalogueTrigger.cs",
+              "DocumentMoniker": "C:\\Users\\User\\vpadluTheGame\\Assets\\src\\Scripts\\CommonScripts\\StartDIalogueTrigger.cs",
+              "RelativeDocumentMoniker": "Assets\\src\\Scripts\\CommonScripts\\StartDIalogueTrigger.cs",
+              "ToolTip": "C:\\Users\\User\\vpadluTheGame\\Assets\\src\\Scripts\\CommonScripts\\StartDIalogueTrigger.cs",
+              "RelativeToolTip": "Assets\\src\\Scripts\\CommonScripts\\StartDIalogueTrigger.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-09T07:56:29.535Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "GameManager.cs",
               "DocumentMoniker": "C:\\Users\\User\\vpadluTheGame\\Assets\\src\\Scripts\\CommonScripts\\GameManager.cs",
               "RelativeDocumentMoniker": "Assets\\src\\Scripts\\CommonScripts\\GameManager.cs",
@@ -66,12 +87,8 @@
               "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "NeforsThreeChoiceCustomScript.cs",
               "DocumentMoniker": "C:\\Users\\User\\vpadluTheGame\\Assets\\src\\Scripts\\Day5-Scripts\\NeforsThreeChoiceCustomScript.cs",
               "RelativeDocumentMoniker": "Assets\\src\\Scripts\\Day5-Scripts\\NeforsThreeChoiceCustomScript.cs",
@@ -79,12 +96,11 @@
               "RelativeToolTip": "Assets\\src\\Scripts\\Day5-Scripts\\NeforsThreeChoiceCustomScript.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-05T19:47:45.527Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-05T19:47:45.527Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "NeforsFourChoiCustomScript.cs",
               "DocumentMoniker": "C:\\Users\\User\\vpadluTheGame\\Assets\\src\\Scripts\\Day5-Scripts\\NeforsFourChoiCustomScript.cs",
               "RelativeDocumentMoniker": "Assets\\src\\Scripts\\Day5-Scripts\\NeforsFourChoiCustomScript.cs",
@@ -96,7 +112,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "WasGermanConditionTrigger.cs",
               "DocumentMoniker": "C:\\Users\\User\\vpadluTheGame\\Assets\\src\\Scripts\\Day6-Scripts\\WasGermanConditionTrigger.cs",
               "RelativeDocumentMoniker": "Assets\\src\\Scripts\\Day6-Scripts\\WasGermanConditionTrigger.cs",
@@ -108,7 +124,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Day4MindsConditionTrigger.cs",
               "DocumentMoniker": "C:\\Users\\User\\vpadluTheGame\\Assets\\src\\Scripts\\Day4-Scripts\\Day4MindsConditionTrigger.cs",
               "RelativeDocumentMoniker": "Assets\\src\\Scripts\\Day4-Scripts\\Day4MindsConditionTrigger.cs",
@@ -120,7 +136,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "KolyaWInOrLoseConditionTrigger.cs",
               "DocumentMoniker": "C:\\Users\\User\\vpadluTheGame\\Assets\\src\\Scripts\\Day5-Scripts\\KolyaWInOrLoseConditionTrigger.cs",
               "RelativeDocumentMoniker": "Assets\\src\\Scripts\\Day5-Scripts\\KolyaWInOrLoseConditionTrigger.cs",
@@ -132,7 +148,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "NeforsFiveChoiceCustomScript.cs",
               "DocumentMoniker": "C:\\Users\\User\\vpadluTheGame\\Assets\\src\\Scripts\\Day6-Scripts\\NeforsFiveChoiceCustomScript.cs",
               "RelativeDocumentMoniker": "Assets\\src\\Scripts\\Day6-Scripts\\NeforsFiveChoiceCustomScript.cs",
@@ -144,7 +160,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "NunchakiConditionScript.cs",
               "DocumentMoniker": "C:\\Users\\User\\vpadluTheGame\\Assets\\src\\Scripts\\Day5-Scripts\\NunchakiConditionScript.cs",
               "RelativeDocumentMoniker": "Assets\\src\\Scripts\\Day5-Scripts\\NunchakiConditionScript.cs",
@@ -156,7 +172,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "TobaccoConditionScript.cs",
               "DocumentMoniker": "C:\\Users\\User\\vpadluTheGame\\Assets\\src\\Scripts\\Day1-Scripts\\TobaccoConditionScript.cs",
               "RelativeDocumentMoniker": "Assets\\src\\Scripts\\Day1-Scripts\\TobaccoConditionScript.cs",
@@ -168,7 +184,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "ChangeSceneDay5Handler.cs",
               "DocumentMoniker": "C:\\Users\\User\\vpadluTheGame\\Assets\\src\\Scripts\\Day3-Scripts\\ChangeSceneDay5Handler.cs",
               "RelativeDocumentMoniker": "Assets\\src\\Scripts\\Day3-Scripts\\ChangeSceneDay5Handler.cs",
