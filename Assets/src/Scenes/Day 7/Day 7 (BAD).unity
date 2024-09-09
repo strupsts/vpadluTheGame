@@ -503,7 +503,7 @@ MonoBehaviour:
       sound:
         clip: {fileID: 0}
         AudioSource: {fileID: 0}
-  nextTrigger: {fileID: 1634790919}
+  nextTrigger: {fileID: 1283027327}
   dialogueIsEnded: 0
 --- !u!1 &211457224
 GameObject:
@@ -1736,7 +1736,7 @@ GameObject:
   - component: {fileID: 850863246}
   m_Layer: 0
   m_Name: "[\u0414\u0438\u0430\u043B\u043E\u0433] \u0412\u0440\u0430\u0447\u0438
-    \u043F\u0440\u0438\u0448\u043B\u0438"
+    \u043F\u0440\u0438\u0448\u043B\u0438 1"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1841,74 +1841,7 @@ MonoBehaviour:
       sound:
         clip: {fileID: 0}
         AudioSource: {fileID: 0}
-  - speakerName: 
-    heroID: 0
-    sentencesAndSounds:
-    - sentence: "\u0421 \u0412\u0435\u043D\u0435\u0440\u043E\u0439 \u0436\u0435 \u0432\u0441\u0435
-        \u0432 \u043F\u043E\u0440\u044F\u0434\u043A\u0435 \u0431\u0443\u0434\u0435\u0442?
-        \u0412\u044B \u0435\u0451 \u043E\u0442\u043A\u0430\u0447\u0430\u0435\u0442\u0435?\r"
-      sound:
-        clip: {fileID: 0}
-        AudioSource: {fileID: 0}
-  - speakerName: 
-    heroID: 10
-    sentencesAndSounds:
-    - sentence: "\u041F\u0440\u043E\u0433\u043D\u043E\u0437\u044B \u043D\u0435 \u043E\u0447\u0435\u043D\u044C
-        \u0443\u0442\u0435\u0448\u0438\u0442\u0435\u043B\u044C\u043D\u044B\u0435\u2026"
-      sound:
-        clip: {fileID: 0}
-        AudioSource: {fileID: 0}
-  - speakerName: 
-    heroID: 0
-    sentencesAndSounds:
-    - sentence: "\u0411\u043B\u044F\u044F\u044F\u044F\u044F\u2026. \u042D\u0442\u043E
-        \u044F \u0432\u0438\u043D\u043E\u0432\u0430\u0442\u2026"
-      sound:
-        clip: {fileID: 0}
-        AudioSource: {fileID: 0}
-  - speakerName: 
-    heroID: 8
-    sentencesAndSounds:
-    - sentence: "\u0427\u0442\u043E? \u0427\u0442\u043E \u0433\u043E\u0432\u043E\u0440\u0438\u0448\u044C?"
-      sound:
-        clip: {fileID: 0}
-        AudioSource: {fileID: 0}
-  - speakerName: 
-    heroID: 0
-    sentencesAndSounds:
-    - sentence: "\u041D\u0443 \u043F\u0440\u043E\u0441\u0442\u0438\u0442\u0435- \u043F\u0440\u043E\u0441\u0442\u0438\u0442\u0435,
-        \u0431\u0440\u0430\u0442\u044C\u044F, \u0431\u0435\u0439\u0442\u0435 \u043C\u0435\u043D\u044F,
-        \u0431\u0435\u0439\u0442\u0435, \u044F \u0432\u0438\u043D\u043E\u0432\u0430\u0442,
-        \u044F \u0441\u0443\u043A\u0430, \u0431\u0435\u0439\u0442\u0435 \u043C\u0435\u043D\u044F,
-        \u0434\u0430\u0432\u0430\u0439\u0442\u0435-\u0434\u0430\u0432\u0430\u0439\u0442\u0435,
-        \u0431\u0435\u0439\u0442\u0435"
-      sound:
-        clip: {fileID: 0}
-        AudioSource: {fileID: 0}
-    - sentence: "*\u0431\u0435\u0440\u0435\u0442 \u0447\u044C\u044E-\u0442\u043E
-        \u0440\u0443\u043A\u0443 \u0438 \u043D\u0430\u0447\u0438\u043D\u0430\u0435\u0442
-        \u0431\u0438\u0442\u044C \u0441\u0435\u0431\u044F \u043F\u043E \u0433\u043E\u043B\u043E\u0432\u0435*"
-      sound:
-        clip: {fileID: 0}
-        AudioSource: {fileID: 0}
-    - sentence: "\u0431\u0435\u0439\u0442\u0435 \u043C\u0435\u043D\u044F, \u0431\u0435\u0439\u0442\u0435,
-        \u044F \u0432\u0438\u043D\u043E\u0432\u0430\u0442. \u042F! \u042F! \u042F
-        \u0441\u0443\u043A\u0430, \u044F \u0432\u0438\u043D\u043E\u0432\u0430\u0442,
-        \u0431\u0435\u0439\u0442\u0435, \u0431\u0435\u0439\u0442\u0435, \u043D\u0443
-        \u0431\u0435\u0439\u0442\u0435, \u044F \u0441\u0443\u043A\u0430, \u044F \u0441\u0443\u043A\u0430,
-        \u043F\u0440\u043E\u0441\u0442\u0438\u0442\u0435, \u0431\u0440\u0430\u0442\u044C\u044F\u2026"
-      sound:
-        clip: {fileID: 0}
-        AudioSource: {fileID: 0}
-  - speakerName: 
-    heroID: 10
-    sentencesAndSounds:
-    - sentence: "\u0423\u043D\u043E\u0441\u0438\u0442\u0435 \u0438\u0445 \u0432 \u043A\u0430\u0440\u0435\u0442\u0443
-        \u0441\u043A\u043E\u0440\u043E\u0439 \u043F\u043E\u043C\u043E\u0449\u0438\u2026"
-      sound:
-        clip: {fileID: 0}
-        AudioSource: {fileID: 0}
-  nextTrigger: {fileID: 1634790919}
+  nextTrigger: {fileID: 1696038601}
   dialogueIsEnded: 0
 --- !u!1 &861002819
 GameObject:
@@ -2547,6 +2480,8 @@ Transform:
   - {fileID: 182781848}
   - {fileID: 1283027328}
   - {fileID: 850863245}
+  - {fileID: 1696038602}
+  - {fileID: 1809859626}
   - {fileID: 1356130590}
   - {fileID: 1362637439}
   - {fileID: 382987176}
@@ -3176,7 +3111,7 @@ MonoBehaviour:
       sound:
         clip: {fileID: 0}
         AudioSource: {fileID: 0}
-  nextTrigger: {fileID: 1634790919}
+  nextTrigger: {fileID: 850863244}
   dialogueIsEnded: 0
 --- !u!1 &1293480075
 GameObject:
@@ -3879,6 +3814,72 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   resultOfCondition:
   - {fileID: 0}
+--- !u!1 &1696038601
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1696038602}
+  - component: {fileID: 1696038604}
+  - component: {fileID: 1696038603}
+  m_Layer: 0
+  m_Name: "[\u0421\u043C\u0435\u043D\u0430 \u043C\u0443\u0437\u044B\u043A\u0438]
+    \u041C\u0443\u0437\u044B\u043A\u0430 \u041F\u043B\u043E\u0445\u0430\u044F \u043A\u043E\u043D\u0446\u043E\u0432\u043A\u0430"
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1696038602
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1696038601}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.90672004, y: 0.18125324, z: -297.19647}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1116069344}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1696038603
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1696038601}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8827578cfd5c82d49b1ee5048d48837c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  backgroundImage: {fileID: 0}
+  newBackgroundImage: {fileID: 0}
+  willCloseDialogue: 0
+  timerOnDialogueClose: 0
+  DialogueBox: {fileID: 0}
+  newBackgroundSound: {fileID: 8300000, guid: 6d7eb717e4a510144af5e79d8741d3d6, type: 3}
+--- !u!114 &1696038604
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1696038601}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29fa3837d130a5545aa8c50c39a2f629, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  resultOfCondition:
+  - {fileID: 1809859625}
 --- !u!1 &1744755290
 GameObject:
   m_ObjectHideFlags: 0
@@ -3961,7 +3962,7 @@ MonoBehaviour:
     Avatar: {fileID: 21300000, guid: 9ab525adaaf6a044b973abaa7d9690cf, type: 3}
   - Id: 9
     Name: "\u0418\u043B\u044C\u044F\u0441"
-    Avatar: {fileID: 21300000, guid: e5211b3e89cdcc948b2801e2951cde25, type: 3}
+    Avatar: {fileID: 21300000, guid: 480d4a877649e35479b792450b78a978, type: 3}
   - Id: 10
     Name: "\u0412\u0440\u0430\u0447\u0438"
     Avatar: {fileID: 21300000, guid: e5211b3e89cdcc948b2801e2951cde25, type: 3}
@@ -4001,6 +4002,121 @@ Transform:
   - {fileID: 864467179}
   m_Father: {fileID: 1155653351}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1809859625
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1809859626}
+  - component: {fileID: 1809859627}
+  m_Layer: 0
+  m_Name: "[\u0414\u0438\u0430\u043B\u043E\u0433] \u0412\u0440\u0430\u0447\u0438
+    \u043F\u0440\u0438\u0448\u043B\u0438 2"
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1809859626
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1809859625}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 1.047982, y: -0.6697569, z: -80.79999}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1116069344}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1809859627
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1809859625}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76259cfea18da354cbf679b0e33341ad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogues:
+  - speakerName: 
+    heroID: 0
+    sentencesAndSounds:
+    - sentence: "\u0421 \u0412\u0435\u043D\u0435\u0440\u043E\u0439 \u0436\u0435 \u0432\u0441\u0435
+        \u0432 \u043F\u043E\u0440\u044F\u0434\u043A\u0435 \u0431\u0443\u0434\u0435\u0442?
+        \u0412\u044B \u0435\u0451 \u043E\u0442\u043A\u0430\u0447\u0430\u0435\u0442\u0435?\r"
+      sound:
+        clip: {fileID: 0}
+        AudioSource: {fileID: 0}
+  - speakerName: 
+    heroID: 10
+    sentencesAndSounds:
+    - sentence: "\u041F\u0440\u043E\u0433\u043D\u043E\u0437\u044B \u043D\u0435 \u043E\u0447\u0435\u043D\u044C
+        \u0443\u0442\u0435\u0448\u0438\u0442\u0435\u043B\u044C\u043D\u044B\u0435\u2026"
+      sound:
+        clip: {fileID: 0}
+        AudioSource: {fileID: 0}
+  - speakerName: 
+    heroID: 0
+    sentencesAndSounds:
+    - sentence: "\u0411\u043B\u044F\u044F\u044F\u044F\u044F\u2026. \u042D\u0442\u043E
+        \u044F \u0432\u0438\u043D\u043E\u0432\u0430\u0442\u2026"
+      sound:
+        clip: {fileID: 0}
+        AudioSource: {fileID: 0}
+  - speakerName: 
+    heroID: 8
+    sentencesAndSounds:
+    - sentence: "\u0427\u0442\u043E? \u0427\u0442\u043E \u0433\u043E\u0432\u043E\u0440\u0438\u0448\u044C?"
+      sound:
+        clip: {fileID: 0}
+        AudioSource: {fileID: 0}
+  - speakerName: 
+    heroID: 0
+    sentencesAndSounds:
+    - sentence: "\u041D\u0443 \u043F\u0440\u043E\u0441\u0442\u0438\u0442\u0435- \u043F\u0440\u043E\u0441\u0442\u0438\u0442\u0435,
+        \u0431\u0440\u0430\u0442\u044C\u044F, \u0431\u0435\u0439\u0442\u0435 \u043C\u0435\u043D\u044F,
+        \u0431\u0435\u0439\u0442\u0435, \u044F \u0432\u0438\u043D\u043E\u0432\u0430\u0442,
+        \u044F \u0441\u0443\u043A\u0430, \u0431\u0435\u0439\u0442\u0435 \u043C\u0435\u043D\u044F,
+        \u0434\u0430\u0432\u0430\u0439\u0442\u0435-\u0434\u0430\u0432\u0430\u0439\u0442\u0435,
+        \u0431\u0435\u0439\u0442\u0435"
+      sound:
+        clip: {fileID: 0}
+        AudioSource: {fileID: 0}
+    - sentence: "*\u0431\u0435\u0440\u0435\u0442 \u0447\u044C\u044E-\u0442\u043E
+        \u0440\u0443\u043A\u0443 \u0438 \u043D\u0430\u0447\u0438\u043D\u0430\u0435\u0442
+        \u0431\u0438\u0442\u044C \u0441\u0435\u0431\u044F \u043F\u043E \u0433\u043E\u043B\u043E\u0432\u0435*"
+      sound:
+        clip: {fileID: 0}
+        AudioSource: {fileID: 0}
+    - sentence: "\u0431\u0435\u0439\u0442\u0435 \u043C\u0435\u043D\u044F, \u0431\u0435\u0439\u0442\u0435,
+        \u044F \u0432\u0438\u043D\u043E\u0432\u0430\u0442. \u042F! \u042F! \u042F
+        \u0441\u0443\u043A\u0430, \u044F \u0432\u0438\u043D\u043E\u0432\u0430\u0442,
+        \u0431\u0435\u0439\u0442\u0435, \u0431\u0435\u0439\u0442\u0435, \u043D\u0443
+        \u0431\u0435\u0439\u0442\u0435, \u044F \u0441\u0443\u043A\u0430, \u044F \u0441\u0443\u043A\u0430,
+        \u043F\u0440\u043E\u0441\u0442\u0438\u0442\u0435, \u0431\u0440\u0430\u0442\u044C\u044F\u2026"
+      sound:
+        clip: {fileID: 0}
+        AudioSource: {fileID: 0}
+  - speakerName: 
+    heroID: 10
+    sentencesAndSounds:
+    - sentence: "\u0423\u043D\u043E\u0441\u0438\u0442\u0435 \u0438\u0445 \u0432 \u043A\u0430\u0440\u0435\u0442\u0443
+        \u0441\u043A\u043E\u0440\u043E\u0439 \u043F\u043E\u043C\u043E\u0449\u0438\u2026"
+      sound:
+        clip: {fileID: 0}
+        AudioSource: {fileID: 0}
+  nextTrigger: {fileID: 1356130589}
+  dialogueIsEnded: 0
 --- !u!1 &1838590407
 GameObject:
   m_ObjectHideFlags: 0

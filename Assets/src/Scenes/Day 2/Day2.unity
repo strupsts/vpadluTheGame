@@ -5007,7 +5007,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nameText: {fileID: 916398711}
   dialogueText: {fileID: 1829307765}
-  StartDialogueTrigger: {fileID: 114291231}
+  StartDialogueTrigger: {fileID: 1650840369}
   animator: {fileID: 1354915569}
   musicSource: {fileID: 0}
   backgroundMusic: {fileID: 0}
