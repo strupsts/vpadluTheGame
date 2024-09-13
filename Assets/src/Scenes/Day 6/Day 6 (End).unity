@@ -357,7 +357,7 @@ MonoBehaviour:
         AudioSource: {fileID: 0}
     - sentence: "\u0421\u0430\u043D\u044F, \u044D\u0442\u043E \u0442\u2026"
       sound:
-        clip: {fileID: 0}
+        clip: {fileID: 8300000, guid: b50c113cdec255e4d9c21e6383b45e2c, type: 3}
         AudioSource: {fileID: 0}
     - sentence: "\u0410\u2026 \u041F\u0440\u0438\u0432\u0435\u0442, \u0414\u0430\u043D\u044F\u2026"
       sound:
