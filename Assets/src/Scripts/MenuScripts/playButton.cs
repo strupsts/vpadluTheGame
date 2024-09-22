@@ -57,6 +57,9 @@ public class playButton : MonoBehaviour
         PlayerPrefs.DeleteAll();
         GameManager.someThingsList.Clear();
         GameManager.reputationList.Clear();
+        GameManager.currentScene = 0;
         Quiz.QuizPointsList.Clear();
+
+        btn.GetComponentInChildren<TextMeshProUGUI>().text = "Новая игра";
     }
 }

@@ -17,8 +17,8 @@ public class NeforsChangeSceneScript : MonoBehaviour, IConditionHandler
         }
         else // Если согласился
         {
+        
             int companyRep = GameManager.Instance.GetReputationListValue("Company");
-
             int currentScene = SceneManager.GetActiveScene().buildIndex;
             GameManager.currentScene = currentScene;
             Debug.Log($"Текущая сцена: {currentScene}");
@@ -39,6 +39,7 @@ public class NeforsChangeSceneScript : MonoBehaviour, IConditionHandler
                     break;
                 default:
                     SceneManager.LoadScene(0);
+                    Debug.Log("Ошибка Nefors Change Scene Script");
                     GameManager.Instance.notifyItemHandler(false, "Фатальная анальная ошибка", null, true);
                     break;
             }

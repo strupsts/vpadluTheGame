@@ -652,12 +652,15 @@ MonoBehaviour:
         \u0442\u0430\u043C \u0440\u0435\u0431\u044F\u0442\u0430 \u043C\u043E\u043B\u043E\u0434\u044B\u0435
         \u0443\u043C\u0438\u0440\u0430\u044E\u0442\u2026"
       sound:
-        clip: {fileID: 0}
+        clip: {fileID: 8300000, guid: b23e5862111858b459bddb42227792a1, type: 3}
         AudioSource: {fileID: 0}
-    - sentence: "\u2026\u043E\u0442 \u0441\u043A\u0443\u043A\u0438! \u0413\u0434\u0435,
-        \u0441\u0443\u043A\u0430, \u043C\u0443\u0437\u044B\u043A\u0430?!"
+    - sentence: "\u2026\u043E\u0442 \u0441\u043A\u0443\u043A\u0438! "
       sound:
-        clip: {fileID: 0}
+        clip: {fileID: 8300000, guid: aa11f375291f4f04cb1101fc401de65c, type: 3}
+        AudioSource: {fileID: 0}
+    - sentence: "\u0413\u0434\u0435, \u0441\u0443\u043A\u0430, \u043C\u0443\u0437\u044B\u043A\u0430?!"
+      sound:
+        clip: {fileID: 8300000, guid: 44b02d2b860583f459d22b821985a54d, type: 3}
         AudioSource: {fileID: 0}
   - speakerName: 
     heroID: 0
@@ -4668,7 +4671,6 @@ MonoBehaviour:
   prefabNotifyItem: {fileID: 2421706348551240941, guid: 40f286c5e47a155429b09fa9eab8408e, type: 3}
   prefabNotifyAchievment: {fileID: 2421706348551240941, guid: af01a2ee4b8f02948b2a7ce0ff5ff6ba, type: 3}
   prefabWarningItem: {fileID: 0}
-  currentScene: 0
   sliderStop: 0
   currentCharacter: {fileID: 1018568848}
   VpadluHeroes:

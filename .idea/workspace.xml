@@ -1,14 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="33c7207c-eba3-4188-8fbc-643204c7e0a2" name="Changes" comment="Prologue Video System +, Quiz Hill edit">
-      <change beforePath="$PROJECT_DIR$/Assembly-CSharp-Editor.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp-Editor.csproj" afterDir="false" />
+    <list default="true" id="33c7207c-eba3-4188-8fbc-643204c7e0a2" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_13_09_2024_12_30_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_13_09_2024_12_30__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/VpadluGame/FileContentIndex/18e4749b-3191-444d-859c-dceac3a63f37.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/VpadluGame/FileContentIndex/3c930ef5-09e1-46c2-abaf-fec33010de9a.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/VpadluGame/FileContentIndex/f0672219-4274-4282-bade-8b9a51325800.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/VpadluGame/v17/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/VpadluGame/v17/.suo" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/src/Scenes/Day 6/Day 6 (End).unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/src/Scenes/Day 6/Day 6 (End).unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/src/Scenes/Day 7/Day 7 (Start).unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/src/Scenes/Day 7/Day 7 (Start).unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/src/Scenes/Day 7/Day 7 (Worst).unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/src/Scenes/Day 7/Day 7 (Worst).unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/Scenes/MainMenu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/src/Scenes/MainMenu.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/Scripts/MenuScripts/playButton.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/src/Scripts/MenuScripts/playButton.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2022.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2022.dwlt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +65,9 @@
       <workItem from="1725743895051" duration="57000" />
       <workItem from="1725744153269" duration="1173000" />
       <workItem from="1725826285534" duration="1456000" />
-      <workItem from="1726252200161" duration="648000" />
+      <workItem from="1726252200161" duration="788000" />
+      <workItem from="1726338287569" duration="1212000" />
+      <workItem from="1726948389594" duration="1521000" />
     </task>
     <task id="LOCAL-00001" summary="test-cli">
       <created>1720982033156</created>
@@ -126,7 +132,14 @@
       <option name="project" value="LOCAL" />
       <updated>1724533263354</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="4th Brother Monologue +">
+      <created>1726257137272</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1726257137272</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -153,6 +166,7 @@
     <MESSAGE value="Nefors system +, couple little scripts +" />
     <MESSAGE value="Nefors system edit" />
     <MESSAGE value="Prologue Video System +, Quiz Hill edit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Prologue Video System +, Quiz Hill edit" />
+    <MESSAGE value="4th Brother Monologue +" />
+    <option name="LAST_COMMIT_MESSAGE" value="4th Brother Monologue +" />
   </component>
 </project>

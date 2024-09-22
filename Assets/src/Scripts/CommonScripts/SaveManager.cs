@@ -1,5 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -34,6 +36,7 @@ public class SaveManager : MonoBehaviour
 
         SaveManager.SaveDictionary("someThingsList"); // Сохранение словаря с событиями
         SaveManager.SaveDictionary("reputationList"); // Сохранение словаря с репутацией
+        SaveManager.SaveDictionary("currentScene"); // Сохранение переменной текущей сцены
 
         PlayerPrefs.Save();
         Debug.Log("Игра сохранена!");
@@ -43,6 +46,7 @@ public class SaveManager : MonoBehaviour
     {
         SaveManager.LoadDictionary("someThingsList"); // Загрузка словаря с событиями
         SaveManager.LoadDictionary("reputationList"); // Загрузка словаря с репутацией
+        SaveManager.LoadDictionary("currentScene"); // Загрузка переменной текущей сцены
 
         SceneManager.LoadScene(PlayerPrefs.GetInt("ContinueScene"));
         Debug.Log("Игра загружена!");
@@ -77,6 +81,11 @@ public class SaveManager : MonoBehaviour
 
             string json = JsonHelper.ToJson(saveDataList.ToArray());
             PlayerPrefs.SetString(nameOfDictionary, json);
+        }
+        else if (nameOfDictionary == "currentScene")
+        {
+            PlayerPrefs.SetString(nameOfDictionary, GameManager.currentScene.ToString());
+
         }
         else
         {
@@ -120,6 +129,19 @@ public class SaveManager : MonoBehaviour
             {
                 GameManager.reputationList[saveData.key] = saveData.value;
             }
+        }
+        /* Загрузка последней сцены */
+        else if (nameOfDictionary == "currentScene")
+        {
+
+            string currentSceneString = PlayerPrefs.GetString(nameOfDictionary, null);
+            if (string.IsNullOrEmpty(currentSceneString))
+            {
+                Debug.LogWarning($"Не удалось загрузить переменную {nameOfDictionary}, так как данные отсутствуют.");
+                return;
+            }
+
+            int currentSceneInt = int.Parse(currentSceneString);
         }
         else
         {

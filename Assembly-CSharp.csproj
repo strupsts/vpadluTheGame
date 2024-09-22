@@ -62,6 +62,7 @@
     <Compile Include="Assets\src\Scripts\Day6-Scripts\LieToEfimChoiceCustomScript.cs" />
     <Compile Include="Assets\src\Scripts\CommonScripts\NeforsSceneChangeScript.cs" />
     <Compile Include="Assets\src\Scripts\CommonScripts\NeforsChangeSceneScript.cs" />
+    <Compile Include="Assets\src\Scripts\CommonScripts\ScenesScripts\DropDownMenuScript.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventHandler.cs" />
     <Compile Include="Assets\src\Scripts\Day3-Scripts\ScriptDay3SceneChange.cs" />
     <Compile Include="Assets\src\Scripts\Day5-Scripts\NeforsThreeChoiceCustomScript.cs" />

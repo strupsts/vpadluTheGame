@@ -892,12 +892,15 @@ MonoBehaviour:
   - speakerName: 
     heroID: 10
     sentencesAndSounds:
-    - sentence: "\u041E \u043A\u0430\u043A, \u0430 \u0432\u0435\u0434\u044C \u0441\u043C\u0435\u0448\u043D\u043E,
-        \u043D\u0430\u043C \u0442\u0430\u043A\u0438\u0435 \u043F\u0440\u0438\u043A\u043E\u043B\u044C\u043D\u044B\u0435
+    - sentence: "\u041E \u043A\u0430\u043A, \u0430 \u0432\u0435\u0434\u044C \u0441\u043C\u0435\u0448\u043D\u043E"
+      sound:
+        clip: {fileID: 8300000, guid: e7b87a7448cd9394c9f5844d30544481, type: 3}
+        AudioSource: {fileID: 0}
+    - sentence: "\u041D\u0430\u043C \u0442\u0430\u043A\u0438\u0435 \u043F\u0440\u0438\u043A\u043E\u043B\u044C\u043D\u044B\u0435
         \u043D\u0443\u0436\u043D\u044B. \u0421\u043B\u044B\u0448\u0430\u043B \u043F\u0440\u043E
         \u043D\u0435\u0444\u043E\u0440\u043E\u0432 \u043D\u0430 \u041A\u0440\u044B\u043B\u043E\u0432\u0430?"
       sound:
-        clip: {fileID: 0}
+        clip: {fileID: 8300000, guid: 6b9fd40c50655d449a0af61c64a455a6, type: 3}
         AudioSource: {fileID: 0}
   - speakerName: 
     heroID: 0
@@ -947,11 +950,11 @@ Transform:
   m_GameObject: {fileID: 311046384}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.047982, y: -0.6697569, z: -80.79999}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1116069344}
+  m_Father: {fileID: 1755874816}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &313587964
 GameObject:
@@ -1235,7 +1238,7 @@ MonoBehaviour:
   ChoiceInfo:
     listOfChoices:
     - textOfChoice: "\u041E\u0442\u043A\u0430\u0437\u0430\u0442\u044C\u0441\u044F"
-      ChoiceInfluenceScript: 1
+      ChoiceInfluenceScript: 0
       nameOfCharacter: 3
       countOfReputationPoints: 25
       customScript: {fileID: 0}
@@ -3084,7 +3087,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 837706659}
-  - component: {fileID: 837706658}
+  - component: {fileID: 837706660}
   m_Layer: 0
   m_Name: CustomChoiceScript
   m_TagString: Untagged
@@ -3092,18 +3095,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &837706658
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 837706657}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5775a71d641e3ba40b171042d73eaa98, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!4 &837706659
 Transform:
   m_ObjectHideFlags: 0
@@ -3119,6 +3110,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1412219186}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &837706660
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 837706657}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a2b3e53cc119d14fb84009b21fed425, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &887893652
 GameObject:
   m_ObjectHideFlags: 0
@@ -3781,7 +3784,6 @@ Transform:
   - {fileID: 744790983}
   - {fileID: 775528619}
   - {fileID: 1755874816}
-  - {fileID: 311046386}
   - {fileID: 420895394}
   - {fileID: 187807559}
   - {fileID: 90678853}
@@ -4969,7 +4971,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   resultOfCondition:
-  - {fileID: 0}
+  - {fileID: 1953094737}
 --- !u!114 &1736395065
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5033,7 +5035,7 @@ MonoBehaviour:
   - {fileID: 2421706348551240941, guid: 785e3e994063de7429ac65535464b398, type: 3}
   prefabNotifyItem: {fileID: 2421706348551240941, guid: 40f286c5e47a155429b09fa9eab8408e, type: 3}
   prefabNotifyAchievment: {fileID: 2421706348551240941, guid: af01a2ee4b8f02948b2a7ce0ff5ff6ba, type: 3}
-  prefabWarningItem: {fileID: 0}
+  prefabWarningItem: {fileID: 2421706348551240941, guid: f92d33d6b27a9624c86394a24f7404f3, type: 3}
   sliderStop: 0
   currentCharacter: {fileID: 1018568848}
   VpadluHeroes:
@@ -5104,6 +5106,7 @@ Transform:
   - {fileID: 523986282}
   - {fileID: 756065769}
   - {fileID: 1138157152}
+  - {fileID: 311046386}
   m_Father: {fileID: 1116069344}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1755874817

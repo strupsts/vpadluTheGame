@@ -14,15 +14,19 @@ public class NeforsSceneChangeSceneScript : MonoBehaviour, IConditionHandler
         switch (currentScene)
         {
             case 5:
+                SaveManager.SaveGame();
                 SceneManager.LoadScene(8);
                 break;
             case 9:
+                SaveManager.SaveGame();
                 SceneManager.LoadScene(12);
                 break;
             case 13:
+                SaveManager.SaveGame();
                 SceneManager.LoadScene(16);
                 break;
             case 19:
+                SaveManager.SaveGame();
                 SceneManager.LoadScene(22);
                 break;
             default:
