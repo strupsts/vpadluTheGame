@@ -2873,9 +2873,10 @@ MonoBehaviour:
       sound:
         clip: {fileID: 8300000, guid: ba5956d3a9b865148a26ec157dbf4ec7, type: 3}
         AudioSource: {fileID: 0}
-    - sentence: "*\u0443\u0445\u043E\u0434\u0438\u0442*\r\n"
+    - sentence: "*\u041F\u0440\u043E\u0445\u043E\u0434\u0438\u0442 \u043C\u0438\u043C\u043E
+        \u0438 \u0443\u0445\u043E\u0434\u0438\u0442 \u0438\u0437 \u043A\u043E\u043C\u043D\u0430\u0442\u044B*\r\n"
       sound:
-        clip: {fileID: 0}
+        clip: {fileID: 8300000, guid: 16849eb3e1eea8041a0aa6e5bc192c36, type: 3}
         AudioSource: {fileID: 0}
   nextTrigger: {fileID: 1216182467}
   dialogueIsEnded: 0
