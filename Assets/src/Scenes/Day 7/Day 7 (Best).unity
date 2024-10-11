@@ -2861,7 +2861,7 @@ MonoBehaviour:
     - sentence: "\u042D\u044D\u044D\u044D\u043C\u043C\u043C\u2026 \u0437\u0434\u0440\u0430\u0432\u0441\u0442\u0432\u0443\u0439\u0442\u0435, 
         \u0430 \u0433\u0434\u0435 \u043F\u0430\u0446\u044B\u043A\u0438?"
       sound:
-        clip: {fileID: 8300000, guid: dc114fb275ff57e41946f2639d3154aa, type: 3}
+        clip: {fileID: 0}
         AudioSource: {fileID: 0}
   - speakerName: "\u0416\u0424"
     heroID: 1
@@ -7560,7 +7560,7 @@ MonoBehaviour:
       sound:
         clip: {fileID: 0}
         AudioSource: {fileID: 0}
-  nextTrigger: {fileID: 512891348}
+  nextTrigger: {fileID: 173367625}
   dialogueIsEnded: 0
 --- !u!1 &2029663569
 GameObject:
