@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="33c7207c-eba3-4188-8fbc-643204c7e0a2" name="Changes" comment="2 Day bag solved, Worst end audio +">
+    <list default="true" id="33c7207c-eba3-4188-8fbc-643204c7e0a2" name="Changes" comment="Bad end changes +">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.vs/VpadluGame/v17/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/VpadluGame/v17/.suo" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assembly-CSharp-Editor.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp-Editor.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2022.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2022.dwlt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,6 +63,8 @@
       <workItem from="1726948389594" duration="1521000" />
       <workItem from="1727039784184" duration="748000" />
       <workItem from="1728242461079" duration="1034000" />
+      <workItem from="1728333098806" duration="657000" />
+      <workItem from="1728841705694" duration="923000" />
     </task>
     <task id="LOCAL-00001" summary="test-cli">
       <created>1720982033156</created>
@@ -142,7 +143,14 @@
       <option name="project" value="LOCAL" />
       <updated>1727039912272</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Bad end changes +">
+      <created>1728333160797</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1728333160797</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -171,6 +179,7 @@
     <MESSAGE value="Prologue Video System +, Quiz Hill edit" />
     <MESSAGE value="4th Brother Monologue +" />
     <MESSAGE value="2 Day bag solved, Worst end audio +" />
-    <option name="LAST_COMMIT_MESSAGE" value="2 Day bag solved, Worst end audio +" />
+    <MESSAGE value="Bad end changes +" />
+    <option name="LAST_COMMIT_MESSAGE" value="Bad end changes +" />
   </component>
 </project>

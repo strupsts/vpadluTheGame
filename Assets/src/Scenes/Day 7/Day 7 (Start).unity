@@ -1898,7 +1898,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nameText: {fileID: 211457225}
   dialogueText: {fileID: 645555840}
-  StartDialogueTrigger: {fileID: 238457373}
+  StartDialogueTrigger: {fileID: 182781849}
   animator: {fileID: 1252078565}
   musicSource: {fileID: 0}
   backgroundMusic: {fileID: 0}
@@ -7421,7 +7421,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   willShadowWithChange: 1
-  backgroundImage: {fileID: 0}
+  backgroundImage: {fileID: 1244400855}
   arrayNewBGImages:
   - {fileID: 21300000, guid: 3212e5b4ea442134d8b6ffe0010d012c, type: 3}
   - {fileID: 21300000, guid: e9ef28228af241a4ab71baca342ff921, type: 3}
