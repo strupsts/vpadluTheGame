@@ -162,7 +162,7 @@ MonoBehaviour:
         \u0418\u043B\u044C\u044F\u0441\u043E\u043C, \u0414\u0430\u043D\u044F \u043D\u0430\u0443\u0447\u0438\u043B\u0441\u044F
         \u0438\u0441\u043A\u0443\u0441\u0441\u0442\u0432\u0443 \u043C\u0430\u043D\u0438\u043F\u0443\u043B\u044F\u0446\u0438\u0438*"
       sound:
-        clip: {fileID: 0}
+        clip: {fileID: 8300000, guid: 13fe5d50038770c4ea612701e3e1135c, type: 3}
         AudioSource: {fileID: 0}
   - speakerName: 
     heroID: 0
@@ -179,9 +179,9 @@ MonoBehaviour:
     sentencesAndSounds:
     - sentence: "*\u0437\u0432\u0443\u043A\u0438 \u0437\u043E\u043C\u0431\u0438*
         *\u041D\u0435\u0441\u043A\u043E\u043B\u044C\u043A\u043E \u0438\u0437 \u043D\u0438\u0445
-        \u043F\u0440\u044B\u0433\u0430\u044E\u0442 \u0432 \u0432\u043E\u0434\u0443*"
+        \u043F\u0440\u044B\u0433\u043D\u0443\u043B\u0438 \u0432 \u0432\u043E\u0434\u0443*"
       sound:
-        clip: {fileID: 0}
+        clip: {fileID: 8300000, guid: 6c1569babd8f79145b9d783f2ee6455a, type: 3}
         AudioSource: {fileID: 0}
   - speakerName: 
     heroID: 0
@@ -196,11 +196,11 @@ MonoBehaviour:
     heroID: 11
     sentencesAndSounds:
     - sentence: "*\u0437\u043B\u043E\u0431\u043D\u043E \u0440\u044B\u0447\u0430\u0442*
-        *\u043D\u0430\u043A\u0438\u0434\u044B\u0432\u0430\u044E\u0442\u0441\u044F
+        *\u041D\u0435\u0444\u043E\u0440\u044B \u043D\u0430\u043A\u0438\u043D\u0443\u043B\u0438\u0441\u044C
         \u043D\u0430 \u0414\u0430\u043D\u044E \u0441\u043E \u0432\u0441\u0435\u0445
         \u0441\u0442\u043E\u0440\u043E\u043D* "
       sound:
-        clip: {fileID: 0}
+        clip: {fileID: 8300000, guid: ee09b1a27d6fcda4491a157c0808138b, type: 3}
         AudioSource: {fileID: 0}
   - speakerName: 
     heroID: 0
@@ -222,7 +222,7 @@ MonoBehaviour:
     - sentence: "\u041D\u0435 \u0441\u043F\u0440\u0430\u0432\u043B\u044F\u0435\u0448\u044C\u0441\u044F,
         \u0414\u0430\u043D\u0438\u043B\u0430?"
       sound:
-        clip: {fileID: 0}
+        clip: {fileID: 8300000, guid: c24c17e6454182d499a0b2fa888baa37, type: 3}
         AudioSource: {fileID: 0}
   - speakerName: 
     heroID: 0
@@ -991,7 +991,7 @@ MonoBehaviour:
         \u0434\u0430\u0432\u043B\u0435\u043D\u0438\u044F, \u0442\u0435\u043C \u0441\u0430\u043C\u044B\u043C
         \u0434\u0435\u043C\u043E\u0440\u0430\u043B\u0438\u0437\u0443\u044F \u0441\u043E\u043F\u0435\u0440\u043D\u0438\u043A\u043E\u0432*"
       sound:
-        clip: {fileID: 0}
+        clip: {fileID: 8300000, guid: 680cd101760d46f42b868979df6e1fbd, type: 3}
         AudioSource: {fileID: 0}
   - speakerName: 
     heroID: 0
@@ -1008,13 +1008,17 @@ MonoBehaviour:
   - speakerName: 
     heroID: 11
     sentencesAndSounds:
-    - sentence: "*\u041D\u0435\u0444\u043E\u0440\u0430\u043C \u043D\u0430\u043D\u0435\u0441\u0451\u043D
+    - sentence: "*\u041D\u0435\u0444\u043E\u0440\u0430\u043C \u0431\u044B\u043B \u043D\u0430\u043D\u0435\u0441\u0451\u043D
         \u044D\u043C\u043E\u0446\u0438\u043E\u043D\u0430\u043B\u044C\u043D\u044B\u0439
-        \u0443\u0440\u043E\u043D* *\u041D\u0435\u0441\u043A\u043E\u043B\u044C\u043A\u043E
-        \u043D\u0435\u0444\u043E\u0440\u043E\u0432 \u043F\u0440\u043E\u0441\u043B\u0435\u0437\u0438\u043B\u0438\u0441\u044C
+        \u0443\u0440\u043E\u043D*"
+      sound:
+        clip: {fileID: 8300000, guid: 8f28b322330742e4eaacaba8ae716067, type: 3}
+        AudioSource: {fileID: 0}
+    - sentence: "*\u041D\u0435\u0441\u043A\u043E\u043B\u044C\u043A\u043E \u043D\u0435\u0444\u043E\u0440\u043E\u0432
+        \u043F\u0440\u043E\u0441\u043B\u0435\u0437\u0438\u043B\u0438\u0441\u044C
         \u0438 \u0441\u0434\u0430\u043B\u0438\u0442\u044C \u0431\u0435\u0437 \u0431\u043E\u044F*"
       sound:
-        clip: {fileID: 0}
+        clip: {fileID: 8300000, guid: 5c76d4a476b340745b92fded94f1e5a8, type: 3}
         AudioSource: {fileID: 0}
   nextTrigger: {fileID: 794562525}
   dialogueIsEnded: 0
@@ -1127,11 +1131,14 @@ MonoBehaviour:
       sound:
         clip: {fileID: 0}
         AudioSource: {fileID: 0}
-    - sentence: "*\u0434\u043E\u0441\u0442\u0430\u0451\u0442 \u043C\u0435\u0447 \u0438
-        \u0432\u0440\u044B\u0432\u0430\u0435\u0442\u0441\u044F \u0432 \u0442\u043E\u043B\u043F\u0443
-        \u043D\u0435\u0444\u043E\u0440\u043E\u0432*"
+  - speakerName: 
+    heroID: 13
+    sentencesAndSounds:
+    - sentence: "*\u0414\u043E\u0440\u043E\u0433\u0438\u043D \u0434\u043E\u0441\u0442\u0430\u043B
+        \u043C\u0435\u0447 \u0438 \u0432\u043E\u0440\u0432\u0430\u043B\u0441\u044F
+        \u0432 \u0442\u043E\u043B\u043F\u0443 \u043D\u0435\u0444\u043E\u0440\u043E\u0432*"
       sound:
-        clip: {fileID: 0}
+        clip: {fileID: 8300000, guid: a5a3ef20f6d60134c903710d8a0548ce, type: 3}
         AudioSource: {fileID: 0}
   - speakerName: 
     heroID: 0
@@ -1149,7 +1156,7 @@ MonoBehaviour:
         \u043F\u0440\u043E\u0438\u0433\u0440\u0430\u044E\u0442. \u041A\u0430\u043A
         \u0432\u0434\u0440\u0443\u0433\u2026*"
       sound:
-        clip: {fileID: 0}
+        clip: {fileID: 8300000, guid: a6a5af7003a924f468343db183204360, type: 3}
         AudioSource: {fileID: 0}
   nextTrigger: {fileID: 1215423153}
   dialogueIsEnded: 0
@@ -1430,7 +1437,7 @@ MonoBehaviour:
     sentencesAndSounds:
     - sentence: "\u041E\u0442\u043A\u0443\u0434\u0430 \u044D\u0442\u0430 \u043C\u0443\u0437\u044B\u043A\u0430?"
       sound:
-        clip: {fileID: 0}
+        clip: {fileID: 8300000, guid: 9a2b730478372fd47bcf46ec2bc4de3e, type: 3}
         AudioSource: {fileID: 0}
     - sentence: "*\u0432\u0434\u0430\u043B\u044C*"
       sound:
@@ -1485,7 +1492,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nameText: {fileID: 211457225}
   dialogueText: {fileID: 645555840}
-  StartDialogueTrigger: {fileID: 377377405}
+  StartDialogueTrigger: {fileID: 182781849}
   animator: {fileID: 1252078565}
   musicSource: {fileID: 0}
   backgroundMusic: {fileID: 0}
@@ -2529,14 +2536,14 @@ MonoBehaviour:
     - sentence: "\u0419\u043E\u043E\u043E\u043F! \u0420\u043E\u0435\u0432\u043E\u0439
         \u0438\u043D\u0442\u0435\u043B\u043B\u0435\u043A\u0442 \u0437\u0430\u043A\u0430\u0437\u044B\u0432\u0430\u043B\u0438?"
       sound:
-        clip: {fileID: 0}
+        clip: {fileID: 8300000, guid: 6549654667bac9b4e89d7cc578e359b6, type: 3}
         AudioSource: {fileID: 0}
   - speakerName: "\u0425\u0438\u043B\u044C"
     heroID: 21
     sentencesAndSounds:
     - sentence: "\u0418 \u043F\u0435\u0440\u0432\u044B\u0439 \u0432\u043E\u043F\u0440\u043E\u0441\u2026."
       sound:
-        clip: {fileID: 0}
+        clip: {fileID: 8300000, guid: 06ad089c73474a44a90f429f8a99838b, type: 3}
         AudioSource: {fileID: 0}
   - speakerName: "\u0424\u0440\u0435\u0441\u043A\u043E"
     heroID: 1
@@ -2544,7 +2551,7 @@ MonoBehaviour:
     - sentence: "\u041A\u043E\u043C\u0443 \u0442\u0443\u0442 \u0434\u0430\u0442\u044C
         \u043F\u0438\u0437\u0434\u044B?"
       sound:
-        clip: {fileID: 0}
+        clip: {fileID: 8300000, guid: f3c9c16d06f07874abe8db11e57673a0, type: 3}
         AudioSource: {fileID: 0}
   - speakerName: "\u041E\u0437\u043E\u043D"
     heroID: 22
@@ -2552,7 +2559,7 @@ MonoBehaviour:
     - sentence: "\u0412\u044B \u0447\u0435\u0433\u043E \u0442\u0430\u043A\u0438\u0435
         \u0434\u0440\u0438\u0449\u0438, \u0451\u043F\u0442\u0430?"
       sound:
-        clip: {fileID: 0}
+        clip: {fileID: 8300000, guid: eb81c9aac6ac8d4449fdff475ee35394, type: 3}
         AudioSource: {fileID: 0}
   - speakerName: 
     heroID: 31
@@ -2561,7 +2568,7 @@ MonoBehaviour:
         \u043A\u043D\u0438\u0436\u0435\u0447\u043A\u0438 \xABGay Science\xBB \u0438
         \u043A\u0438\u043D\u0443\u043B\u0438\u0441\u044C \u0432 \u0442\u043E\u043B\u043F\u0443*"
       sound:
-        clip: {fileID: 0}
+        clip: {fileID: 8300000, guid: dfc0dba8b28c9974ba28ddf1811061e2, type: 3}
         AudioSource: {fileID: 0}
   nextTrigger: {fileID: 1502438816}
   dialogueIsEnded: 0
@@ -2936,7 +2943,7 @@ MonoBehaviour:
   - {fileID: 21300000, guid: ee7ef780b426f3b4686c4c864b701da2, type: 3}
   newImage: {fileID: 21300000, guid: be3cf590abb08eb438f8a5ea85043888, type: 3}
   endMusicOnEnd: 1
-  timerBeforeNextSlide: 3
+  timerBeforeNextSlide: 6
   DialogueBox: {fileID: 1252078564}
   newBackgroundSound: {fileID: 0}
 --- !u!114 &734110264
@@ -3104,12 +3111,15 @@ MonoBehaviour:
     heroID: 10
     sentencesAndSounds:
     - sentence: "\u0410 \u0442\u044B \u0432\u0435\u0437\u0443\u0447\u0438\u0439,
-        \u0414\u0430\u043D\u044F\u2026 \u044F \u044D\u0442\u043E \u0437\u0430\u043C\u0435\u0442\u0438\u043B.
-        \u041D\u043E \u043F\u043E\u0445\u043E\u0434\u0443 \u043D\u0430 \u0441\u0435\u0433\u043E\u0434\u043D\u044F
+        \u0414\u0430\u043D\u044F\u2026 \u044F \u044D\u0442\u043E \u0437\u0430\u043C\u0435\u0442\u0438\u043B.\r"
+      sound:
+        clip: {fileID: 8300000, guid: d94654052f6083b42967efbfa20d1ff1, type: 3}
+        AudioSource: {fileID: 0}
+    - sentence: "\u041D\u043E \u043F\u043E\u0445\u043E\u0434\u0443 \u043D\u0430 \u0441\u0435\u0433\u043E\u0434\u043D\u044F
         \u0442\u0432\u043E\u0439 \u043B\u0438\u043C\u0438\u0442 \u0438\u0441\u0447\u0435\u0440\u043F\u0430\u043D.
         \r"
       sound:
-        clip: {fileID: 0}
+        clip: {fileID: 8300000, guid: ccdb6e54521ea5243a661831d7f54e77, type: 3}
         AudioSource: {fileID: 0}
   nextTrigger: {fileID: 896451090}
   dialogueIsEnded: 0
@@ -3165,7 +3175,7 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 7180b92e4e008d54097967ca83d1ab8c, type: 3}
   newImage: {fileID: 21300000, guid: be3cf590abb08eb438f8a5ea85043888, type: 3}
   endMusicOnEnd: 1
-  timerBeforeNextSlide: 3
+  timerBeforeNextSlide: 6
   DialogueBox: {fileID: 1252078564}
   newBackgroundSound: {fileID: 0}
 --- !u!114 &794562527
@@ -3689,7 +3699,7 @@ MonoBehaviour:
     - sentence: "\u0422\u0435\u043F\u0435\u0440\u044C-\u0442\u043E \u0442\u0435\u0431\u044F
         \u043D\u0438\u043A\u0442\u043E \u043D\u0435 \u0441\u043F\u0430\u0441\u0451\u0442."
       sound:
-        clip: {fileID: 0}
+        clip: {fileID: 8300000, guid: 91d9e4b285583224baf6214c370b83ed, type: 3}
         AudioSource: {fileID: 0}
     - sentence: "*\u0437\u0430\u043C\u0430\u0445\u0438\u0432\u0430\u0435\u0442\u0441\u044F,
         \u0447\u0442\u043E\u0431\u044B \u0441\u0434\u0435\u043B\u0430\u0442\u044C
@@ -4701,7 +4711,7 @@ MonoBehaviour:
         \u043D\u0435\u0444\u043E\u0440\u043E\u0432 \u043C\u043E\u0449\u043D\u044B\u043C
         \u043B\u043E\u0443\u043A\u0438\u043A\u043E\u043C*"
       sound:
-        clip: {fileID: 0}
+        clip: {fileID: 8300000, guid: c6a29b0ef263b9141a01caadd213da36, type: 3}
         AudioSource: {fileID: 0}
   - speakerName: 
     heroID: 11
@@ -4721,11 +4731,11 @@ MonoBehaviour:
   - speakerName: 
     heroID: 13
     sentencesAndSounds:
-    - sentence: "*\u041D\u0435\u0441\u043A\u043E\u043B\u044C\u043A\u043E \u043D\u0435\u0444\u043E\u0440\u043E\u0432
+    - sentence: "*\u041F\u0430\u0440\u0430 \u043D\u0435\u0444\u043E\u0440\u043E\u0432
         \u0441\u0445\u0432\u0430\u0442\u0438\u043B\u0438 \u0414\u0430\u043D\u044E
         \u0437\u0430 \u043D\u043E\u0433\u0438*"
       sound:
-        clip: {fileID: 0}
+        clip: {fileID: 8300000, guid: 622d69b997fc979498412407e772c622, type: 3}
         AudioSource: {fileID: 0}
   - speakerName: 
     heroID: 0
@@ -4741,7 +4751,7 @@ MonoBehaviour:
         \u0414\u0430\u043D\u044F \u0440\u0430\u0441\u043A\u0430\u0447\u0430\u043B
         \u0435\u0449\u0451 \u0438 \u0440\u0443\u043A\u0438*"
       sound:
-        clip: {fileID: 0}
+        clip: {fileID: 8300000, guid: 0dbbeabe6c7680d4595ee19e068369ae, type: 3}
         AudioSource: {fileID: 0}
   - speakerName: 
     heroID: 0
@@ -4751,6 +4761,14 @@ MonoBehaviour:
         \u043D\u0435\u0441\u043A\u043E\u043B\u044C\u043A\u043E \u043D\u0435\u0444\u043E\u0440\u043E\u0432*"
       sound:
         clip: {fileID: 0}
+        AudioSource: {fileID: 0}
+  - speakerName: 
+    heroID: 13
+    sentencesAndSounds:
+    - sentence: "*\u0414\u0430\u043D\u044F \u0440\u0430\u0441\u043A\u0438\u0434\u0430\u043B
+        \u043D\u0435\u0444\u043E\u0440\u043E\u0432 \u0440\u0443\u043A\u0430\u043C\u0438*"
+      sound:
+        clip: {fileID: 8300000, guid: 9b271f5385725994788c0cc94559974f, type: 3}
         AudioSource: {fileID: 0}
   nextTrigger: {fileID: 1167875575}
   dialogueIsEnded: 0
@@ -4855,7 +4873,7 @@ MonoBehaviour:
     - sentence: "\u0418 \u0434\u0430\u0436\u0435 \u0433\u043E\u0432\u043E\u0440\u044F\u0449\u0438\u0435
         \u0441\u0432\u0438\u043D\u044C\u0438 \u0432\u0430\u043C \u043D\u0435 \u043F\u043E\u043C\u043E\u0433\u0443\u0442."
       sound:
-        clip: {fileID: 0}
+        clip: {fileID: 8300000, guid: 4bbd6209f4fda5041b9fec5b424d2229, type: 3}
         AudioSource: {fileID: 0}
     - sentence: "*\u043B\u043E\u043C\u0430\u0435\u0442 \u043C\u0435\u0447 \u0414\u043E\u0440\u043E\u0433\u0438\u043D\u0430
         \u043E\u0431 \u043A\u043E\u043B\u0435\u043D\u043E*"
@@ -4955,7 +4973,7 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 6959d7c8e55718c408de8393aee6d7a5, type: 3}
   newImage: {fileID: 21300000, guid: be3cf590abb08eb438f8a5ea85043888, type: 3}
   endMusicOnEnd: 1
-  timerBeforeNextSlide: 3
+  timerBeforeNextSlide: 5
   DialogueBox: {fileID: 1252078564}
   newBackgroundSound: {fileID: 0}
 --- !u!114 &1167875577
@@ -5023,10 +5041,13 @@ MonoBehaviour:
     sentencesAndSounds:
     - sentence: "\u041D\u0438\u0447\u0435\u0433\u043E \u0432\u0430\u043C \u0441\u043E\u043B\u0435\u0432\u044B\u043C
         \u0434\u043E\u0432\u0435\u0440\u0438\u0442\u044C \u043D\u0435\u043B\u044C\u0437\u044F\u2026
-        \u041B\u0430\u0434\u043D\u043E! \u042F \u0441\u0434\u0435\u043B\u0430\u044E
-        \u044D\u0442\u043E \u0441\u0430\u043C!"
+        \u041B\u0430\u0434\u043D\u043E!"
       sound:
-        clip: {fileID: 0}
+        clip: {fileID: 8300000, guid: 579d033083c2ad440a5b3c80da9ceb3e, type: 3}
+        AudioSource: {fileID: 0}
+    - sentence: "\u042F \u0441\u0434\u0435\u043B\u0430\u044E \u044D\u0442\u043E \u0441\u0430\u043C!"
+      sound:
+        clip: {fileID: 8300000, guid: cd5d10485de74b644932cf55af74d015, type: 3}
         AudioSource: {fileID: 0}
   - speakerName: "4\u0439"
     heroID: 10
@@ -5034,7 +5055,7 @@ MonoBehaviour:
     - sentence: "\u0412\u0430\u0448\u0438 \u043D\u043E\u0436\u0438\u0447\u043A\u0438
         \u043F\u043E\u0434\u0437\u0430\u0442\u0443\u043F\u0438\u043B\u0438\u0441\u044C."
       sound:
-        clip: {fileID: 0}
+        clip: {fileID: 8300000, guid: b92c1bf32cdd945439229c0fc7493dd7, type: 3}
         AudioSource: {fileID: 0}
   - speakerName: "\u0413\u0435\u043D\u0440\u0438"
     heroID: 19
@@ -5280,7 +5301,7 @@ MonoBehaviour:
         \u0441\u043E\u0445\u0440\u0430\u043D\u044F\u0442\u044C \u0441\u043F\u043E\u043A\u043E\u0439\u0441\u0442\u0432\u0438\u0435
         \u043F\u0440\u0438 \u043B\u044E\u0431\u044B\u0445 \u043E\u0431\u0441\u0442\u043E\u044F\u0442\u0435\u043B\u044C\u0441\u0442\u0432\u0430\u0445*"
       sound:
-        clip: {fileID: 0}
+        clip: {fileID: 8300000, guid: 848dc7dc51974a4428bfc7c392980e17, type: 3}
         AudioSource: {fileID: 0}
   - speakerName: 
     heroID: 0
@@ -5297,11 +5318,17 @@ MonoBehaviour:
   - speakerName: "\u0434\u0438\u043A"
     heroID: 0
     sentencesAndSounds:
-    - sentence: "\u041F\u043E\u043D\u0435\u0441\u043B\u0438\u0441\u044C! *\u0414\u0430\u043D\u044F
-        \u043A\u0438\u043D\u0443\u043B\u0441\u044F \u0432 \u0442\u043E\u043B\u043F\u0443
-        \u043D\u0435\u0444\u043E\u0440\u043E\u0444*"
+    - sentence: "\u041F\u043E\u043D\u0435\u0441\u043B\u0438\u0441\u044C!"
       sound:
         clip: {fileID: 0}
+        AudioSource: {fileID: 0}
+  - speakerName: "\u043F\u0430\u043D\u043A\u0438"
+    heroID: 13
+    sentencesAndSounds:
+    - sentence: " *\u0414\u0430\u043D\u044F \u043A\u0438\u043D\u0443\u043B\u0441\u044F
+        \u0432 \u0442\u043E\u043B\u043F\u0443 \u043D\u0435\u0444\u043E\u0440\u043E\u0432*"
+      sound:
+        clip: {fileID: 8300000, guid: cda960ea46b8fad47bfb26395c10a9cc, type: 3}
         AudioSource: {fileID: 0}
   - speakerName: "\u043F\u0430\u043D\u043A\u0438"
     heroID: 11
@@ -5711,7 +5738,7 @@ MonoBehaviour:
     - sentence: "\u0425\u0432\u0430\u0442\u0430\u0439\u0442\u0435 \u0435\u0433\u043E!
         \u0423 \u043D\u0435\u0433\u043E \u0435\u0441\u0442\u044C \u0441\u043E\u043B\u044C!"
       sound:
-        clip: {fileID: 0}
+        clip: {fileID: 8300000, guid: 4325b16d801f72a49ae0ed763b8451b8, type: 3}
         AudioSource: {fileID: 0}
   - speakerName: 
     heroID: 0
@@ -5913,7 +5940,7 @@ MonoBehaviour:
     - sentence: "\u0418 \u043F\u0430\u0442\u0440\u043E\u043D\u044B \u0443 \u0432\u0430\u0441
         \u043D\u0435 \u0431\u0435\u0441\u043A\u043E\u043D\u0435\u0447\u043D\u044B\u0435."
       sound:
-        clip: {fileID: 0}
+        clip: {fileID: 8300000, guid: 5c074e0b336675a408b761f5715ae538, type: 3}
         AudioSource: {fileID: 0}
     - sentence: "*\u0420\u0430\u0441\u043A\u0438\u0434\u044B\u0432\u0430\u0435\u0442
         \u0432\u0441\u044E \u0431\u0440\u0438\u0433\u0430\u0434\u0443 \u043C\u043E\u0449\u043D\u043E\u0439
@@ -6055,7 +6082,7 @@ MonoBehaviour:
     sentencesAndSounds:
     - sentence: "\u0418 \u043A\u043D\u0438\u0436\u0435\u0447\u043A\u0438 \u043F\u043E\u0434\u0443\u0441\u0442\u0430\u0440\u0435\u043B\u0438."
       sound:
-        clip: {fileID: 0}
+        clip: {fileID: 8300000, guid: a4aeb7dfa85deb840b4d48664518dfec, type: 3}
         AudioSource: {fileID: 0}
     - sentence: "*\u043D\u0430\u043D\u043E\u0441\u0438\u0442 \u0441\u0435\u0440\u0438\u044E
         \u0443\u0434\u0430\u0440\u043E\u0432 \u043F\u043E \u043A\u0430\u0436\u0434\u043E\u043C\u0443
@@ -6466,10 +6493,11 @@ MonoBehaviour:
   - speakerName: 
     heroID: 27
     sentencesAndSounds:
-    - sentence: "*\u0434\u043E\u0441\u0442\u0430\u044E\u0442 \u043F\u0438\u0441\u0442\u043E\u043B\u0435\u0442\u044B
-        \u0438 \u0441\u0442\u0440\u0435\u043B\u044F\u044E\u0442 \u043F\u043E \u043D\u0435\u0444\u043E\u0440\u0430\u043C*"
+    - sentence: "*\u041E\u043D\u0438 \u0434\u043E\u0441\u0442\u0430\u043B\u0438 \u043F\u0438\u0441\u0442\u043E\u043B\u0435\u0442\u044B
+        \u0438 \u043D\u0430\u0447\u0430\u043B\u0438 \u0441\u0442\u0440\u0435\u043B\u044F\u0442\u044C
+        \u043F\u043E \u043D\u0435\u0444\u043E\u0440\u0430\u043C*"
       sound:
-        clip: {fileID: 0}
+        clip: {fileID: 8300000, guid: f820476f50ca9354e8dbb16ba9e491aa, type: 3}
         AudioSource: {fileID: 0}
   - speakerName: 
     heroID: 0
@@ -7339,7 +7367,7 @@ MonoBehaviour:
   - {fileID: 21300000, guid: afc5355e765688847883fff4e09b8b38, type: 3}
   newImage: {fileID: 21300000, guid: be3cf590abb08eb438f8a5ea85043888, type: 3}
   endMusicOnEnd: 1
-  timerBeforeNextSlide: 3
+  timerBeforeNextSlide: 6
   DialogueBox: {fileID: 1252078564}
   newBackgroundSound: {fileID: 0}
 --- !u!114 &1831576771
@@ -7616,7 +7644,7 @@ MonoBehaviour:
         \u0435\u0449\u0451 \u043D\u0435 \u043E\u0442\u043C\u0435\u0442\u0438\u043B
         \"\u043A\u0442\u043E \u044F \u0434\u043B\u044F \u0442\u0435\u0431\u044F\"."
       sound:
-        clip: {fileID: 0}
+        clip: {fileID: 8300000, guid: 17cf85c573ea4564a99ac20ac8a3a954, type: 3}
         AudioSource: {fileID: 0}
   - speakerName: "\u042E\u0440\u0430"
     heroID: 17
@@ -7625,7 +7653,7 @@ MonoBehaviour:
         \u0442\u0435\u0431\u0435 \u043F\u043E\u043C\u043E\u0449\u044C \u043D\u0435
         \u043D\u0443\u0436\u043D\u0430? "
       sound:
-        clip: {fileID: 0}
+        clip: {fileID: 8300000, guid: c991c21bcd4335745afdf33ade13d1f6, type: 3}
         AudioSource: {fileID: 0}
   - speakerName: "\u041F\u0430\u0448\u0430\u0435\u0432"
     heroID: 16
@@ -7633,19 +7661,22 @@ MonoBehaviour:
     - sentence: "\u041E\u043C\u0433, \u0420\u0443\u0441\u0442\u0435\u043C, \u043D\u0443
         \u0442\u044B \u0441\u043B\u043E\u0443\u043F\u043E\u043A."
       sound:
-        clip: {fileID: 0}
+        clip: {fileID: 8300000, guid: 23ce12d9a62476a49b044176c45440f8, type: 3}
         AudioSource: {fileID: 0}
   - speakerName: "\u0420\u0443\u0441\u0442\u0435\u043C"
     heroID: 18
     sentencesAndSounds:
-    - sentence: "\u042F \u0432\u043E\u043E\u0431\u0449\u0435-\u0442\u043E \u0430\u043A\u0442\u0435\u0440.
-        \u041D\u0435 \u0437\u0440\u044F \u0432\u0435\u0434\u044C \u0437\u0430\u0432\u043E\u0434\u0438\u043B
+    - sentence: "\u042F \u0432\u043E\u043E\u0431\u0449\u0435-\u0442\u043E \u0430\u043A\u0442\u0435\u0440."
+      sound:
+        clip: {fileID: 8300000, guid: c0e5c2233b1039e45be04a55f6530ebc, type: 3}
+        AudioSource: {fileID: 0}
+    - sentence: "\u041D\u0435 \u0437\u0440\u044F \u0432\u0435\u0434\u044C \u0437\u0430\u0432\u043E\u0434\u0438\u043B
         \u0441\u0432\u044F\u0437\u0438 \u0432 \u0413\u043E\u043B\u043B\u0438\u0432\u0443\u0434\u0435.
         \u0413\u0435\u043D\u0440\u0438, \u0434\u0440\u0443\u0436\u0438\u0449\u0435,
         \u0434\u0430\u0432\u0430\u0439 \u043F\u043E\u043A\u0430\u0436\u0435\u043C
         \u0441\u0438\u043B\u0443 \u043C\u044B\u0448\u0446!"
       sound:
-        clip: {fileID: 0}
+        clip: {fileID: 8300000, guid: 1505b4d6ab5680841adc7361d4a5b844, type: 3}
         AudioSource: {fileID: 0}
   - speakerName: 
     heroID: 0
@@ -7661,7 +7692,7 @@ MonoBehaviour:
         \u043D\u043E\u0436\u0438 \u0438 \u0431\u0440\u043E\u0441\u0438\u043B\u0438\u0441\u044C
         \u0432 \u0442\u043E\u043B\u043F\u0443 \u043D\u0435\u0444\u043E\u0440\u043E\u0432*"
       sound:
-        clip: {fileID: 0}
+        clip: {fileID: 8300000, guid: 2a68d0c6713fe464fad1209b097e178f, type: 3}
         AudioSource: {fileID: 0}
   nextTrigger: {fileID: 628642160}
   dialogueIsEnded: 0
@@ -7993,7 +8024,7 @@ MonoBehaviour:
     sentencesAndSounds:
     - sentence: "\u041D\u0443 \u043F\u0440\u0438\u0432\u0435\u0442!"
       sound:
-        clip: {fileID: 0}
+        clip: {fileID: 8300000, guid: 4aac6d0551ceabe4b879511cbf3e84fd, type: 3}
         AudioSource: {fileID: 0}
   - speakerName: 
     heroID: 0
@@ -8015,24 +8046,24 @@ MonoBehaviour:
         AudioSource: {fileID: 0}
     - sentence: "\u041D\u043E \u0432 \u044D\u0442\u0443 \u043D\u0435\u0434\u0435\u043B\u044E\u2026
         \u0418\u043C\u0435\u043D\u043D\u043E \u0441\u0443\u043A\u0430 \u0432 \u044D\u0442\u0443
-        \u043D\u0435\u0434\u0435\u043B\u044E!!!"
+        \u043D\u0435\u0434\u0435\u043B\u044E \u0442\u044B \u0440\u0435\u0448\u0438\u043B
+        \u0436\u0438\u0442\u044C \u043A\u0430\u043A \u043D\u043E\u0440\u043C\u0430\u043B\u044C\u043D\u044B\u0439
+        \u0447\u0435\u043B\u043E\u0432\u0435\u043A!"
       sound:
-        clip: {fileID: 0}
+        clip: {fileID: 8300000, guid: c6fa30ce22c71084c81321ec08b0ba6e, type: 3}
         AudioSource: {fileID: 0}
-    - sentence: "\u0422\u044B \u0440\u0435\u0448\u0438\u043B \u0436\u0438\u0442\u044C
-        \u043A\u0430\u043A \u043D\u043E\u0440\u043C\u0430\u043B\u044C\u043D\u044B\u0439
-        \u0447\u0435\u043B\u043E\u0432\u0435\u043A, \u0430 \u043D\u0435 \u043F\u043B\u044B\u0442\u044C
-        \u043F\u043E \u0442\u0435\u0447\u0435\u043D\u0438\u044E \u043A\u0430\u043A
-        \u043E\u0442\u043A\u0430\u0448\u043B\u044F\u043D\u043D\u044B\u0439 \u043C\u0438\u043A\u0440\u043E\u0431."
+    - sentence: "\u0410 \u043D\u0435 \u043F\u043B\u044B\u0442\u044C \u043F\u043E
+        \u0442\u0435\u0447\u0435\u043D\u0438\u044E \u043A\u0430\u043A \u043E\u0442\u043A\u0430\u0448\u043B\u044F\u043D\u043D\u044B\u0439
+        \u043C\u0438\u043A\u0440\u043E\u0431."
       sound:
-        clip: {fileID: 0}
+        clip: {fileID: 8300000, guid: c425c07078181c94b8fce6ddaa8d4501, type: 3}
         AudioSource: {fileID: 0}
     - sentence: "\u041D\u043E \u043C\u0435\u043D\u044F \u0442\u044B \u043D\u0435
         \u043E\u0431\u043C\u0430\u043D\u0435\u0448\u044C, \u0441\u043B\u0438\u0448\u043A\u043E\u043C
         \u0445\u043E\u0440\u043E\u0448\u043E \u044F \u0437\u043D\u0430\u044E \u0442\u0435\u0431\u044F\u2026
         \u0431\u0440\u0430\u0442!"
       sound:
-        clip: {fileID: 0}
+        clip: {fileID: 8300000, guid: f4548717dd54e174e804b94404526844, type: 3}
         AudioSource: {fileID: 0}
   - speakerName: 
     heroID: 0
@@ -8054,22 +8085,20 @@ MonoBehaviour:
     heroID: 10
     sentencesAndSounds:
     - sentence: "\u041E, \u0434\u0430, \u044F \u0432\u0441\u0435\u0433\u0434\u0430
-        \u0431\u044B\u043B \u0440\u044F\u0434\u043E\u043C, \u043D\u0430\u0431\u043B\u044E\u0434\u0430\u043B,
-        \u0432\u044B\u043D\u0430\u0448\u0438\u0432\u0430\u043B \u043F\u043B\u0430\u043D\u044B,
-        \u0436\u0434\u0430\u043B \u043F\u043E\u043A\u0430 \u0442\u044B \u043E\u0441\u0442\u0443\u043F\u0438\u0448\u044C\u0441\u044F,
-        \u0434\u0435\u043B\u0430\u043B \u0442\u0432\u043E\u044E \u0436\u0438\u0437\u043D\u044C
-        \u043D\u0435\u0432\u044B\u043D\u043E\u0441\u0438\u043C\u043E\u0439."
+        \u0431\u044B\u043B \u0440\u044F\u0434\u043E\u043C."
       sound:
-        clip: {fileID: 0}
+        clip: {fileID: 8300000, guid: 6d799071855a82748aa26edd484190a3, type: 3}
         AudioSource: {fileID: 0}
-    - sentence: "\u041F\u043E\u043C\u043D\u0438\u0448\u044C \u0443 \u043C\u0430\u043C\u044B
-        \u043F\u0440\u043E\u043F\u0430\u043B\u0438 \u0434\u0435\u043D\u044C\u0433\u0438
-        \u0438\u0437 \u0441\u0443\u043D\u0434\u0443\u0447\u043A\u0430 \u0438 \u043F\u043E\u0434\u0443\u043C\u0430\u043B\u0438
-        \u043D\u0430 \u0442\u0435\u0431\u044F. \u041D\u0430 \u0442\u043E \u0431\u044B\u043B\u0438
-        \u0432\u0441\u0435 \u043F\u0440\u0438\u0447\u0438\u043D\u044B, \u0440\u0430\u0437\u0443\u043C\u0435\u0435\u0442\u0441\u044F,
-        \u043D\u043E \u044D\u0442\u043E \u0431\u044B\u043B \u044F. "
+    - sentence: "\u041D\u0430\u0431\u043B\u044E\u0434\u0430\u043B, \u0432\u044B\u043D\u0430\u0448\u0438\u0432\u0430\u043B
+        \u043F\u043B\u0430\u043D\u044B, \u0436\u0434\u0430\u043B \u043F\u043E\u043A\u0430
+        \u0442\u044B \u043E\u0441\u0442\u0443\u043F\u0438\u0448\u044C\u0441\u044F."
       sound:
-        clip: {fileID: 0}
+        clip: {fileID: 8300000, guid: 73129e122e05e04469e43e81262da906, type: 3}
+        AudioSource: {fileID: 0}
+    - sentence: "\u0414\u0435\u043B\u0430\u043B \u0442\u0432\u043E\u044E \u0436\u0438\u0437\u043D\u044C
+        \u043D\u0435\u0432\u044B\u043D\u043E\u0441\u0438\u043C\u043E\u0439"
+      sound:
+        clip: {fileID: 8300000, guid: b7ca9348cd8025440a71042ee6cd408f, type: 3}
         AudioSource: {fileID: 0}
     - sentence: "\u0410 \u043F\u043E\u043C\u043D\u0438\u0448\u044C \u0443 \u0442\u0435\u0431\u044F
         \u0432\u0438\u0434\u0435\u043E\u043A\u0430\u0440\u0442\u0443 \u043F\u043E\u0433\u0440\u044B\u0437\u043B\u0438?"
@@ -8086,7 +8115,7 @@ MonoBehaviour:
         \u0440\u0430\u0431\u043E\u0442\u0430\u0442\u044C \u0441 \u044D\u0442\u043E\u0439
         \u0446\u0438\u0440\u043A\u043E\u0432\u043E\u0439 \u043C\u0430\u043A\u0430\u043A\u043E\u0439."
       sound:
-        clip: {fileID: 0}
+        clip: {fileID: 8300000, guid: 1ab7c8b5052b0134da9e2d662a1883e3, type: 3}
         AudioSource: {fileID: 0}
     - sentence: "\u0410 \u043A\u0430\u043A \u0442\u044B \u043F\u043E\u043B\u0443\u0447\u0438\u043B
         \u0441\u0442\u043E\u043B\u044C\u043A\u043E \u0448\u0442\u0440\u0430\u0444\u043E\u0432
@@ -8111,8 +8140,11 @@ MonoBehaviour:
   - speakerName: 
     heroID: 10
     sentencesAndSounds:
-    - sentence: "\u0423\u0437\u043A\u043E \u043C\u044B\u0441\u043B\u0438\u0448\u044C.
-        \u0423\u043A\u0440\u0430\u0434\u0435\u043D\u043D\u044B\u0435 \u0442\u0440\u0443\u0441\u044B
+    - sentence: "\u0423\u0437\u043A\u043E \u043C\u044B\u0441\u043B\u0438\u0448\u044C."
+      sound:
+        clip: {fileID: 8300000, guid: 10b6cc7a429c95f4189e877303f06d80, type: 3}
+        AudioSource: {fileID: 0}
+    - sentence: "\u0423\u043A\u0440\u0430\u0434\u0435\u043D\u043D\u044B\u0435 \u0442\u0440\u0443\u0441\u044B
         \u0438\u0437 \u0442\u0432\u043E\u0435\u0433\u043E \u0448\u043A\u0430\u0444\u0430,
         \u043E\u0433\u0443\u0440\u0446\u044B \u0438\u0437 \u043E\u0433\u043E\u0440\u043E\u0434\u0430,
         \u0432\u0441\u0435 \u044D\u0442\u043E \u044F!"
@@ -8138,11 +8170,14 @@ MonoBehaviour:
         \u0442\u0435\u0431\u0435 \u0431\u043E\u043B\u044C\u043D\u043E, \u043D\u043E
         \u043E\u0431 \u0442\u0430\u043A\u043E\u0435 \u0433\u043E\u0432\u043D\u043E
         \u043A\u0430\u043A \u0442\u044B, \u044F \u043D\u0435 \u0445\u043E\u0447\u0443
-        \u043C\u0430\u0440\u0430\u0442\u044C \u0441\u0432\u043E\u0438 \u0440\u0443\u043A\u0438.
-        \u041D\u0430 \u0442\u0435\u0431\u044F \u0445\u0432\u0430\u0442\u0438\u0442
+        \u043C\u0430\u0440\u0430\u0442\u044C \u0441\u0432\u043E\u0438 \u0440\u0443\u043A\u0438."
+      sound:
+        clip: {fileID: 8300000, guid: 50909403ef21dfc4ca4b4383e8365304, type: 3}
+        AudioSource: {fileID: 0}
+    - sentence: "\u041D\u0430 \u0442\u0435\u0431\u044F \u0445\u0432\u0430\u0442\u0438\u0442
         \u0438 \u044D\u0442\u0438\u0445 \u043E\u0431\u0440\u044B\u0433\u0430\u043D\u043E\u0432! "
       sound:
-        clip: {fileID: 0}
+        clip: {fileID: 8300000, guid: ff1d748e702df4c4eaa07bb80ce90cfe, type: 3}
         AudioSource: {fileID: 0}
   nextTrigger: {fileID: 1278622807}
   dialogueIsEnded: 0
