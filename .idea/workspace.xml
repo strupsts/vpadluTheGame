@@ -1,11 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="33c7207c-eba3-4188-8fbc-643204c7e0a2" name="Changes" comment="Bad end changes +">
+    <list default="true" id="33c7207c-eba3-4188-8fbc-643204c7e0a2" name="Changes" comment="Kolya Ozvuchka + (Day3end,Day4-Kolya)">
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_06_10_2024_13_21__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/VpadluGame/v17/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/VpadluGame/v17/.suo" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assembly-CSharp-Editor.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp-Editor.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/Scenes/Day 2/Day2-Part2.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/src/Scenes/Day 2/Day2-Part2.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/Scenes/Day 7/Day 7 (Best).unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/src/Scenes/Day 7/Day 7 (Best).unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/Scenes/Day 7/Day 7 (Start).unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/src/Scenes/Day 7/Day 7 (Start).unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,6 +70,8 @@
       <workItem from="1728242461079" duration="1034000" />
       <workItem from="1728333098806" duration="657000" />
       <workItem from="1728841705694" duration="923000" />
+      <workItem from="1728860568372" duration="82000" />
+      <workItem from="1729279006526" duration="855000" />
     </task>
     <task id="LOCAL-00001" summary="test-cli">
       <created>1720982033156</created>
@@ -150,7 +157,14 @@
       <option name="project" value="LOCAL" />
       <updated>1728333160797</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Kolya Ozvuchka + (Day3end,Day4-Kolya)">
+      <created>1728860600189</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1728860600189</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -180,6 +194,7 @@
     <MESSAGE value="4th Brother Monologue +" />
     <MESSAGE value="2 Day bag solved, Worst end audio +" />
     <MESSAGE value="Bad end changes +" />
-    <option name="LAST_COMMIT_MESSAGE" value="Bad end changes +" />
+    <MESSAGE value="Kolya Ozvuchka + (Day3end,Day4-Kolya)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Kolya Ozvuchka + (Day3end,Day4-Kolya)" />
   </component>
 </project>
