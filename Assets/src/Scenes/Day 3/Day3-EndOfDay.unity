@@ -1139,25 +1139,18 @@ MonoBehaviour:
     heroID: 6
     sentencesAndSounds:
     - sentence: "\u0414\u0430 \u0432\u044B \u0447\u0435 \u043F\u0430\u0446\u0430\u043D\u044B,
-        \u0441 \u0443\u043C\u0430 \u0441\u043E\u0448\u043B\u0438? "
+        \u0441 \u0443\u043C\u0430 \u0441\u043E\u0448\u043B\u0438? \u041E\u043D\u0438
+        \u0436\u0435 \u0441\u0434\u043E\u0445\u043D\u0443\u0442 \u0447\u0435\u0440\u0435\u0437
+        \u043F\u043E\u043B\u0433\u043E\u0434\u0430 \u0438\u043B\u0438 \u043F\u0440\u0438\u0441\u044F\u0434\u0443\u0442
+        \u043B\u0435\u0442 \u043D\u0430 10"
       sound:
-        clip: {fileID: 0}
-        AudioSource: {fileID: 0}
-    - sentence: "\u041E\u043D\u0438 \u0436\u0435 \u0441\u0434\u043E\u0445\u043D\u0443\u0442
-        \u0447\u0435\u0440\u0435\u0437 \u043F\u043E\u043B\u0433\u043E\u0434\u0430
-        \u0438\u043B\u0438 \u043F\u0440\u0438\u0441\u044F\u0434\u0443\u0442 \u043B\u0435\u0442
-        \u043D\u0430 10"
-      sound:
-        clip: {fileID: 0}
+        clip: {fileID: 8300000, guid: 6f9d8ef439c3f414595d013f9beb25d7, type: 3}
         AudioSource: {fileID: 0}
     - sentence: "\u0421 \u0442\u0430\u043A\u0438\u043C\u0438 \u0442\u0438\u043F\u0430\u043C\u0438
-        \u043D\u0430\u043C \u0434\u0435\u043B\u0430\u0442\u044C \u043D\u0435\u0447\u0435\u0433\u043E! "
+        \u043D\u0430\u043C \u0434\u0435\u043B\u0430\u0442\u044C \u043D\u0435\u0447\u0435\u0433\u043E!
+        \u0427\u0442\u043E \u0441\u043A\u0430\u0436\u0435\u0442 \u043C\u0430\u043C\u0430??"
       sound:
-        clip: {fileID: 0}
-        AudioSource: {fileID: 0}
-    - sentence: "\u0427\u0442\u043E \u0441\u043A\u0430\u0436\u0435\u0442 \u043C\u0430\u043C\u0430??"
-      sound:
-        clip: {fileID: 0}
+        clip: {fileID: 8300000, guid: f4b8dea41672cd1448307391294ca8a6, type: 3}
         AudioSource: {fileID: 0}
   - speakerName: 
     heroID: 2
@@ -1199,7 +1192,7 @@ MonoBehaviour:
         \u0438 \u043E \u043D\u0435\u0444\u043E\u0440\u0430\u0445 \u0441\u0432\u043E\u0438\u0445
         \u043D\u0435 \u0434\u0443\u043C\u0430\u0439!"
       sound:
-        clip: {fileID: 0}
+        clip: {fileID: 8300000, guid: a5785c7735a93734babdb6e7fd9b5f86, type: 3}
         AudioSource: {fileID: 0}
   nextTrigger: {fileID: 1076114453}
   dialogueIsEnded: 0

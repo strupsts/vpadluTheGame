@@ -397,7 +397,7 @@ MonoBehaviour:
     - sentence: "\u0412\u0441\u0451, \u043F\u0440\u0438\u043F\u043B\u044B\u043B \u0442\u044B,
         \u0431\u0440\u0430\u0442\u043E\u043A."
       sound:
-        clip: {fileID: 0}
+        clip: {fileID: 8300000, guid: 4686e0918b8b453419ca88d79c58ad73, type: 3}
         AudioSource: {fileID: 0}
   - speakerName: 
     heroID: 4
@@ -494,13 +494,9 @@ MonoBehaviour:
   - speakerName: 
     heroID: 6
     sentencesAndSounds:
-    - sentence: "\u041A\u0443\u0434\u0430?"
+    - sentence: "\u041A\u0443\u0434\u0430? \u041D\u042B\u0410\u0410\u0410!"
       sound:
-        clip: {fileID: 0}
-        AudioSource: {fileID: 0}
-    - sentence: "\u041D\u042B\u0410\u0410\u0410!"
-      sound:
-        clip: {fileID: 0}
+        clip: {fileID: 8300000, guid: a95016256b9f1cf499ae46ba8ee1270e, type: 3}
         AudioSource: {fileID: 0}
     - sentence: "*\u0431\u044C\u0435\u0442 \u0432 \u0436\u0438\u0432\u043E\u0442*"
       sound:
@@ -1232,7 +1228,7 @@ MonoBehaviour:
     - sentence: "\u0414\u0430-\u0434\u0430, \u0430 \u043C\u044B \u0438\u0445 \u0440\u0430\u0437\u043D\u0438\u043C\u0430\u0442\u044C
         \u043F\u044B\u0442\u0430\u043B\u0438\u0441\u044C."
       sound:
-        clip: {fileID: 0}
+        clip: {fileID: 8300000, guid: 4db54da2982f97047a9530986d70baa8, type: 3}
         AudioSource: {fileID: 0}
   nextTrigger: {fileID: 1696038601}
   dialogueIsEnded: 0

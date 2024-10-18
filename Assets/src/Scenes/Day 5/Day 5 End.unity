@@ -878,8 +878,7 @@ GameObject:
   - component: {fileID: 398752100}
   m_Layer: 0
   m_Name: "[\u0414\u0438\u0430\u043B\u043E\u0433] \u041C\u044B\u0441\u043B\u0438
-    1/4 (\u0412\u043E\u0432\u0430 \u0437\u0434\u0440\u0421\u043C\u044B\u0441\u043B
-    \u043D\u0435\u0442\u0443)"
+    1/4"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -953,7 +952,7 @@ MonoBehaviour:
         \u0435\u0441\u043B\u0438 \u0445\u043E\u0447\u0435\u0448\u044C \u0437\u0430\u0441\u043D\u0443\u0442\u044C
         \u0441\u0435\u0433\u043E\u0434\u043D\u044F, \u0442\u043E \u043D\u0435 \u0434\u0443\u043C\u0430\u0439!"
       sound:
-        clip: {fileID: 0}
+        clip: {fileID: 8300000, guid: 85e0e171cb0471442a267afc59c2f7e5, type: 3}
         AudioSource: {fileID: 0}
   - speakerName: "\u042D\u0433\u043E"
     heroID: 7
@@ -1346,8 +1345,7 @@ GameObject:
   - component: {fileID: 680875295}
   m_Layer: 0
   m_Name: "[\u0414\u0438\u0430\u043B\u043E\u0433] \u041C\u044B\u0441\u043B\u0438
-    (\u0412\u043E\u0432\u0430) (\u0417\u0434\u0440 \u0441\u043C\u044B\u0441\u043B
-    \u043D\u0435\u0442\u0443)"
+    (\u0412\u043E\u0432\u0430)"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1386,10 +1384,13 @@ MonoBehaviour:
     sentencesAndSounds:
     - sentence: "\u041D\u0430\u0434\u043E \u043F\u043E\u0442\u0440\u0435\u043D\u0438\u0440\u043E\u0432\u0430\u0442\u044C\u0441\u044F
         \u0441 \u043D\u0443\u043D\u0447\u0430\u043A\u0430\u043C\u0438 \u0438 \u0432\u0441\u0435
-        \u043D\u043E\u0440\u043C\u0438\u043A \u0431\u0443\u0434\u0435\u0442. \u0417\u0430\u0445\u0443\u044F\u0440\u0438\u043C
-        \u0432\u044B\u0431\u043B\u044F\u0434\u043A\u0430!"
+        \u043D\u043E\u0440\u043C\u0438\u043A \u0431\u0443\u0434\u0435\u0442."
       sound:
-        clip: {fileID: 0}
+        clip: {fileID: 8300000, guid: 513723bb9210764438930bc94ba35cd7, type: 3}
+        AudioSource: {fileID: 0}
+    - sentence: "\u0417\u0430\u0445\u0443\u044F\u0440\u0438\u043C \u0432\u044B\u0431\u043B\u044F\u0434\u043A\u0430!"
+      sound:
+        clip: {fileID: 8300000, guid: 0fcf202f837ab7d48afe27d37d4932f7, type: 3}
         AudioSource: {fileID: 0}
   - speakerName: "\u0413\u0443\u043C\u0430\u0437\u043E\u043D\u043D\u043E\u0441\u0442\u044C"
     heroID: 9
@@ -1508,7 +1509,7 @@ MonoBehaviour:
         \u0440\u0430\u0437\u0431\u0435\u0440\u0435\u043C\u0441\u044F \u0447\u0435
         \u0434\u0435\u043B\u0430\u0442\u044C."
       sound:
-        clip: {fileID: 0}
+        clip: {fileID: 8300000, guid: 0620d329c7447994686d6446e7f9d40c, type: 3}
         AudioSource: {fileID: 0}
   - speakerName: "\u042D\u0441\u043A\u0430\u043F\u0438\u0437\u043C"
     heroID: 12
@@ -2352,8 +2353,7 @@ GameObject:
   - component: {fileID: 1612732404}
   m_Layer: 0
   m_Name: "[\u0414\u0438\u0430\u043B\u043E\u0433] \u041C\u044B\u0441\u043B\u0438
-    (\u041D\u0435\u0444\u043E\u0440\u044B) (\u0412\u043E\u0432\u0430 \u043F\u043E\u0445
-    \u043D\u0435\u0442\u0443)"
+    (\u041D\u0435\u0444\u043E\u0440\u044B)"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2401,7 +2401,7 @@ MonoBehaviour:
     sentencesAndSounds:
     - sentence: "\u0410\u0410\u0410\u0410\u0410\u0410\u0410 \u042F \u0423\u041C\u0420\u0423\u0423\u0423\u0423!"
       sound:
-        clip: {fileID: 0}
+        clip: {fileID: 8300000, guid: 777c45fe3591f474bbc9529e1b6c16b1, type: 3}
         AudioSource: {fileID: 0}
   nextTrigger: {fileID: 712048340}
   dialogueIsEnded: 0

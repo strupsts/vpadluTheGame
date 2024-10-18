@@ -1835,7 +1835,7 @@ MonoBehaviour:
     sentencesAndSounds:
     - sentence: "\u0422\u0430\u043A, \u0447\u0435 \u0442\u0443\u0442 \u0443 \u043D\u0430\u0441?"
       sound:
-        clip: {fileID: 0}
+        clip: {fileID: 8300000, guid: b4f22c34f9e80ca4882edf79efd0a7c3, type: 3}
         AudioSource: {fileID: 0}
     - sentence: "*\u0412\u043A\u043B\u044E\u0447\u0430\u0435\u0442*"
       sound:
