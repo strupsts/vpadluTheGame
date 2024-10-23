@@ -296,7 +296,7 @@ MonoBehaviour:
         \u0434\u043E \u0421\u0438\u043C\u0444\u0435\u0440\u043E\u043F\u043E\u043B\u044F,
         \u0442\u043E\u0442 \u0441\u0430\u043F\u043F\u043E\u0440\u0442\u0438\u0442!"
       sound:
-        clip: {fileID: 0}
+        clip: {fileID: 8300000, guid: a405d8bd5f9d17b478c9197014b49580, type: 3}
         AudioSource: {fileID: 0}
   nextTrigger: {fileID: 512891348}
   dialogueIsEnded: 0
@@ -549,7 +549,7 @@ GameObject:
   - component: {fileID: 173367627}
   m_Layer: 0
   m_Name: "[\u0414\u0438\u0430\u043B\u043E\u0433] \u0421\u0446\u0435\u043D\u0430
-    \u043F\u043E\u0441\u043B\u0435 \u0442\u0438\u0442\u0440\u043E\u0432"
+    \u043F\u043E\u0441\u043B\u0435 \u0442\u0438\u0442\u0440\u043E\u0432 (Sounds)"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1253,7 +1253,7 @@ GameObject:
   - component: {fileID: 395237393}
   m_Layer: 0
   m_Name: "[\u0414\u0438\u0430\u043B\u043E\u0433] 4\u0439 \u0432\u0441\u0435 \u0435\u0449\u0435
-    \u0432 \u0430\u0445\u0443\u0435"
+    \u0432 \u0430\u0445\u0443\u0435 (BroVoice)"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2220,7 +2220,8 @@ GameObject:
   - component: {fileID: 606293464}
   - component: {fileID: 606293465}
   m_Layer: 0
-  m_Name: "[\u0414\u0438\u0430\u043B\u043E\u0433] \u0417\u0432\u043E\u043D\u044F\u0442"
+  m_Name: "[\u0414\u0438\u0430\u043B\u043E\u0433] \u0417\u0432\u043E\u043D\u044F\u0442
+    (KolyaVoiceRizhiyVoice)"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2274,7 +2275,7 @@ MonoBehaviour:
     sentencesAndSounds:
     - sentence: "\u041E\u0431\u0440\u0430\u0442\u043D\u043E \u043D\u0435 \u043D\u0430\u0434\u0443\u043C\u0430\u043B?"
       sound:
-        clip: {fileID: 0}
+        clip: {fileID: 8300000, guid: 5732d27e9fa90ae48bb59d279bd016eb, type: 3}
         AudioSource: {fileID: 0}
   - speakerName: "\u0412\u043E\u0432\u0430"
     heroID: 6
@@ -2306,7 +2307,7 @@ MonoBehaviour:
     - sentence: "\u041E\u0441\u0442\u0430\u043B\u0441\u044F \u0442\u043E\u043B\u044C\u043A\u043E
         \u0442\u0432\u043E\u0439 \u043A\u0443\u043F\u043B\u0435\u0442. \u041F\u043E\u0441\u043B\u0443\u0448\u0430\u0439!"
       sound:
-        clip: {fileID: 0}
+        clip: {fileID: 8300000, guid: df30ef32df54bb34c82b17ecf3ee0f4a, type: 3}
         AudioSource: {fileID: 0}
   nextTrigger: {fileID: 1821251134}
   dialogueIsEnded: 0
@@ -2993,7 +2994,8 @@ GameObject:
   - component: {fileID: 737436527}
   - component: {fileID: 737436526}
   m_Layer: 0
-  m_Name: "[\u0414\u0438\u0430\u043B\u043E\u0433] \u0414\u043E\u043C\u043E\u0439!"
+  m_Name: "[\u0414\u0438\u0430\u043B\u043E\u0433] \u0414\u043E\u043C\u043E\u0439!
+    (VovaVoice)"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3036,7 +3038,7 @@ MonoBehaviour:
         \u0431\u0430\u0439\u043A \u043B\u0435\u0436\u0430\u043B, \u043C\u043E\u0436\u0435\u0448\u044C
         \u043D\u0430 \u043D\u0435\u043C."
       sound:
-        clip: {fileID: 0}
+        clip: {fileID: 8300000, guid: 353bb6ba14b21534b9f70e97b5767963, type: 3}
         AudioSource: {fileID: 0}
   - speakerName: 
     heroID: 0
@@ -3294,7 +3296,8 @@ GameObject:
   - component: {fileID: 836355734}
   - component: {fileID: 836355733}
   m_Layer: 0
-  m_Name: "[\u0414\u0438\u0430\u043B\u043E\u0433] \u0422\u0418\u041C\u0410 \u041C\u042B!!!"
+  m_Name: "[\u0414\u0438\u0430\u043B\u043E\u0433] \u0422\u0418\u041C\u0410 \u041C\u042B!!!
+    (KolyaVoice)"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3342,7 +3345,7 @@ MonoBehaviour:
     sentencesAndSounds:
     - sentence: "\u041F\u0440\u0438\u0447\u0438\u043D\u0430 \u0442\u0440\u044F\u0441\u043A\u0438?"
       sound:
-        clip: {fileID: 0}
+        clip: {fileID: 8300000, guid: 8735c8cb359c81d448b5f7cc3a50c872, type: 3}
         AudioSource: {fileID: 0}
   - speakerName: "\u0412\u043E\u0432\u0430"
     heroID: 5
@@ -3374,7 +3377,7 @@ MonoBehaviour:
     sentencesAndSounds:
     - sentence: "\u041E\u0442\u0431\u0430\u0439\u0440\u0430\u043A\u0442\u0430\u0440\u0435\u043D\u044B!"
       sound:
-        clip: {fileID: 0}
+        clip: {fileID: 8300000, guid: fbf4316fc88be8b40be18d36d9a61588, type: 3}
         AudioSource: {fileID: 0}
   nextTrigger: {fileID: 395237392}
   dialogueIsEnded: 0
@@ -4027,7 +4030,7 @@ GameObject:
   - component: {fileID: 998726636}
   m_Layer: 0
   m_Name: "[\u0414\u0438\u0430\u043B\u043E\u0433] \u0411\u0438\u0442\u0432\u0430
-    \u043F\u0440\u043E\u0434\u043E\u043B\u0436\u0430\u0435\u0442\u0441\u044F"
+    \u043F\u0440\u043E\u0434\u043E\u043B\u0436\u0430\u0435\u0442\u0441\u044F (KolyaVoice)"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4369,7 +4372,7 @@ GameObject:
   - component: {fileID: 1110890080}
   m_Layer: 0
   m_Name: "[\u0414\u0438\u0430\u043B\u043E\u0433] \u0421\u0430\u043D\u0435\u0447\u043A\u0430
-    \u0441\u043F\u0430\u0441\u0430\u0439\u0441\u044F!"
+    \u0441\u043F\u0430\u0441\u0430\u0439\u0441\u044F! (SanyaVoiceKolyaVoice)"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4430,7 +4433,7 @@ MonoBehaviour:
         \u0435\u0449\u0435 \u0437\u0430 \u0440\u0435\u0448\u0435\u0442\u043A\u0443
         \u0443\u0441\u0430\u0434\u0438\u0442\u044C."
       sound:
-        clip: {fileID: 0}
+        clip: {fileID: 8300000, guid: ad595b34e8b52c040900af7b58621bcf, type: 3}
         AudioSource: {fileID: 0}
   - speakerName: "\u041A\u043E\u043B\u044F"
     heroID: 8
@@ -6176,7 +6179,7 @@ GameObject:
   - component: {fileID: 1439898694}
   m_Layer: 0
   m_Name: "[\u0414\u0438\u0430\u043B\u043E\u0433] \u0411\u0438\u0442\u0432\u0430
-    \u043F\u0440\u043E\u0434\u043E\u043B\u0436\u0430\u0435\u0442\u0441\u044F 2"
+    \u043F\u0440\u043E\u0434\u043E\u043B\u0436\u0430\u0435\u0442\u0441\u044F 2 (KolyaVoice)"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6217,7 +6220,7 @@ MonoBehaviour:
     sentencesAndSounds:
     - sentence: "\u041C\u0430\u043B\u044C\u0447\u0438\u043A \u043F\u043E\u043F\u043B\u044B\u043B...\r\n"
       sound:
-        clip: {fileID: 0}
+        clip: {fileID: 8300000, guid: 9b369b916cea02e4eb7b1383ab0d99fd, type: 3}
         AudioSource: {fileID: 0}
   - speakerName: "\u041D\u0435\u0444\u043E\u0440"
     heroID: 11
@@ -6233,7 +6236,7 @@ MonoBehaviour:
     - sentence: "\u041D\u0443 \u044D\u0442\u043E \u0444\u0430\u0442\u0430\u043B\u044C\u043D\u0430\u044F
         \u043E\u0448\u0438\u0431\u043A\u0430, \u043A\u0435\u043D\u0442."
       sound:
-        clip: {fileID: 0}
+        clip: {fileID: 8300000, guid: 8351c618704060f4cb88e88d6326dd7d, type: 3}
         AudioSource: {fileID: 0}
   - speakerName: "\u0418\u043B\u044C\u044F\u0441"
     heroID: 4
@@ -7060,7 +7063,8 @@ GameObject:
   - component: {fileID: 1776906877}
   m_Layer: 0
   m_Name: "[\u0421\u043C\u0435\u043D\u0430 \u043C\u0443\u0437\u044B\u043A\u0438]
-    \u041C\u0443\u0437\u044B\u043A\u0430 \u041C\u043E\u0439 \u0431\u0430\u0439\u043A"
+    \u041C\u0443\u0437\u044B\u043A\u0430 \u041C\u043E\u0439 \u0431\u0430\u0439\u043A
+    (Nomusic)"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8292,7 +8296,7 @@ GameObject:
   - component: {fileID: 2062785938}
   m_Layer: 0
   m_Name: "[\u0414\u0438\u0430\u043B\u043E\u0433] \u043F\u0438\u0437\u0434\u0430
-    \u0442\u0435\u0431\u0435, 4\u0439 2"
+    \u0442\u0435\u0431\u0435, 4\u0439 2 (KolyaVoice)"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8363,7 +8367,7 @@ MonoBehaviour:
         \u0422\u044B \u0434\u043E\u043B\u0436\u0435\u043D \u0441\u0438\u0434\u0435\u0442\u044C
         \u0432 \u0442\u044E\u0440\u044C\u043C\u0435!"
       sound:
-        clip: {fileID: 0}
+        clip: {fileID: 8300000, guid: 9d1ad0a9523ecb64aa4667695da5030f, type: 3}
         AudioSource: {fileID: 0}
   nextTrigger: {fileID: 1110890079}
   dialogueIsEnded: 0
