@@ -1707,8 +1707,7 @@ MonoBehaviour:
   backgroundImage: {fileID: 0}
   arrayNewBGImages:
   - {fileID: 21300000, guid: 3212e5b4ea442134d8b6ffe0010d012c, type: 3}
-  - {fileID: 21300000, guid: e9ef28228af241a4ab71baca342ff921, type: 3}
-  newImage: {fileID: 21300000, guid: a0427920a412d4e40a937f63dc3b7118, type: 3}
+  newImage: {fileID: 21300000, guid: 02fcc072f9e389f4faf8b455bc7a1c60, type: 3}
   endMusicOnEnd: 1
   timerBeforeNextSlide: 3
   DialogueBox: {fileID: 0}
@@ -2765,133 +2764,133 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogues:
   - speakerName: Sanya
-    heroID: 0
+    heroID: 4
     sentencesAndSounds:
     - sentence: "\u041F\u043E\u0437\u0434\u0440\u0430\u0432\u043B\u044F\u044E!"
       sound:
-        clip: {fileID: 0}
+        clip: {fileID: 8300000, guid: dec7788c587457542a3ce859607f0266, type: 3}
         AudioSource: {fileID: 0}
   - speakerName: German
-    heroID: 0
+    heroID: 5
     sentencesAndSounds:
     - sentence: "\u041F\u043E\u0437\u0434\u0440\u0430\u0432\u043B\u044F\u044E!"
       sound:
-        clip: {fileID: 0}
+        clip: {fileID: 8300000, guid: 9c904f86af01b86469495e3a4acba4d0, type: 3}
         AudioSource: {fileID: 0}
   - speakerName: Vova
-    heroID: 0
+    heroID: 6
     sentencesAndSounds:
     - sentence: "\u041F\u043E\u0437\u0434\u0440\u0430\u0432\u043B\u044F\u044E!"
       sound:
         clip: {fileID: 0}
         AudioSource: {fileID: 0}
   - speakerName: Ilyas
-    heroID: 0
+    heroID: 7
     sentencesAndSounds:
     - sentence: "\u041F\u043E\u0437\u0434\u0440\u0430\u0432\u043B\u044F\u044E!"
       sound:
-        clip: {fileID: 0}
+        clip: {fileID: 8300000, guid: f8b4d6b8ddff11e469b445379e769a3c, type: 3}
         AudioSource: {fileID: 0}
   - speakerName: Kolya
-    heroID: 0
+    heroID: 8
     sentencesAndSounds:
     - sentence: "\u041F\u043E\u0437\u0434\u0440\u0430\u0432\u043B\u044F\u044E!"
       sound:
         clip: {fileID: 0}
         AudioSource: {fileID: 0}
   - speakerName: Mama
-    heroID: 0
+    heroID: 9
     sentencesAndSounds:
     - sentence: "\u041F\u043E\u0437\u0434\u0440\u0430\u0432\u043B\u044F\u044E!"
       sound:
         clip: {fileID: 0}
         AudioSource: {fileID: 0}
   - speakerName: Papa
-    heroID: 0
+    heroID: 10
     sentencesAndSounds:
     - sentence: "\u041F\u043E\u0437\u0434\u0440\u0430\u0432\u043B\u044F\u044E!"
       sound:
         clip: {fileID: 0}
         AudioSource: {fileID: 0}
   - speakerName: Ruslan
-    heroID: 0
+    heroID: 11
     sentencesAndSounds:
     - sentence: "\u041F\u043E\u0437\u0434\u0440\u0430\u0432\u043B\u044F\u044E!"
       sound:
         clip: {fileID: 0}
         AudioSource: {fileID: 0}
   - speakerName: Brigada
-    heroID: 0
+    heroID: 12
     sentencesAndSounds:
     - sentence: "\u041F\u043E\u0437\u0434\u0440\u0430\u0432\u043B\u044F\u0435\u043C!"
       sound:
-        clip: {fileID: 0}
+        clip: {fileID: 8300000, guid: 83aabd7a84a292b4cb47b01c97b69935, type: 3}
         AudioSource: {fileID: 0}
   - speakerName: Toples
-    heroID: 0
+    heroID: 13
     sentencesAndSounds:
     - sentence: "\u041F\u043E\u0437\u0434\u0440\u0430\u0432\u043B\u044F\u044E!"
       sound:
         clip: {fileID: 0}
         AudioSource: {fileID: 0}
   - speakerName: Rustem
-    heroID: 0
+    heroID: 14
     sentencesAndSounds:
     - sentence: "\u041F\u043E\u0437\u0434\u0440\u0430\u0432\u043B\u044F\u044E!"
       sound:
         clip: {fileID: 0}
         AudioSource: {fileID: 0}
   - speakerName: Voitenko
-    heroID: 0
+    heroID: 15
     sentencesAndSounds:
     - sentence: "\u041F\u043E\u0437\u0434\u0440\u0430\u0432\u043B\u044F\u044E!"
       sound:
-        clip: {fileID: 0}
+        clip: {fileID: 8300000, guid: 51e75c6d15b7c364ba93476954f7142a, type: 3}
         AudioSource: {fileID: 0}
   - speakerName: Pashaev
-    heroID: 0
+    heroID: 16
     sentencesAndSounds:
     - sentence: "\u041F\u043E\u0437\u0434\u0440\u0430\u0432\u043B\u044F\u044E!"
       sound:
         clip: {fileID: 0}
         AudioSource: {fileID: 0}
   - speakerName: VladimirHill
-    heroID: 0
+    heroID: 17
     sentencesAndSounds:
     - sentence: "\u041F\u043E\u0437\u0434\u0440\u0430\u0432\u043B\u044F\u044E!"
       sound:
         clip: {fileID: 0}
         AudioSource: {fileID: 0}
   - speakerName: Fresko
-    heroID: 0
+    heroID: 18
     sentencesAndSounds:
     - sentence: "\u041F\u043E\u0437\u0434\u0440\u0430\u0432\u043B\u044F\u044E!"
       sound:
         clip: {fileID: 0}
         AudioSource: {fileID: 0}
   - speakerName: Ozon
-    heroID: 0
+    heroID: 19
     sentencesAndSounds:
     - sentence: "\u041F\u043E\u0437\u0434\u0440\u0430\u0432\u043B\u044F\u044E!"
       sound:
         clip: {fileID: 0}
         AudioSource: {fileID: 0}
   - speakerName: Mirza
-    heroID: 0
+    heroID: 20
     sentencesAndSounds:
     - sentence: "\u041F\u043E\u0437\u0434\u0440\u0430\u0432\u043B\u044F\u044E!"
       sound:
         clip: {fileID: 0}
         AudioSource: {fileID: 0}
   - speakerName: Naruto
-    heroID: 0
+    heroID: 21
     sentencesAndSounds:
     - sentence: "\u041F\u043E\u0437\u0434\u0440\u0430\u0432\u043B\u044F\u044E!"
       sound:
         clip: {fileID: 0}
         AudioSource: {fileID: 0}
   - speakerName: Kavill
-    heroID: 0
+    heroID: 22
     sentencesAndSounds:
     - sentence: Congratulations!
       sound:
@@ -2906,35 +2905,28 @@ MonoBehaviour:
         clip: {fileID: 0}
         AudioSource: {fileID: 0}
   - speakerName: Onizuka
-    heroID: 0
+    heroID: 23
     sentencesAndSounds:
     - sentence: "\u041F\u043E\u0437\u0434\u0440\u0430\u0432\u043B\u044F\u044E!"
       sound:
         clip: {fileID: 0}
         AudioSource: {fileID: 0}
   - speakerName: VA
-    heroID: 0
-    sentencesAndSounds:
-    - sentence: "\u041F\u043E\u0437\u0434\u0440\u0430\u0432\u043B\u044F\u044E!"
-      sound:
-        clip: {fileID: 0}
-        AudioSource: {fileID: 0}
-  - speakerName: Ura
-    heroID: 0
+    heroID: 24
     sentencesAndSounds:
     - sentence: "\u041F\u043E\u0437\u0434\u0440\u0430\u0432\u043B\u044F\u044E!"
       sound:
         clip: {fileID: 0}
         AudioSource: {fileID: 0}
   - speakerName: Pudge
-    heroID: 0
+    heroID: 25
     sentencesAndSounds:
     - sentence: "\u041F\u043E\u0437\u0434\u0440\u0430\u0432\u043B\u044F\u044E!"
       sound:
         clip: {fileID: 0}
         AudioSource: {fileID: 0}
   - speakerName: Holms
-    heroID: 0
+    heroID: 26
     sentencesAndSounds:
     - sentence: "\u041F\u043E\u0437\u0434\u0440\u0430\u0432\u043B\u044F\u044E!"
       sound:
@@ -4233,7 +4225,7 @@ MonoBehaviour:
         clip: {fileID: 0}
         AudioSource: {fileID: 0}
   - speakerName: Kolya
-    heroID: 3
+    heroID: 8
     sentencesAndSounds:
     - sentence: "\u041B\u0430\u0434\u043D\u043E, \u0432\u043F\u0430\u0434\u043B\u0443
         \u0431\u0438\u0442\u044C \u0442\u0435\u0431\u044F."
@@ -4241,7 +4233,7 @@ MonoBehaviour:
         clip: {fileID: 0}
         AudioSource: {fileID: 0}
   - speakerName: German
-    heroID: 3
+    heroID: 5
     sentencesAndSounds:
     - sentence: "\u0422\u044B \u0441\u043E\u0432\u0435\u0440\u0448\u0438\u043B \u0441\u0442\u0440\u0430\u0448\u043D\u043E\u0435
         \u043F\u0440\u0435\u0441\u0442\u0443\u043F\u043B\u0435\u043D\u0438\u0435!
@@ -4259,7 +4251,7 @@ MonoBehaviour:
         clip: {fileID: 8300000, guid: 9d1ad0a9523ecb64aa4667695da5030f, type: 3}
         AudioSource: {fileID: 0}
   - speakerName: Vova
-    heroID: 0
+    heroID: 6
     sentencesAndSounds:
     - sentence: "\u0421\u043C\u043E\u0442\u0440\u0438\u0442\u0435, \u044D\u0442\u043E
         \u0447\u0435 \u0442\u0430\u043C \u0442\u0430\u043A\u043E\u0435? "
@@ -4911,6 +4903,75 @@ MonoBehaviour:
   - Id: 3
     Name: "4-\u0439 \u0411\u0440\u0430\u0442"
     Avatar: {fileID: 21300000, guid: f1f891f581b10444696a23ba811f05fe, type: 3}
+  - Id: 4
+    Name: "\u0421\u0430\u043D\u044F"
+    Avatar: {fileID: 21300000, guid: af7e4d3f266658f4d929f4adda23ab61, type: 3}
+  - Id: 5
+    Name: "\u0413\u0435\u0440\u043C\u0430\u043D"
+    Avatar: {fileID: 21300000, guid: 8912171af041e4942aae02d2eceeb732, type: 3}
+  - Id: 6
+    Name: "\u0412\u043E\u0432\u0430"
+    Avatar: {fileID: 21300000, guid: e1691999c59291947baea51958a85d73, type: 3}
+  - Id: 7
+    Name: "\u0418\u043B\u044C\u044F\u0441"
+    Avatar: {fileID: 21300000, guid: d2aa1c0ae407f7b4da50fe92ec40e96d, type: 3}
+  - Id: 8
+    Name: "\u041A\u043E\u043B\u044F"
+    Avatar: {fileID: 21300000, guid: 9ab525adaaf6a044b973abaa7d9690cf, type: 3}
+  - Id: 9
+    Name: "\u041C\u0430\u043C\u0430"
+    Avatar: {fileID: 21300000, guid: 95315fbee62999b42988c2695852d431, type: 3}
+  - Id: 10
+    Name: "\u041F\u0430\u043F\u0430"
+    Avatar: {fileID: 21300000, guid: 1bcd782e390e73f47acaad1e76cf494b, type: 3}
+  - Id: 11
+    Name: "\u0420\u0443\u0441\u043B\u0430\u043D"
+    Avatar: {fileID: 21300000, guid: 3e3f9b1e4836a4b4981a384fe842dc1b, type: 3}
+  - Id: 12
+    Name: "\u0411\u0440\u0438\u0433\u0430\u0434\u0430"
+    Avatar: {fileID: 21300000, guid: a8550aeb96baf5140b303e3b6669ba14, type: 3}
+  - Id: 13
+    Name: "\u042F\u043D \u0422\u043E\u043F\u043B\u0435\u0441"
+    Avatar: {fileID: 21300000, guid: d5345270d34e87743a0a5bd664fa5a97, type: 3}
+  - Id: 14
+    Name: "\u0420\u0443\u0441\u0442\u0435\u043C"
+    Avatar: {fileID: 21300000, guid: 500c6e465b7a1d94284ce26546891c85, type: 3}
+  - Id: 15
+    Name: "\u0412\u043E\u0439\u0442\u0435\u043D\u043A\u043E"
+    Avatar: {fileID: 21300000, guid: 7f3ee98aa699b86469aacff9d1a8d01a, type: 3}
+  - Id: 16
+    Name: "\u041F\u0430\u0448\u0430\u0435\u0432"
+    Avatar: {fileID: 21300000, guid: 6dfee5439b9a5f944ba19804ffb682b6, type: 3}
+  - Id: 17
+    Name: "\u0412\u043B\u0430\u0434\u0438\u043C\u0438\u0440 \u0425\u0438\u043B\u044C"
+    Avatar: {fileID: 21300000, guid: 06fceecd2a214954e8371b0a1aef6665, type: 3}
+  - Id: 18
+    Name: "\u0416\u0430\u043A \u0424\u0440\u0435\u0441\u043A\u043E"
+    Avatar: {fileID: 21300000, guid: d599b57d52ffdef48b616927296a034a, type: 3}
+  - Id: 19
+    Name: "\u041E\u0437\u043E\u043D"
+    Avatar: {fileID: 21300000, guid: 0f707249998d5f1469afd74ca82853ac, type: 3}
+  - Id: 20
+    Name: "\u041C\u044B\u0440\u0437\u0430"
+    Avatar: {fileID: 21300000, guid: ce5212b31b520b04a9dc971b2441dc9d, type: 3}
+  - Id: 21
+    Name: "\u041D\u0430\u0440\u0443\u0442\u043E"
+    Avatar: {fileID: 21300000, guid: 3e4d11cb852bef944a2b21efef0dc5ab, type: 3}
+  - Id: 22
+    Name: "\u0413\u0435\u043D\u0440\u0438 \u041A\u0430\u0432\u0438\u043B\u043B"
+    Avatar: {fileID: 21300000, guid: 065add10bb96e7848949a11b56374dcb, type: 3}
+  - Id: 23
+    Name: "\u0423\u0447\u0438\u0442\u0435\u043B\u044C \u041E\u043D\u0438\u0434\u0437\u0443\u043A\u0430"
+    Avatar: {fileID: 21300000, guid: c94465dbeacba6847aafc6d6e3c6414e, type: 3}
+  - Id: 24
+    Name: "\u0412\u0430\u043B\u0435\u043D\u0442\u0438\u043D\u0430 \u0410\u043D\u0430\u0442\u043E\u043B\u044C\u0435\u0432\u043D\u0430"
+    Avatar: {fileID: 21300000, guid: e562d1b4438fe4e4bb3c28eb84dd44f0, type: 3}
+  - Id: 25
+    Name: "\u041F\u0443\u0434\u0436"
+    Avatar: {fileID: 21300000, guid: d8e61bb0391bfe242bf29cc07f262460, type: 3}
+  - Id: 26
+    Name: "\u0428\u0435\u0440\u043B\u043E\u043A \u0425\u043E\u043B\u043C\u0441"
+    Avatar: {fileID: 21300000, guid: b6bcafc76e600d747bc24ddf530924bb, type: 3}
 --- !u!1 &1801982555
 GameObject:
   m_ObjectHideFlags: 0
