@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="33c7207c-eba3-4188-8fbc-643204c7e0a2" name="Changes" comment="Good Day +">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assembly-CSharp-Editor.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp-Editor.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterDir="false" />
+    <list default="true" id="33c7207c-eba3-4188-8fbc-643204c7e0a2" name="Changes" comment="predEnd">
+      <change beforePath="$PROJECT_DIR$/Assets/src/Assets/Video/openingVpadlu.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/src/Assets/Video/openingVpadlu.mp4.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -71,6 +70,7 @@
       <workItem from="1729370811501" duration="376000" />
       <workItem from="1729819061549" duration="319000" />
       <workItem from="1729870185554" duration="604000" />
+      <workItem from="1729879540693" duration="314000" />
     </task>
     <task id="LOCAL-00001" summary="test-cli">
       <created>1720982033156</created>
@@ -170,7 +170,14 @@
       <option name="project" value="LOCAL" />
       <updated>1729370833733</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="predEnd">
+      <created>1729879581777</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1729879581777</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -202,6 +209,7 @@
     <MESSAGE value="Bad end changes +" />
     <MESSAGE value="Kolya Ozvuchka + (Day3end,Day4-Kolya)" />
     <MESSAGE value="Good Day +" />
-    <option name="LAST_COMMIT_MESSAGE" value="Good Day +" />
+    <MESSAGE value="predEnd" />
+    <option name="LAST_COMMIT_MESSAGE" value="predEnd" />
   </component>
 </project>
