@@ -92,6 +92,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/src/Scenes/Prologue.unity
     guid: 9fcfbdbce96e1d846b1d3c0b6bc6186f
+  - enabled: 1
+    path: Assets/src/Scenes/Intro.unity
+    guid: 6400e930946760d4686428e71ecf976e
   m_configObjects:
     com.unity.adaptiveperformance.google.android.provider_settings: {fileID: 11400000, guid: 3fc81371c149a5b4786a20a2af506bbd, type: 2}
     com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: 60af0dfb25d26654f8fab2c8bdee1dea, type: 2}

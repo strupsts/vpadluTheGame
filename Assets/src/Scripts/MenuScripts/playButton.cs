@@ -43,7 +43,7 @@ public class playButton : MonoBehaviour
     {
         if (!SaveManager.checkSaves())
         {
-            SceneManager.LoadScene(1);
+            SceneManager.LoadScene(28);
         }
         else 
         {
