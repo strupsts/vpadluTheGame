@@ -889,12 +889,11 @@ MonoBehaviour:
   backgroundImage: {fileID: 1244400855}
   arrayNewBGImages:
   - {fileID: 21300000, guid: 3212e5b4ea442134d8b6ffe0010d012c, type: 3}
-  - {fileID: 21300000, guid: e9ef28228af241a4ab71baca342ff921, type: 3}
-  newImage: {fileID: 21300000, guid: a0427920a412d4e40a937f63dc3b7118, type: 3}
+  newImage: {fileID: 21300000, guid: 3212e5b4ea442134d8b6ffe0010d012c, type: 3}
   endMusicOnEnd: 1
   timerBeforeNextSlide: 3
   DialogueBox: {fileID: 1252078564}
-  newBackgroundSound: {fileID: 8300000, guid: e1c9976fbeba08649b31d67474b10e7b, type: 3}
+  newBackgroundSound: {fileID: 0}
 --- !u!114 &457518385
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1820,76 +1819,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   resultOfCondition:
   - {fileID: 0}
---- !u!1 &826147576
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 826147579}
-  - component: {fileID: 826147578}
-  - component: {fileID: 826147577}
-  m_Layer: 0
-  m_Name: "[\u0421\u043B\u0430\u0439\u0434\u0435\u0440] \u0422\u0438\u0442\u0440\u044B"
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &826147577
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 826147576}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e02b9d470a0ccad439a25adb351fbc4c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  willShadowWithChange: 1
-  backgroundImage: {fileID: 1244400855}
-  arrayNewBGImages:
-  - {fileID: 21300000, guid: 3212e5b4ea442134d8b6ffe0010d012c, type: 3}
-  - {fileID: 21300000, guid: e9ef28228af241a4ab71baca342ff921, type: 3}
-  - {fileID: 21300000, guid: ca99fee61e1cc6645a69f8ddec98b872, type: 3}
-  newImage: {fileID: 21300000, guid: e5e515b34986ebf4f87069e776a611cb, type: 3}
-  endMusicOnEnd: 1
-  timerBeforeNextSlide: 3
-  DialogueBox: {fileID: 1252078564}
-  newBackgroundSound: {fileID: 0}
---- !u!114 &826147578
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 826147576}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 29fa3837d130a5545aa8c50c39a2f629, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  resultOfCondition:
-  - {fileID: 617451085}
---- !u!4 &826147579
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 826147576}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.90672004, y: 0.18125324, z: -297.19647}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1116069344}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &850863244
 GameObject:
   m_ObjectHideFlags: 0
@@ -2617,9 +2546,7 @@ Transform:
   - {fileID: 507282504}
   - {fileID: 1696038602}
   - {fileID: 1809859626}
-  - {fileID: 1356130590}
-  - {fileID: 1362637439}
-  - {fileID: 826147579}
+  - {fileID: 1288303481}
   - {fileID: 617451086}
   - {fileID: 1921936489}
   - {fileID: 2107066213}
@@ -3247,6 +3174,105 @@ MonoBehaviour:
         AudioSource: {fileID: 0}
   nextTrigger: {fileID: 677370555}
   dialogueIsEnded: 0
+--- !u!1 &1288303478
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1288303481}
+  - component: {fileID: 1288303480}
+  - component: {fileID: 1288303479}
+  m_Layer: 0
+  m_Name: "[\u0421\u043B\u0430\u0439\u0434\u0435\u0440] \u0422\u0438\u0442\u0440\u044B "
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1288303479
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1288303478}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7fbed79c170dd440b8b31ec12a04972, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  willShadow: 1
+  backgroundImage: {fileID: 1244400855}
+  timingOfFiniteSlide: 1
+  arrayNewBGImages:
+  - sliderImage: {fileID: 21300000, guid: 9ca465a227ccf744dbb2871e8bfe8cda, type: 3}
+    sliderTiming: 5
+  - sliderImage: {fileID: 21300000, guid: 8f1a6e83ca8962541b65da013ecb159e, type: 3}
+    sliderTiming: 5
+  - sliderImage: {fileID: 21300000, guid: 56c876e839caff7449773cf199c62c39, type: 3}
+    sliderTiming: 5
+  - sliderImage: {fileID: 21300000, guid: 8a24e9177e3b9bb409d6879e80dedfad, type: 3}
+    sliderTiming: 3
+  - sliderImage: {fileID: 21300000, guid: 0f28fe285abfea947961d1183af715eb, type: 3}
+    sliderTiming: 5
+  - sliderImage: {fileID: 21300000, guid: 7bb6fd4fe5e2a884294ef078281b9b8f, type: 3}
+    sliderTiming: 5
+  - sliderImage: {fileID: 21300000, guid: dc031229a235cf2429b04197f05287ca, type: 3}
+    sliderTiming: 5
+  - sliderImage: {fileID: 21300000, guid: c775c683143263c4a973d9a296249692, type: 3}
+    sliderTiming: 5
+  - sliderImage: {fileID: 21300000, guid: 3464c4a4824109d4db0c5e7c3b12eb07, type: 3}
+    sliderTiming: 5
+  - sliderImage: {fileID: 21300000, guid: 6f4b911a827df0d43b568bbdf267cc09, type: 3}
+    sliderTiming: 3
+  - sliderImage: {fileID: 21300000, guid: 9604b3422470a7e449b58919edb36c74, type: 3}
+    sliderTiming: 3
+  - sliderImage: {fileID: 21300000, guid: 059ee8bf97133c948a4f4bed3bb1f9e5, type: 3}
+    sliderTiming: 5
+  - sliderImage: {fileID: 21300000, guid: fba8c44bd9eeb344493bbb290d193b0c, type: 3}
+    sliderTiming: 5
+  - sliderImage: {fileID: 21300000, guid: 6e8266a998a73cf44998fde253673a76, type: 3}
+    sliderTiming: 5
+  - sliderImage: {fileID: 21300000, guid: 47821dbf3e07de242b2f62e8ef5d333a, type: 3}
+    sliderTiming: 5
+  - sliderImage: {fileID: 21300000, guid: 9a4b13163895ede48b7a18e4b189d225, type: 3}
+    sliderTiming: 5
+  newImage: {fileID: 21300000, guid: 02fcc072f9e389f4faf8b455bc7a1c60, type: 3}
+  endMusicOnEnd: 0
+  DialogueBox: {fileID: 1252078564}
+  newBackgroundSound: {fileID: 0}
+--- !u!114 &1288303480
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1288303478}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29fa3837d130a5545aa8c50c39a2f629, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  resultOfCondition:
+  - {fileID: 0}
+--- !u!4 &1288303481
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1288303478}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.90672004, y: 0.18125324, z: -297.19647}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1116069344}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1293480075
 GameObject:
   m_ObjectHideFlags: 0
@@ -3418,130 +3444,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   resultOfCondition:
   - {fileID: 0}
---- !u!1 &1356130589
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1356130590}
-  - component: {fileID: 1356130592}
-  - component: {fileID: 1356130591}
-  m_Layer: 0
-  m_Name: "[\u0421\u043B\u0430\u0439\u0434\u0435\u0440] \u0423\u043D\u0435\u0441\u043B\u0438
-    \u0432 \u0431\u043E\u043B\u044C\u043D\u0438\u0447\u043A\u0443"
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1356130590
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1356130589}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.90672004, y: 0.18125324, z: -297.19647}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1116069344}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1356130591
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1356130589}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e02b9d470a0ccad439a25adb351fbc4c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  willShadowWithChange: 1
-  backgroundImage: {fileID: 1244400855}
-  arrayNewBGImages:
-  - {fileID: 21300000, guid: 3212e5b4ea442134d8b6ffe0010d012c, type: 3}
-  - {fileID: 21300000, guid: e9ef28228af241a4ab71baca342ff921, type: 3}
-  newImage: {fileID: 21300000, guid: a0427920a412d4e40a937f63dc3b7118, type: 3}
-  endMusicOnEnd: 0
-  timerBeforeNextSlide: 3
-  DialogueBox: {fileID: 1252078564}
-  newBackgroundSound: {fileID: 0}
---- !u!114 &1356130592
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1356130589}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 29fa3837d130a5545aa8c50c39a2f629, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  resultOfCondition:
-  - {fileID: 1362637438}
---- !u!1 &1362637438
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1362637439}
-  - component: {fileID: 1362637440}
-  m_Layer: 0
-  m_Name: "[\u0414\u0438\u0430\u043B\u043E\u0433] \u0422\u0438\u0442\u0440\u044B"
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1362637439
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1362637438}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.047982, y: -0.6697569, z: -80.79999}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1116069344}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1362637440
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1362637438}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 76259cfea18da354cbf679b0e33341ad, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  dialogues:
-  - speakerName: 
-    heroID: 0
-    sentencesAndSounds:
-    - sentence: "\u043C"
-      sound:
-        clip: {fileID: 0}
-        AudioSource: {fileID: 0}
-  nextTrigger: {fileID: 826147576}
-  dialogueIsEnded: 0
 --- !u!1 &1443043903
 GameObject:
   m_ObjectHideFlags: 0
@@ -4136,13 +4038,12 @@ MonoBehaviour:
   willShadowWithChange: 1
   backgroundImage: {fileID: 1244400855}
   arrayNewBGImages:
-  - {fileID: 21300000, guid: 3212e5b4ea442134d8b6ffe0010d012c, type: 3}
-  - {fileID: 21300000, guid: e9ef28228af241a4ab71baca342ff921, type: 3}
-  newImage: {fileID: 21300000, guid: a0427920a412d4e40a937f63dc3b7118, type: 3}
+  - {fileID: 21300000, guid: 00775fb6398576b43a2ebb1714ab2e15, type: 3}
+  newImage: {fileID: 21300000, guid: e6a96b16cc746664eba4a88f68607ce2, type: 3}
   endMusicOnEnd: 1
   timerBeforeNextSlide: 3
   DialogueBox: {fileID: 1252078564}
-  newBackgroundSound: {fileID: 8300000, guid: e1c9976fbeba08649b31d67474b10e7b, type: 3}
+  newBackgroundSound: {fileID: 0}
 --- !u!114 &1761907122
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4318,7 +4219,7 @@ MonoBehaviour:
       sound:
         clip: {fileID: 8300000, guid: 2eb6e483bfe25474cb6e299df6c2201c, type: 3}
         AudioSource: {fileID: 0}
-  nextTrigger: {fileID: 1356130589}
+  nextTrigger: {fileID: 1288303478}
   dialogueIsEnded: 0
 --- !u!1 &1838590407
 GameObject:
@@ -4577,12 +4478,11 @@ MonoBehaviour:
   backgroundImage: {fileID: 1244400855}
   arrayNewBGImages:
   - {fileID: 21300000, guid: 3212e5b4ea442134d8b6ffe0010d012c, type: 3}
-  - {fileID: 21300000, guid: e9ef28228af241a4ab71baca342ff921, type: 3}
-  newImage: {fileID: 21300000, guid: a0427920a412d4e40a937f63dc3b7118, type: 3}
+  newImage: {fileID: 21300000, guid: 872e074f0ecf13c4fb14ca2f46bb9194, type: 3}
   endMusicOnEnd: 1
   timerBeforeNextSlide: 3
   DialogueBox: {fileID: 1252078564}
-  newBackgroundSound: {fileID: 8300000, guid: e1c9976fbeba08649b31d67474b10e7b, type: 3}
+  newBackgroundSound: {fileID: 0}
 --- !u!114 &1921936491
 MonoBehaviour:
   m_ObjectHideFlags: 0
