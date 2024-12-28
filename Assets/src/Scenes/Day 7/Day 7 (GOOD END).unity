@@ -950,7 +950,7 @@ MonoBehaviour:
         \u0418 \u0432\u043E\u0442 \u0440\u0435\u0437\u0443\u043B\u044C\u0442\u0430\u0442,
         \u0431\u0440\u0430\u0442!"
       sound:
-        clip: {fileID: 0}
+        clip: {fileID: 8300000, guid: a3ff5296f0a60c645bb3761c9d8c8bfc, type: 3}
         AudioSource: {fileID: 0}
   - speakerName: 
     heroID: 0
@@ -1086,9 +1086,7 @@ MonoBehaviour:
         AudioSource: {fileID: 0}
     - sentence: "*\u0437\u0430\u043C\u0430\u0445\u0438\u0432\u0430\u0435\u0442\u0441\u044F,
         \u0447\u0442\u043E\u0431\u044B \u0441\u0434\u0435\u043B\u0430\u0442\u044C
-        \u043F\u043E\u0441\u043B\u0435\u0434\u043D\u0438\u0439 \u0443\u0434\u0430\u0440*
-        *\u043D\u0430\u0447\u0438\u043D\u0430\u0435\u0442 \u0438\u0433\u0440\u0430\u0442\u044C
-        moskow calling*"
+        \u043F\u043E\u0441\u043B\u0435\u0434\u043D\u0438\u0439 \u0443\u0434\u0430\u0440*"
       sound:
         clip: {fileID: 0}
         AudioSource: {fileID: 0}
@@ -1322,7 +1320,7 @@ MonoBehaviour:
     sentencesAndSounds:
     - sentence: ...
       sound:
-        clip: {fileID: 0}
+        clip: {fileID: 8300000, guid: f686e2e4f8956eb449c3181b553921a8, type: 3}
         AudioSource: {fileID: 0}
   - speakerName: 
     heroID: 3
@@ -1435,7 +1433,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nameText: {fileID: 211457225}
   dialogueText: {fileID: 645555840}
-  StartDialogueTrigger: {fileID: 938007807}
+  StartDialogueTrigger: {fileID: 1090223648}
   animator: {fileID: 1252078565}
   musicSource: {fileID: 0}
   backgroundMusic: {fileID: 0}
@@ -1736,12 +1734,14 @@ MonoBehaviour:
   backgroundImage: {fileID: 1244400855}
   timingOfFiniteSlide: 1
   arrayNewBGImages:
+  - sliderImage: {fileID: 21300000, guid: 3212e5b4ea442134d8b6ffe0010d012c, type: 3}
+    sliderTiming: 2.5
   - sliderImage: {fileID: 21300000, guid: 64d2e1ba5bf8d9d4cbb617ca56635e7e, type: 3}
     sliderTiming: 5
   newImage: {fileID: 21300000, guid: 0e39818e9a3b978488180ab0a281d514, type: 3}
   endMusicOnEnd: 0
   DialogueBox: {fileID: 1252078564}
-  newBackgroundSound: {fileID: 8300000, guid: f686e2e4f8956eb449c3181b553921a8, type: 3}
+  newBackgroundSound: {fileID: 0}
 --- !u!114 &519980184
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5221,8 +5221,7 @@ GameObject:
   - component: {fileID: 1658854738}
   - component: {fileID: 1658854737}
   m_Layer: 0
-  m_Name: "[\u0421\u043C\u0435\u043D\u0430 \u0444\u043E\u043D\u0430] BratTheme +
-    (Music)"
+  m_Name: "[\u0421\u043C\u0435\u043D\u0430 \u0444\u043E\u043D\u0430] BratTheme +"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
