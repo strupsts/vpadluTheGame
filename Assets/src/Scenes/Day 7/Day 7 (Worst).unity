@@ -827,7 +827,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nameText: {fileID: 211457225}
   dialogueText: {fileID: 645555840}
-  StartDialogueTrigger: {fileID: 182781849}
+  StartDialogueTrigger: {fileID: 1056106703}
   animator: {fileID: 1252078565}
   musicSource: {fileID: 0}
   backgroundMusic: {fileID: 0}
@@ -2661,7 +2661,7 @@ MonoBehaviour:
     sliderTiming: 5
   - sliderImage: {fileID: 21300000, guid: 9a4b13163895ede48b7a18e4b189d225, type: 3}
     sliderTiming: 5
-  newImage: {fileID: 21300000, guid: 02fcc072f9e389f4faf8b455bc7a1c60, type: 3}
+  newImage: {fileID: 21300000, guid: 3fd09926742a80245af419821079581d, type: 3}
   endMusicOnEnd: 0
   DialogueBox: {fileID: 1252078564}
   newBackgroundSound: {fileID: 0}
@@ -2916,7 +2916,7 @@ MonoBehaviour:
       sound:
         clip: {fileID: 8300000, guid: 16849eb3e1eea8041a0aa6e5bc192c36, type: 3}
         AudioSource: {fileID: 0}
-  nextTrigger: {fileID: 0}
+  nextTrigger: {fileID: 981847497}
   dialogueIsEnded: 0
 --- !u!4 &1056106704
 Transform:
@@ -5238,12 +5238,11 @@ MonoBehaviour:
   backgroundImage: {fileID: 1244400855}
   arrayNewBGImages:
   - {fileID: 21300000, guid: 3212e5b4ea442134d8b6ffe0010d012c, type: 3}
-  - {fileID: 21300000, guid: e9ef28228af241a4ab71baca342ff921, type: 3}
-  newImage: {fileID: 21300000, guid: a0427920a412d4e40a937f63dc3b7118, type: 3}
+  newImage: {fileID: 21300000, guid: 3212e5b4ea442134d8b6ffe0010d012c, type: 3}
   endMusicOnEnd: 1
   timerBeforeNextSlide: 3
   DialogueBox: {fileID: 1252078564}
-  newBackgroundSound: {fileID: 8300000, guid: e1c9976fbeba08649b31d67474b10e7b, type: 3}
+  newBackgroundSound: {fileID: 0}
 --- !u!114 &1821251136
 MonoBehaviour:
   m_ObjectHideFlags: 0
