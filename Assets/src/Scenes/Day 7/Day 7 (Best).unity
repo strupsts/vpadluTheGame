@@ -291,7 +291,7 @@ MonoBehaviour:
   - sliderImage: {fileID: 21300000, guid: 3430507df447d9a42acb05d58573bf0b, type: 3}
     sliderTiming: 5
   newImage: {fileID: 21300000, guid: eef99b161f9a01942855121c4a8823ca, type: 3}
-  endMusicOnEnd: 0
+  endMusicOnEnd: 1
   DialogueBox: {fileID: 1252078564}
   newBackgroundSound: {fileID: 0}
 --- !u!114 &78109715
@@ -8069,7 +8069,7 @@ MonoBehaviour:
     Avatar: {fileID: 21300000, guid: 70585217b0385b848a53a2a600febbe0, type: 3}
   - Id: 31
     Name: "\u041C\u0423\u0414\u0420\u0415\u0426\u042B"
-    Avatar: {fileID: 21300000, guid: b0f99fd2d31f0a3469b3bfd1f16a7d6c, type: 3}
+    Avatar: {fileID: 21300000, guid: 3ee1fce9971f19c4b91b6c9e754a692a, type: 3}
   - Id: 32
     Name: "\u041F\u0410\u0426\u0410\u041D\u042B"
     Avatar: {fileID: 21300000, guid: 5acee3e72a19a6e4c9d995ff55e5fdf1, type: 3}
