@@ -361,7 +361,7 @@ MonoBehaviour:
         \u0434\u043E \u0421\u0438\u043C\u0444\u0435\u0440\u043E\u043F\u043E\u043B\u044F,
         \u0442\u043E\u0442 \u0441\u0430\u043F\u043F\u043E\u0440\u0442\u0438\u0442!"
       sound:
-        clip: {fileID: 8300000, guid: a405d8bd5f9d17b478c9197014b49580, type: 3}
+        clip: {fileID: 8300000, guid: 6835fe10c26fe0342bb6d4f6db88ac62, type: 3}
         AudioSource: {fileID: 0}
   nextTrigger: {fileID: 1166374077}
   dialogueIsEnded: 0
@@ -2470,8 +2470,7 @@ GameObject:
   - component: {fileID: 606293464}
   - component: {fileID: 606293465}
   m_Layer: 0
-  m_Name: "[\u0414\u0438\u0430\u043B\u043E\u0433] \u0417\u0432\u043E\u043D\u044F\u0442
-    (RizhiyVoice)"
+  m_Name: "[\u0414\u0438\u0430\u043B\u043E\u0433] \u0417\u0432\u043E\u043D\u044F\u0442"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2549,7 +2548,7 @@ MonoBehaviour:
     - sentence: "\u0419\u043E\u0443, \u043F\u0430\u0446\u0430\u043D\u044B, \u0432\u044B
         \u0436\u0435 \u0445\u043E\u0442\u0435\u043B\u0438 \u0444\u0438\u0442 \u0437\u0430\u043F\u0438\u0441\u0430\u0442\u044C!"
       sound:
-        clip: {fileID: 0}
+        clip: {fileID: 8300000, guid: 7d7bb6096b6746c419094388bb8559bf, type: 3}
         AudioSource: {fileID: 0}
   - speakerName: "\u0413\u0435\u0440\u043C\u0430\u043D"
     heroID: 37
@@ -5102,7 +5101,7 @@ MonoBehaviour:
         \u0435\u0449\u0435 \u0437\u0430 \u0440\u0435\u0448\u0435\u0442\u043A\u0443
         \u0443\u0441\u0430\u0434\u0438\u0442\u044C."
       sound:
-        clip: {fileID: 8300000, guid: ad595b34e8b52c040900af7b58621bcf, type: 3}
+        clip: {fileID: 8300000, guid: 7e8f827353245f94f84bfaa86c153aa7, type: 3}
         AudioSource: {fileID: 0}
   - speakerName: "\u041A\u043E\u043B\u044F"
     heroID: 8
@@ -7215,7 +7214,7 @@ MonoBehaviour:
     - sentence: "\u041D\u0443 \u044D\u0442\u043E \u0444\u0430\u0442\u0430\u043B\u044C\u043D\u0430\u044F
         \u043E\u0448\u0438\u0431\u043A\u0430, \u043A\u0435\u043D\u0442."
       sound:
-        clip: {fileID: 8300000, guid: 8351c618704060f4cb88e88d6326dd7d, type: 3}
+        clip: {fileID: 8300000, guid: a928ba1d0ae574340b234c5d7244f71c, type: 3}
         AudioSource: {fileID: 0}
   - speakerName: "\u0418\u043B\u044C\u044F\u0441"
     heroID: 4

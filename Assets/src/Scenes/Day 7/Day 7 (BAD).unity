@@ -123,6 +123,61 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &81087944
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 81087946}
+  - component: {fileID: 81087945}
+  m_Layer: 0
+  m_Name: "[\u0414\u0438\u0430\u043B\u043E\u0433] \u0421\u043E\u0436\u0430\u043B\u0435\u0435\u0442
+    2"
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &81087945
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 81087944}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76259cfea18da354cbf679b0e33341ad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogues:
+  - speakerName: 
+    heroID: 0
+    sentencesAndSounds:
+    - sentence: "\u041C\u043E\u0438 \u0440\u043E\u0434\u043D\u0435\u043D\u044C\u043A\u0438\u0435))"
+      sound:
+        clip: {fileID: 0}
+        AudioSource: {fileID: 0}
+  nextTrigger: {fileID: 1634790919}
+  dialogueIsEnded: 0
+--- !u!4 &81087946
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 81087944}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 1.047982, y: -0.6697569, z: -80.79999}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1116069344}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &114417729
 GameObject:
   m_ObjectHideFlags: 0
@@ -888,11 +943,10 @@ MonoBehaviour:
   willShadowWithChange: 1
   backgroundImage: {fileID: 1244400855}
   arrayNewBGImages:
-  - {fileID: 21300000, guid: 3212e5b4ea442134d8b6ffe0010d012c, type: 3}
-  - {fileID: 21300000, guid: 3212e5b4ea442134d8b6ffe0010d012c, type: 3}
+  - {fileID: 21300000, guid: ff6a015874dc4c04687e27e4c91ac66c, type: 3}
   newImage: {fileID: 21300000, guid: 3212e5b4ea442134d8b6ffe0010d012c, type: 3}
   endMusicOnEnd: 1
-  timerBeforeNextSlide: 3
+  timerBeforeNextSlide: 5
   DialogueBox: {fileID: 1252078564}
   newBackgroundSound: {fileID: 0}
 --- !u!114 &457518385
@@ -908,7 +962,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   resultOfCondition:
-  - {fileID: 1634790919}
+  - {fileID: 81087944}
 --- !u!1 &490476376
 GameObject:
   m_ObjectHideFlags: 0
@@ -2559,6 +2613,7 @@ Transform:
   - {fileID: 1921936489}
   - {fileID: 2107066213}
   - {fileID: 457518383}
+  - {fileID: 81087946}
   - {fileID: 1634790920}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -3152,7 +3207,7 @@ MonoBehaviour:
         \u0447\u0442\u043E \u0431\u044B \u044F \u0431\u0435\u0437 \u0432\u0430\u0441
         \u0434\u0435\u043B\u0430\u043B? "
       sound:
-        clip: {fileID: 0}
+        clip: {fileID: 8300000, guid: d6504d9b076f2354b9918ed6d7fa8600, type: 3}
         AudioSource: {fileID: 0}
   - speakerName: 
     heroID: 8
@@ -3869,8 +3924,7 @@ GameObject:
   - component: {fileID: 1696038603}
   m_Layer: 0
   m_Name: "[\u0421\u043C\u0435\u043D\u0430 \u043C\u0443\u0437\u044B\u043A\u0438]
-    \u041C\u0443\u0437\u044B\u043A\u0430 \u041F\u043B\u043E\u0445\u0430\u044F \u043A\u043E\u043D\u0446\u043E\u0432\u043A\u0430
-    (DorabotatMusic)"
+    \u041C\u0443\u0437\u044B\u043A\u0430 \u041F\u043B\u043E\u0445\u0430\u044F \u043A\u043E\u043D\u0446\u043E\u0432\u043A\u0430"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4024,8 +4078,7 @@ GameObject:
   - component: {fileID: 1761907122}
   - component: {fileID: 1761907121}
   m_Layer: 0
-  m_Name: "[\u0421\u043B\u0430\u0439\u0434\u0435\u0440] \u041E\u0442\u043F\u0438\u0437\u0434\u043E\u0448\u0438\u0432\u0430\u043D\u0438\u0435
-    (Kartinki)"
+  m_Name: "[\u0421\u043B\u0430\u0439\u0434\u0435\u0440] \u041E\u0442\u043F\u0438\u0437\u0434\u043E\u0448\u0438\u0432\u0430\u043D\u0438\u0435"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
