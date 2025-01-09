@@ -2566,11 +2566,6 @@ MonoBehaviour:
       sound:
         clip: {fileID: 8300000, guid: 43cc23d2d92fa2a4eb99599835d5fb5a, type: 3}
         AudioSource: {fileID: 0}
-    - sentence: "\u041E\u0441\u0442\u0430\u043B\u0441\u044F \u0442\u043E\u043B\u044C\u043A\u043E
-        \u0442\u0432\u043E\u0439 \u043A\u0443\u043F\u043B\u0435\u0442. \u041F\u043E\u0441\u043B\u0443\u0448\u0430\u0439!"
-      sound:
-        clip: {fileID: 8300000, guid: df30ef32df54bb34c82b17ecf3ee0f4a, type: 3}
-        AudioSource: {fileID: 0}
   nextTrigger: {fileID: 1355231797}
   dialogueIsEnded: 0
 --- !u!1 &619284064
